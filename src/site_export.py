@@ -38,6 +38,10 @@ def _flatten(films: List[Dict]) -> List[Dict]:
             # (e.g. one 4K show among plain ones); carry the visible labels
             # straight through for the web view to badge and filter on.
             tags = [t for t in (scr.get("tags") or []) if t]
+            # Themes are the film's curatorial programme/season (a Filmhouse
+            # season, an SFS strand, an AFA/NLB programme); carry them so the
+            # web view can filter a whole programme as a unit.
+            themes = [t for t in (film.get("themes") or []) if t]
             rows.append(
                 {
                     "title": film.get("title", ""),
@@ -52,6 +56,7 @@ def _flatten(films: List[Dict]) -> List[Dict]:
                     "source": film.get("source", "filmhouse"),
                     "venue": venue,
                     "tags": tags,
+                    "themes": themes,
                     "start": start.isoformat() if isinstance(start, datetime) else "",
                     "end": end.isoformat() if isinstance(end, datetime) else "",
                     "time_str": scr.get("time_str", ""),
