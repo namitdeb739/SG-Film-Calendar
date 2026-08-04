@@ -198,11 +198,17 @@ class NLBLibCalScraper:
         return self._clean_title(raw)
 
     def _synopsis(self, description: str) -> str:
-        """Just the film synopsis, dropping NLB's registration boilerplate."""
+        """Just the labelled film synopsis, dropping NLB's registration boilerplate.
+
+        Returns "" when no synopsis label is present rather than falling back to
+        the whole description, which would surface the registration/photography
+        boilerplate instead of a synopsis.
+        """
         text = self._strip_html(description)
         match = _SYNOPSIS_RE.search(text)
-        body = match.group(1) if match else text
-        return _SYNOPSIS_STOP_RE.split(body, maxsplit=1)[0].strip()
+        if not match:
+            return ""
+        return _SYNOPSIS_STOP_RE.split(match.group(1), maxsplit=1)[0].strip()
 
     def _themes(self, description: str) -> List[str]:
         """The programme label plus any "This Month's Theme" the series carries."""

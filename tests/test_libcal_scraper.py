@@ -140,6 +140,16 @@ def test_synopsis_is_film_synopsis_only(monkeypatch):
     assert "Registration" not in film["synopsis"]
 
 
+def test_synopsis_blank_when_no_label(monkeypatch):
+    # Without a "Synopsis:" label, return "" rather than dumping boilerplate.
+    no_label = _result(
+        description="<p>Registration is required. Photography may be taken.</p>"
+    )
+    _patch_fetch(monkeypatch, [no_label])
+    [film] = NLBLibCalScraper(reference_date=BEFORE).scrape()
+    assert film["synopsis"] == ""
+
+
 def test_advisory_rating_extracted(monkeypatch):
     _patch_fetch(monkeypatch, [_result()])
     [film] = NLBLibCalScraper(reference_date=BEFORE).scrape()
