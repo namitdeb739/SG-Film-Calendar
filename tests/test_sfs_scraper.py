@@ -212,3 +212,23 @@ def test_multiday_solo_movie_with_weekday_expands_to_each_matching_date():
         datetime(2026, 6, 22, 19, 0),
         datetime(2026, 6, 29, 19, 0),
     ]
+
+
+def test_category_feeds_themes_not_genre():
+    scraper = SFSScraper()
+    row = {
+        "Title": "SOME FILM",
+        "Category": "SFS Showcase",
+        "Start Date": "10 August 2026",
+        "Time": "7.30pm",
+        "Venue": "The Projector",
+        "Public URL": "https://example.com",
+    }
+
+    film = scraper._parse_event(row)
+
+    # The SFS sheet has no genre column; the category is a curatorial theme, so
+    # it must feed themes/category, never masquerade as the film's genre.
+    assert film["genre"] == ""
+    assert film["themes"] == ["SFS Showcase"]
+    assert film["category"] == "SFS Showcase"
