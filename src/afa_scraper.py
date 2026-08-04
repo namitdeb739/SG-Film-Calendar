@@ -11,7 +11,9 @@ Two kinds of noise are filtered out: ``[TALK]`` events (not films) and umbrella
 "programme" posts that bundle several screenings (these carry
 ``linked_events_or_items`` and duplicate the individual film posts). We emit one
 ``film`` dict per screening — grouping repeat dates of the same title — in the
-shape the rest of the pipeline consumes, so downstream is unchanged.
+shape the rest of the pipeline consumes, so downstream is unchanged. The venue
+and screening length come from each event's own data (AFA is resident at Oldham
+Theatre but occasionally programmes offsite).
 """
 
 import html
@@ -78,7 +80,7 @@ class AsianFilmArchiveScraper:
             "title": title,
             "url": event.get("link") or "",
             "year": self._year(self._raw_title(event)),
-            "duration_mins": 120,
+            "duration_mins": self._duration_mins(info),
             "rating": "",
             "genre": "",
             "director": "",
@@ -91,10 +93,20 @@ class AsianFilmArchiveScraper:
             "poster_url": self._first(info, "event_feature_image"),
             "themes": [THEME],
             "tags": [],
-            "venue": self.VENUE,
+            # AFA is resident at Oldham Theatre but occasionally programmes
+            # offsite (State of Motion, etc.); honour the event's own venue.
+            "venue": self._first(info, "mep_location_venue") or self.VENUE,
             "source": "afa",
             "screenings": [],
         }
+
+    def _duration_mins(self, info: Dict) -> int:
+        """Screening length from the event's start/end block, default 120."""
+        start = self._parse_dt(self._first(info, "event_start_datetime"))
+        end = self._parse_dt(self._first(info, "event_end_datetime"))
+        if start and end and end > start:
+            return int((end - start).total_seconds() // 60)
+        return 120
 
     def _screening(self, event: Dict) -> Optional[Dict]:
         """Build a screening dict for a dated, non-talk, non-bundle film event."""

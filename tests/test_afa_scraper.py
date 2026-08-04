@@ -28,6 +28,7 @@ def _event(
     linked="",
     feature_image="https://afa.example/olive.jpg",
     booking_url="",
+    venue="Oldham Theatre",
 ):
     info = {
         "event_start_datetime": [start] if start else [],
@@ -35,6 +36,7 @@ def _event(
         "mep_total_seat_left": [seat_left],
         "event_feature_image": [feature_image],
         "booking_url": [booking_url],
+        "mep_location_venue": [venue],
     }
     if linked:
         info["linked_events_or_items"] = [linked]
@@ -81,6 +83,7 @@ def test_event_becomes_film_with_naive_local_screening(monkeypatch):
     assert film["year"] == "2020"
     assert film["source"] == "afa"
     assert film["venue"] == "Oldham Theatre"
+    assert film["duration_mins"] == 105  # from the 14:00–15:45 block, not a default
     assert film["themes"] == ["Asian Film Archive"]
     assert film["poster_url"] == "https://afa.example/olive.jpg"
     assert "portrait of a chef" in film["synopsis"].lower()
@@ -97,6 +100,19 @@ def test_venue_normalises_to_oldham_theatre(monkeypatch):
     _patch_fetch(monkeypatch, [_event()])
     [film] = AsianFilmArchiveScraper(reference_date=BEFORE).scrape()
     assert normalize_venue(film["venue"]) == "Oldham Theatre"
+
+
+def test_offsite_venue_is_honoured(monkeypatch):
+    # AFA sometimes programmes away from Oldham; use the event's own venue.
+    _patch_fetch(monkeypatch, [_event(venue="Gallery Theatre, National Museum")])
+    [film] = AsianFilmArchiveScraper(reference_date=BEFORE).scrape()
+    assert film["venue"] == "Gallery Theatre, National Museum"
+
+
+def test_venue_falls_back_to_oldham_when_absent(monkeypatch):
+    _patch_fetch(monkeypatch, [_event(venue="")])
+    [film] = AsianFilmArchiveScraper(reference_date=BEFORE).scrape()
+    assert film["venue"] == "Oldham Theatre"
 
 
 def test_talks_are_skipped(monkeypatch):
