@@ -8,6 +8,7 @@ import os
 import sys
 
 from calendar_sync import CalendarSync
+from enrich import OMDbEnricher
 from eventive_scraper import EventiveScraper
 from history import HistoryStore
 from scraper import FilmhouseScraper
@@ -67,6 +68,13 @@ def _scrape_sfs() -> list:
     return films
 
 
+def _enrich(all_films: list) -> None:
+    """Backfill missing film metadata (director, genre, poster, …) from OMDb."""
+    print("Enriching thin films from OMDb...")
+    enriched = OMDbEnricher().enrich(all_films)
+    print(f"  → {enriched} films enriched")
+
+
 def _update_history(all_films: list) -> None:
     """Merge scraped films from every source into the historic archive CSV."""
     print(f"\nUpdating film history ({HISTORY_CSV})...")
@@ -103,6 +111,14 @@ def main() -> None:
     if not all_films:
         print("No screenings found. Exiting.")
         return
+
+    # Backfill missing metadata for thin sources before archiving/exporting, so
+    # every downstream surface benefits. Isolated: a missing key or OMDb outage
+    # just leaves films un-enriched rather than aborting the run.
+    try:
+        _enrich(all_films)
+    except Exception as exc:  # noqa: BLE001
+        print(f"Enrichment failed: {exc}", file=sys.stderr)
 
     # Update the historic archive independently of the calendar sync, so an
     # archive failure doesn't block calendar updates (and vice versa). Both
