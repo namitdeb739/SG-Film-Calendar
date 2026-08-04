@@ -146,6 +146,15 @@ def test_advisory_rating_extracted(monkeypatch):
     assert film["rating"] == "PG"
 
 
+def test_hyphenated_advisory_rating_not_truncated(monkeypatch):
+    hyphenated = _result(
+        description="<p><b>Film Synopsis: </b>A film.</p><p><b>Advisory: </b>PG-13</p>"
+    )
+    _patch_fetch(monkeypatch, [hyphenated])
+    [film] = NLBLibCalScraper(reference_date=BEFORE).scrape()
+    assert film["rating"] == "PG-13"
+
+
 def test_monthly_theme_added_to_themes(monkeypatch):
     _patch_fetch(monkeypatch, [_result()])
     [film] = NLBLibCalScraper(reference_date=BEFORE).scrape()

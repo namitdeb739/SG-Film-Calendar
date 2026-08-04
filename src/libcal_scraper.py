@@ -232,9 +232,9 @@ class NLBLibCalScraper:
 
     @staticmethod
     def _advisory_rating(description: str) -> str:
-        """Pull the advisory rating (e.g. "PG") out of the HTML description."""
+        """Pull the advisory rating (e.g. "PG", "PG-13") out of the description."""
         text = NLBLibCalScraper._strip_html(description)
-        match = re.search(r"Advisory:\s*([A-Z0-9]+)", text)
+        match = re.search(r"Advisory:\s*([A-Z0-9]+(?:-[A-Z0-9]+)?)", text)
         return match.group(1) if match else ""
 
     @staticmethod
