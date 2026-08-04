@@ -17,6 +17,32 @@ from venues import normalize_venue
 # Well before the fixture screening dates so nothing is filtered as "past".
 BEFORE = datetime(2026, 8, 1)
 
+# A realistic Big Picture description: labelled theme/synopsis/advisory followed
+# by the registration/photography boilerplate the parser must discard.
+BIG_PICTURE_DESC = (
+    "<p><b>This Month's Theme: </b>Band Together<br/>"
+    "<b>Film Synopsis: </b>Two musician brothers set out to save their old "
+    "orphanage from closure.</p>"
+    "<p><b>Advisory: </b>PG</p>"
+    "<p>Watch a trailer of the movie <a href='https://youtu.be/x'>here</a></p>"
+    "<p><b>About: </b>The Big Picture is a fortnightly series curated by "
+    "librarians.</p><p>Registration is required for this programme.</p>"
+)
+
+# A festival screening names the real film explicitly and uses "Synopsis:".
+FESTIVAL_DESC = (
+    "<p>About the Programme: nocturnal screenings under the stars.</p>"
+    "<p><b>Film Title: </b>Raya &amp; the Last Dragon</p>"
+    "<p><b>Important Note: </b>Bring earphones.</p>"
+    "<p><b>Synopsis: </b>In Kumandra, a lone warrior seeks the last dragon.</p>"
+    "<p>Photography and Videography may be taken.</p>"
+)
+
+LANGUAGE_CATS = [
+    {"cat_id": 45297, "name": "Areas of Interest > Art & Creativity"},
+    {"cat_id": 45305, "name": "Language > English"},
+]
+
 
 def _result(
     eid=5913631,
@@ -25,7 +51,8 @@ def _result(
     enddt="2026-08-13 21:00:00",
     start="6:30 PM",
     location="CAL - National Library Building - Imagination Room (Level 5)",
-    description="<p><b>Advisory: </b>PG</p><p>A <em>young</em> film.</p>",
+    description=BIG_PICTURE_DESC,
+    categories_arr=None,
     registration_enabled=True,
     seatsleft=48,
 ):
@@ -38,6 +65,7 @@ def _result(
         "url": f"https://nlb.libcal.com/event/{eid}",
         "location": location,
         "description": description,
+        "categories_arr": LANGUAGE_CATS if categories_arr is None else categories_arr,
         "featured_image": f"https://cdn.example/{eid}.jpg",
         "registration_enabled": registration_enabled,
         "seatsleft": seatsleft,
@@ -78,10 +106,10 @@ def test_result_becomes_film_with_naive_local_screening(monkeypatch):
     _patch_fetch(monkeypatch, [_result()])
     [film] = NLBLibCalScraper(reference_date=BEFORE).scrape()
 
-    # " | Central Arts Library" suffix stripped from the title.
+    # The recurring series names only itself (no real film title anywhere), so
+    # its cleaned series title is kept; " | Central Arts Library" is stripped.
     assert film["title"] == "The Big Picture- Fortnightly Film Screening (13 August)"
     assert film["source"] == "nlb"
-    assert film["themes"] == ["NLB Film Screenings"]
     assert film["poster_url"].endswith("5913631.jpg")
 
     [screening] = film["screenings"]
@@ -92,18 +120,66 @@ def test_result_becomes_film_with_naive_local_screening(monkeypatch):
     assert screening["booking_url"].endswith("/event/5913631")
 
 
-def test_duration_derived_from_start_and_end(monkeypatch):
+def test_duration_defaults_to_neutral_not_room_slot(monkeypatch):
+    # The room booking is 2.5h; that is the slot, not the film runtime, so we
+    # must not surface it as the duration.
     _patch_fetch(monkeypatch, [_result()])
     [film] = NLBLibCalScraper(reference_date=BEFORE).scrape()
-    assert film["duration_mins"] == 150  # 18:30 -> 21:00
+    assert film["duration_mins"] == 120
 
 
-def test_advisory_rating_and_synopsis_extracted(monkeypatch):
+def test_synopsis_is_film_synopsis_only(monkeypatch):
+    _patch_fetch(monkeypatch, [_result()])
+    [film] = NLBLibCalScraper(reference_date=BEFORE).scrape()
+    assert film["synopsis"] == (
+        "Two musician brothers set out to save their old orphanage from closure."
+    )
+    # Theme, advisory and registration boilerplate must be excluded.
+    assert "This Month" not in film["synopsis"]
+    assert "Advisory" not in film["synopsis"]
+    assert "Registration" not in film["synopsis"]
+
+
+def test_advisory_rating_extracted(monkeypatch):
     _patch_fetch(monkeypatch, [_result()])
     [film] = NLBLibCalScraper(reference_date=BEFORE).scrape()
     assert film["rating"] == "PG"
-    assert "young film" in film["synopsis"].lower()
-    assert "<" not in film["synopsis"]  # HTML stripped
+
+
+def test_monthly_theme_added_to_themes(monkeypatch):
+    _patch_fetch(monkeypatch, [_result()])
+    [film] = NLBLibCalScraper(reference_date=BEFORE).scrape()
+    assert film["themes"] == ["Band Together", "NLB Film Screenings"]
+
+
+def test_language_from_categories(monkeypatch):
+    _patch_fetch(monkeypatch, [_result()])
+    [film] = NLBLibCalScraper(reference_date=BEFORE).scrape()
+    assert film["language"] == "English"
+
+
+def test_festival_film_title_from_description(monkeypatch):
+    festival = _result(
+        eid=99,
+        title='"Raya and The Last Dragon" Film Screening | All Things Singapore 2026',
+        description=FESTIVAL_DESC,
+    )
+    _patch_fetch(monkeypatch, [festival])
+    [film] = NLBLibCalScraper(reference_date=BEFORE).scrape()
+    # The real film title, taken from the "Film Title:" label, not the wrapper.
+    assert film["title"] == "Raya & the Last Dragon"
+    assert film["synopsis"] == "In Kumandra, a lone warrior seeks the last dragon."
+
+
+def test_quoted_event_title_used_when_no_film_title_label(monkeypatch):
+    quoted = _result(
+        eid=98,
+        title='"We Can Save the World!!!" Film Screening | All Things Singapore 2026',
+        description="<p><b>Synopsis: </b>A town council worker saves the world.</p>",
+    )
+    _patch_fetch(monkeypatch, [quoted])
+    [film] = NLBLibCalScraper(reference_date=BEFORE).scrape()
+    assert film["title"] == "We Can Save the World!!!"
 
 
 def test_venue_normalises_to_national_library(monkeypatch):

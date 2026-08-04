@@ -37,6 +37,24 @@ SEARCH_QUERY = "film screening"
 # Curatorial-programme label for the historic archive's theme axis.
 THEME = "NLB Film Screenings"
 
+# NLB buries the film's real title, synopsis and monthly theme inside one HTML
+# "description" blob with labelled sections; these pull the useful parts out and
+# leave the registration/photography/accessibility boilerplate behind.
+_FILM_TITLE_RE = re.compile(
+    r"Film Title:\s*(.+?)(?:\s*Important Note:|\s*Synopsis:|$)", re.IGNORECASE
+)
+_QUOTED_TITLE_RE = re.compile(r'^\s*"(.+?)"\s+Film Screening\b')
+_SYNOPSIS_RE = re.compile(r"(?:Film Synopsis|Synopsis)\s*:\s*(.+)", re.IGNORECASE)
+_SYNOPSIS_STOP_RE = re.compile(
+    r"\s*(?:Advisory:|Watch a trailer|About:|About the Programme|Important Note:|"
+    r"Registration and Attendance|Registration is required|"
+    r"Photography and Videography|Wheelchair)",
+    re.IGNORECASE,
+)
+_THEME_RE = re.compile(
+    r"This Month'?s Theme:\s*(.+?)\s*(?:Film Synopsis:|Synopsis:|$)", re.IGNORECASE
+)
+
 
 class NLBLibCalScraper:
     """Scrape NLB film screenings from LibCal's public search JSON."""
@@ -82,14 +100,14 @@ class NLBLibCalScraper:
         return list(films_by_title.values())
 
     def _merge_event(self, event: Dict, films_by_title: Dict[str, Dict]) -> None:
-        """Add one event's screening to the film dict for its (cleaned) title."""
+        """Add one event's screening to the film dict for its film title."""
         if not self._is_film(event):
             return
         screening = self._screening(event)
         if screening is None:
             return
 
-        title = self._clean_title(event.get("title") or "")
+        title = self._film_title(event)
         film = films_by_title.get(title)
         if film is None:
             film = self._film_dict(title, event)
@@ -98,20 +116,23 @@ class NLBLibCalScraper:
 
     def _film_dict(self, title: str, event: Dict) -> Dict:
         """Build a pipeline-shaped film dict from one LibCal event record."""
+        description = event.get("description") or ""
         return {
             "title": title,
             "url": event.get("url") or "",
             "year": "",
-            "duration_mins": self._duration_mins(event),
-            "rating": self._advisory_rating(event.get("description") or ""),
+            # LibCal only exposes the room booking slot, not the film's runtime,
+            # so use the neutral default rather than mislead with the slot length.
+            "duration_mins": 120,
+            "rating": self._advisory_rating(description),
             "genre": "",
             "director": "",
             "cast": "",
-            "language": "",
+            "language": self._language(event),
             "country": "",
-            "synopsis": self._strip_html(event.get("description") or ""),
+            "synopsis": self._synopsis(description),
             "poster_url": event.get("featured_image") or "",
-            "themes": [THEME],
+            "themes": self._themes(description),
             "tags": [],
             "venue": (event.get("location") or "").strip() or "National Library",
             "source": "nlb",
@@ -158,14 +179,48 @@ class NLBLibCalScraper:
         except ValueError:
             return None
 
+    def _film_title(self, event: Dict) -> str:
+        """Best available film title.
+
+        Festival screenings label the real film ("Film Title: ...") or quote it
+        in the event title ('"X" Film Screening'); the recurring Big Picture
+        series names only itself, so we keep its series title (the actual film is
+        only in the synopsis — see the Tier 3 enrichment issue).
+        """
+        description = self._strip_html(event.get("description") or "")
+        match = _FILM_TITLE_RE.search(description)
+        if match and match.group(1).strip():
+            return match.group(1).strip()
+        raw = event.get("title") or ""
+        quoted = _QUOTED_TITLE_RE.search(raw)
+        if quoted:
+            return quoted.group(1).strip()
+        return self._clean_title(raw)
+
+    def _synopsis(self, description: str) -> str:
+        """Just the film synopsis, dropping NLB's registration boilerplate."""
+        text = self._strip_html(description)
+        match = _SYNOPSIS_RE.search(text)
+        body = match.group(1) if match else text
+        return _SYNOPSIS_STOP_RE.split(body, maxsplit=1)[0].strip()
+
+    def _themes(self, description: str) -> List[str]:
+        """The programme label plus any "This Month's Theme" the series carries."""
+        themes = [THEME]
+        match = _THEME_RE.search(self._strip_html(description))
+        if match and match.group(1).strip():
+            themes.append(match.group(1).strip())
+        return sorted(set(themes))
+
     @staticmethod
-    def _duration_mins(event: Dict) -> int:
-        """Minutes between start and end, defaulting to 120 when unavailable."""
-        start = NLBLibCalScraper._parse_dt(event.get("startdt"))
-        end = NLBLibCalScraper._parse_dt(event.get("enddt"))
-        if start and end and end > start:
-            return int((end - start).total_seconds() // 60)
-        return 120
+    def _language(event: Dict) -> str:
+        """Screening language(s) from LibCal's "Language > X" categories."""
+        langs = []
+        for cat in event.get("categories_arr") or []:
+            name = cat.get("name") or ""
+            if name.lower().startswith("language >"):
+                langs.append(name.split(">", 1)[1].strip())
+        return "|".join(dict.fromkeys(langs))
 
     @staticmethod
     def _sold_out(event: Dict) -> bool:
