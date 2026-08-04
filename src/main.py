@@ -10,6 +10,7 @@ import sys
 from calendar_sync import CalendarSync
 from eventive_scraper import EventiveScraper
 from history import HistoryStore
+from libcal_scraper import NLBLibCalScraper
 from scraper import FilmhouseScraper
 from sfs_scraper import SFSScraper
 from site_export import export_screenings
@@ -67,6 +68,15 @@ def _scrape_sfs() -> list:
     return films
 
 
+def _scrape_libcal() -> list:
+    """Scrape NLB's film screenings (LibCal) and return films list."""
+    print("Scraping NLB film screenings (LibCal)...")
+    films = NLBLibCalScraper().scrape()
+    total = sum(len(f["screenings"]) for f in films)
+    print(f"  → {len(films)} films with {total} screenings")
+    return films
+
+
 def _update_history(all_films: list) -> None:
     """Merge scraped films from every source into the historic archive CSV."""
     print(f"\nUpdating film history ({HISTORY_CSV})...")
@@ -96,6 +106,13 @@ def main() -> None:
     all_films = []
     all_films.extend(_scrape_filmhouse())
     all_films.extend(_scrape_sfs())
+
+    # NLB is a newer, keyword-discovered source; isolate it so a LibCal outage
+    # or markup change can't abort the established Filmhouse/SFS scrape.
+    try:
+        all_films.extend(_scrape_libcal())
+    except Exception as exc:  # noqa: BLE001
+        print(f"LibCal scrape failed: {exc}", file=sys.stderr)
 
     total_screenings = sum(len(f["screenings"]) for f in all_films)
     print(f"\nTotal: {len(all_films)} items with {total_screenings} screenings")
