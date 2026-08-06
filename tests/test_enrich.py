@@ -144,6 +144,32 @@ def test_year_fallback_to_title_only(monkeypatch, tmp_path):
     assert any("&y=" in c for c in calls) and any("&y=" not in c for c in calls)
 
 
+def test_ampersand_title_queries_spelled_out_form_first(monkeypatch, tmp_path):
+    # OMDb answers an "&" query with a companion title rather than missing, so
+    # the "and" form has to be tried first or the wrong film wins.
+    companion = dict(FOUND, Title="Untold with the Filmmakers", Director="Ezra Edmond")
+
+    def by_title(url):
+        return FOUND if "%20and%20" in url else companion
+
+    calls = _patch(monkeypatch, by_title=by_title)
+    film = _thin_film(title="Raya & the Last Dragon")
+    assert _enricher(tmp_path).enrich([film]) == 1
+    assert film["director"] == "Stanley Kubrick"
+    assert "%20and%20" in calls[0]
+
+
+def test_ampersand_falls_back_to_literal_title(monkeypatch, tmp_path):
+    # Some titles really do carry an "&"; the literal form is still tried.
+    def by_title(url):
+        return NOT_FOUND if "%20and%20" in url else FOUND
+
+    calls = _patch(monkeypatch, by_title=by_title)
+    film = _thin_film(title="Fire & Ice")
+    assert _enricher(tmp_path).enrich([film]) == 1
+    assert any("%26" in c for c in calls)
+
+
 def test_lookup_is_cached(monkeypatch, tmp_path):
     calls = _patch(monkeypatch)
     enricher = _enricher(tmp_path)

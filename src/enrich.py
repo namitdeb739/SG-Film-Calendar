@@ -100,11 +100,29 @@ class OMDbEnricher:
         key = f"{title.lower()}|{year or ''}"
         if key in self.cache:
             return self.cache[key]
-        # Prefer a year-qualified match; fall back to title-only (a source's year
-        # may be the screening year rather than the production year).
-        data = self._fetch(title, year) or (self._fetch(title, "") if year else None)
+        data = None
+        for candidate in self._title_variants(title):
+            # Prefer a year-qualified match; fall back to title-only (a source's
+            # year may be the screening year rather than the production year).
+            data = self._fetch(candidate, year) or (
+                self._fetch(candidate, "") if year else None
+            )
+            if data:
+                break
         self.cache[key] = data
         return data
+
+    @staticmethod
+    def _title_variants(title: str) -> List[str]:
+        """Titles to try against OMDb, best match first.
+
+        OMDb catalogues titles with "and" spelled out, and an "&" query does not
+        simply miss — it matches a companion title instead (e.g. "Raya & the Last
+        Dragon" returns the "Untold with the Filmmakers of..." featurette, whose
+        credits and poster are the wrong film's). Try the spelled-out form first.
+        """
+        spelled = re.sub(r"\s*&\s*", " and ", title)
+        return [spelled, title] if spelled != title else [title]
 
     def _fetch(self, title: str, year: str) -> Optional[Dict]:
         """One OMDb request; None on a miss or error."""
