@@ -7,6 +7,7 @@ and syncs them to a shared Google Calendar.
 import os
 import sys
 
+from afa_scraper import AsianFilmArchiveScraper
 from calendar_sync import CalendarSync
 from eventive_scraper import EventiveScraper
 from history import HistoryStore
@@ -67,6 +68,15 @@ def _scrape_sfs() -> list:
     return films
 
 
+def _scrape_afa() -> list:
+    """Scrape the Asian Film Archive (Oldham Theatre) and return films list."""
+    print("Scraping Asian Film Archive (Oldham Theatre)...")
+    films = AsianFilmArchiveScraper().scrape()
+    total = sum(len(f["screenings"]) for f in films)
+    print(f"  → {len(films)} films with {total} screenings")
+    return films
+
+
 def _update_history(all_films: list) -> None:
     """Merge scraped films from every source into the historic archive CSV."""
     print(f"\nUpdating film history ({HISTORY_CSV})...")
@@ -96,6 +106,13 @@ def main() -> None:
     all_films = []
     all_films.extend(_scrape_filmhouse())
     all_films.extend(_scrape_sfs())
+
+    # AFA is a separate HTML/REST source; isolate it so an outage or markup
+    # change there can't abort the established Filmhouse/SFS scrape.
+    try:
+        all_films.extend(_scrape_afa())
+    except Exception as exc:  # noqa: BLE001
+        print(f"AFA scrape failed: {exc}", file=sys.stderr)
 
     total_screenings = sum(len(f["screenings"]) for f in all_films)
     print(f"\nTotal: {len(all_films)} items with {total_screenings} screenings")
