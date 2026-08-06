@@ -12,6 +12,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 import libcal_scraper
 from libcal_scraper import NLBLibCalScraper
+from site_export import _flatten
 from venues import normalize_venue
 
 # Well before the fixture screening dates so nothing is filtered as "past".
@@ -107,10 +108,14 @@ def test_result_becomes_film_with_naive_local_screening(monkeypatch):
     [film] = NLBLibCalScraper(reference_date=BEFORE).scrape()
 
     # The recurring series names only itself (no real film title anywhere), so
-    # its cleaned series title is kept; " | Central Arts Library" is stripped.
-    assert film["title"] == "The Big Picture- Fortnightly Film Screening (13 August)"
+    # its cleaned series title is kept; " | Central Arts Library" and the
+    # per-instance "(13 August)" date are stripped.
+    assert film["title"] == "The Big Picture- Fortnightly Film Screening"
     assert film["source"] == "nlb"
-    assert film["poster_url"].endswith("5913631.jpg")
+    # LibCal only has the event graphic, so the poster is left for enrichment
+    # and the graphic is carried separately as a fallback.
+    assert film["poster_url"] == ""
+    assert film["fallback_image"].endswith("5913631.jpg")
 
     [screening] = film["screenings"]
     assert screening["start"] == datetime(2026, 8, 13, 18, 30)
@@ -118,6 +123,46 @@ def test_result_becomes_film_with_naive_local_screening(monkeypatch):
     assert screening["start"].tzinfo is None
     assert screening["time_str"] == "6:30 PM"
     assert screening["booking_url"].endswith("/event/5913631")
+
+
+def test_series_instances_group_under_one_dateless_title(monkeypatch):
+    # Each instance of a recurring series is titled with its own date; stripping
+    # it is what lets the series appear as one film with several screenings.
+    _patch_fetch(
+        monkeypatch,
+        [
+            _result(),
+            _result(
+                eid=5914353,
+                title=(
+                    "The Big Picture- Fortnightly Film Screening (27 August) "
+                    "| Central Arts Library"
+                ),
+                startdt="2026-08-27 18:30:00",
+                enddt="2026-08-27 21:00:00",
+            ),
+        ],
+    )
+    [film] = NLBLibCalScraper(reference_date=BEFORE).scrape()
+    assert film["title"] == "The Big Picture- Fortnightly Film Screening"
+    assert [s["start"] for s in film["screenings"]] == [
+        datetime(2026, 8, 13, 18, 30),
+        datetime(2026, 8, 27, 18, 30),
+    ]
+
+
+def test_export_prefers_enriched_poster_over_event_graphic(monkeypatch):
+    # Enrichment fills poster_url; until then the export must still show the
+    # event graphic rather than an empty poster.
+    _patch_fetch(monkeypatch, [_result()])
+    [film] = NLBLibCalScraper(reference_date=BEFORE).scrape()
+
+    [row] = _flatten([film])
+    assert row["poster_url"].endswith("5913631.jpg")
+
+    film["poster_url"] = "https://img.omdb/real-poster.jpg"
+    [row] = _flatten([film])
+    assert row["poster_url"] == "https://img.omdb/real-poster.jpg"
 
 
 def test_duration_defaults_to_neutral_not_room_slot(monkeypatch):

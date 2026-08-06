@@ -54,6 +54,14 @@ _SYNOPSIS_STOP_RE = re.compile(
 _THEME_RE = re.compile(
     r"This Month'?s Theme:\s*(.+?)\s*(?:Film Synopsis:|Synopsis:|$)", re.IGNORECASE
 )
+# Recurring series name each instance by date, e.g. "The Big Picture -
+# Fortnightly Film Screening (13 August)". The date is the screening's, not part
+# of the title, and keeping it splits one series into a card per date.
+_DATE_SUFFIX_RE = re.compile(
+    r"\s*\(\s*\d{1,2}\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*"
+    r"(?:\s+\d{4})?\s*\)\s*$",
+    re.IGNORECASE,
+)
 
 
 class NLBLibCalScraper:
@@ -131,7 +139,12 @@ class NLBLibCalScraper:
             "language": self._language(event),
             "country": "",
             "synopsis": self._synopsis(description),
-            "poster_url": event.get("featured_image") or "",
+            # LibCal only carries the event's promotional graphic (an NLB banner
+            # or programme flyer), never the film's poster. Leaving poster_url
+            # empty lets enrichment fill a real poster; the graphic stays as
+            # fallback_image so a film OMDb can't match still shows something.
+            "poster_url": "",
+            "fallback_image": event.get("featured_image") or "",
             "themes": self._themes(description),
             "tags": [],
             "venue": (event.get("location") or "").strip() or "National Library",
@@ -166,8 +179,9 @@ class NLBLibCalScraper:
 
     @staticmethod
     def _clean_title(title: str) -> str:
-        """Strip LibCal's trailing " | <campus/series>" suffix from a title."""
-        return title.split(" | ", 1)[0].strip()
+        """Strip LibCal's " | <campus/series>" suffix and any "(13 August)" date."""
+        title = title.split(" | ", 1)[0].strip()
+        return _DATE_SUFFIX_RE.sub("", title).strip()
 
     @staticmethod
     def _parse_dt(value: Optional[str]) -> Optional[datetime]:
