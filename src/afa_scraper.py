@@ -36,6 +36,11 @@ VENUE = "Oldham Theatre"
 # Curatorial-programme label for the historic archive's theme axis.
 THEME = "Asian Film Archive"
 
+# AFA prefixes event titles with a bracketed booking status, e.g.
+# "[SOLD OUT] Singapore Dreaming". It belongs on the screening, not in the title.
+_SOLD_OUT_PREFIX_RE = re.compile(r"^\s*\[\s*SOLD\s*OUT\s*\]\s*", re.I)
+_STATUS_PREFIX_RE = re.compile(r"^\s*\[[^\]]*\]\s*")
+
 
 class AsianFilmArchiveScraper:
     """Scrape AFA / Oldham Theatre screenings from the WP REST API."""
@@ -124,7 +129,7 @@ class AsianFilmArchiveScraper:
             "booking_url": booking,
             "time_str": start.strftime("%-I:%M %p").lstrip("0"),
             "tags": self._screening_tags(self._raw_title(event)),
-            "sold_out": self._sold_out(info),
+            "sold_out": self._sold_out(info, self._raw_title(event)),
         }
 
     # -- helpers -------------------------------------------------------------
@@ -147,7 +152,8 @@ class AsianFilmArchiveScraper:
 
     @staticmethod
     def _clean_title(title: str) -> str:
-        """Drop the trailing "(YYYY)" and any "+ cast & crew Q&A" suffix."""
+        """Drop status prefixes, the trailing "(YYYY)" and "+ cast & crew Q&A"."""
+        title = _STATUS_PREFIX_RE.sub("", title)
         title = re.split(r"\s+\+\s+", title, maxsplit=1)[0]
         title = re.sub(r"\s*\(\d{4}\)\s*$", "", title)
         return title.strip()
@@ -174,8 +180,14 @@ class AsianFilmArchiveScraper:
             return None
 
     @staticmethod
-    def _sold_out(info: Dict) -> bool:
-        """No seats left means sold out (seat count is a plain string)."""
+    def _sold_out(info: Dict, title: str = "") -> bool:
+        """Sold out per the seat count, or per AFA's "[SOLD OUT]" title prefix.
+
+        AFA flags a full house by prefixing the event title, and does not always
+        drop the seat count to zero at the same time, so trust either signal.
+        """
+        if _SOLD_OUT_PREFIX_RE.match(title):
+            return True
         return AsianFilmArchiveScraper._first(info, "mep_total_seat_left") == "0"
 
     @staticmethod

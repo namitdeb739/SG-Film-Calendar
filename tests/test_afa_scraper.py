@@ -175,6 +175,32 @@ def test_repeat_dates_group_and_qa_and_sold_out(monkeypatch):
     assert [s["sold_out"] for s in film["screenings"]] == [True, False]
 
 
+def test_sold_out_title_prefix_marks_screening_and_leaves_title(monkeypatch):
+    # AFA flags a full house in the title and leaves the seat count untouched,
+    # so the prefix has to drive sold_out and stay out of the film title.
+    e1 = _event(
+        eid=9,
+        title="[SOLD OUT] Singapore Dreaming 美满人生 (2006)",
+        start="2026-08-08 14:00:00",
+        end="2026-08-08 15:45:00",
+        seat_left="80",
+    )
+    e2 = _event(
+        eid=10,
+        title="Singapore Dreaming 美满人生 (2006)",
+        start="2026-08-15 14:00:00",
+        end="2026-08-15 15:45:00",
+        seat_left="80",
+    )
+    _patch_fetch(monkeypatch, [e1, e2])
+
+    films = AsianFilmArchiveScraper(reference_date=BEFORE).scrape()
+    # Both events describe the same film, so the prefix must not split them.
+    assert len(films) == 1
+    assert films[0]["title"] == "Singapore Dreaming 美满人生"
+    assert [s["sold_out"] for s in films[0]["screenings"]] == [True, False]
+
+
 def test_event_without_start_datetime_skipped(monkeypatch):
     _patch_fetch(monkeypatch, [_event(eid=8, start="", end="")])
     assert AsianFilmArchiveScraper(reference_date=BEFORE).scrape() == []
