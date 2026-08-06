@@ -9,6 +9,7 @@ import sys
 
 from afa_scraper import AsianFilmArchiveScraper
 from calendar_sync import CalendarSync
+from capitol_scraper import CapitolClassicsScraper
 from eventive_scraper import EventiveScraper
 from history import HistoryStore
 from libcal_scraper import NLBLibCalScraper
@@ -87,6 +88,15 @@ def _scrape_afa() -> list:
     return films
 
 
+def _scrape_capitol() -> list:
+    """Scrape Classics at Capitol (Capitol Theatre) and return films list."""
+    print("Scraping Classics at Capitol (Capitol Theatre)...")
+    films = CapitolClassicsScraper().scrape()
+    total = sum(len(f["screenings"]) for f in films)
+    print(f"  → {len(films)} films with {total} screenings")
+    return films
+
+
 def _update_history(all_films: list) -> None:
     """Merge scraped films from every source into the historic archive CSV."""
     print(f"\nUpdating film history ({HISTORY_CSV})...")
@@ -130,6 +140,13 @@ def main() -> None:
         all_films.extend(_scrape_afa())
     except Exception as exc:  # noqa: BLE001
         print(f"AFA scrape failed: {exc}", file=sys.stderr)
+
+    # Capitol is a separate REST/HTML source; isolate it so an outage or markup
+    # change there can't abort the established Filmhouse/SFS scrape.
+    try:
+        all_films.extend(_scrape_capitol())
+    except Exception as exc:  # noqa: BLE001
+        print(f"Capitol scrape failed: {exc}", file=sys.stderr)
 
     total_screenings = sum(len(f["screenings"]) for f in all_films)
     print(f"\nTotal: {len(all_films)} items with {total_screenings} screenings")
