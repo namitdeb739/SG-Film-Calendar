@@ -248,7 +248,13 @@
         color: var(--accent);
       }
       .range {
-        min-width: 15ch;
+        /* Fixed, not min-, width: the label swings from "28 Aug to 3 Sep" to
+           "Wednesday, 30 September", and a growing label would shift the ‹ ›
+           buttons out from under the pointer between clicks. Sized for the
+           longest form so the buttons never move. */
+        flex: none;
+        width: 24ch;
+        white-space: nowrap;
         text-align: center;
         font-family: inherit;
         font-weight: 600;
