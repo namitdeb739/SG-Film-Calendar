@@ -11,6 +11,7 @@ from afa_scraper import AsianFilmArchiveScraper
 from anticipate_scraper import AnticipatePicturesScraper
 from calendar_sync import CalendarSync
 from capitol_scraper import CapitolClassicsScraper
+from enrich import OMDbEnricher
 from eventive_scraper import EventiveScraper
 from history import HistoryStore
 from libcal_scraper import NLBLibCalScraper
@@ -105,6 +106,13 @@ def _tag_distributors(all_films: list) -> None:
     print(f"  → {tagged} films tagged Anticipate Pictures")
 
 
+def _enrich(all_films: list) -> None:
+    """Backfill missing film metadata (director, genre, poster, …) from OMDb."""
+    print("Enriching thin films from OMDb...")
+    enriched = OMDbEnricher().enrich(all_films)
+    print(f"  → {enriched} films enriched")
+
+
 def _update_history(all_films: list) -> None:
     """Merge scraped films from every source into the historic archive CSV."""
     print(f"\nUpdating film history ({HISTORY_CSV})...")
@@ -170,6 +178,14 @@ def main() -> None:
         _tag_distributors(all_films)
     except Exception as exc:  # noqa: BLE001
         print(f"Distributor tagging failed: {exc}", file=sys.stderr)
+
+    # Backfill missing metadata for thin sources before archiving/exporting, so
+    # every downstream surface benefits. Isolated: a missing key or OMDb outage
+    # just leaves films un-enriched rather than aborting the run.
+    try:
+        _enrich(all_films)
+    except Exception as exc:  # noqa: BLE001
+        print(f"Enrichment failed: {exc}", file=sys.stderr)
 
     # Update the historic archive independently of the calendar sync, so an
     # archive failure doesn't block calendar updates (and vice versa). Both
