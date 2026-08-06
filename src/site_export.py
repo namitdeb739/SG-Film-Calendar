@@ -48,7 +48,11 @@ def _flatten(films: List[Dict]) -> List[Dict]:
                     "duration_mins": film.get("duration_mins", 0),
                     "language": film.get("language", ""),
                     "subtitles": film.get("subtitles", ""),
-                    "poster_url": film.get("poster_url", ""),
+                    # Sources that only publish an event graphic leave poster_url
+                    # empty for enrichment to fill; fall back to the graphic when
+                    # no real poster was found, rather than showing nothing.
+                    "poster_url": film.get("poster_url")
+                    or film.get("fallback_image", ""),
                     "source": film.get("source", "filmhouse"),
                     "venue": venue,
                     "tags": tags,

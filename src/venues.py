@@ -79,7 +79,7 @@ def normalize_venue(raw: str) -> str:
     if "marina bay sands" in low:
         return "Marina Bay Sands"
     if "72-13" in low:
-        return "72-13"
+        return "72-13 (TheatreWorks)"
     if "various" in low:
         return "Various venues"
     return venue
