@@ -23,15 +23,6 @@ HISTORY_CSV = os.environ.get("HISTORY_CSV", "data/films.csv")
 SCREENINGS_JSON = os.environ.get("SCREENINGS_JSON", "docs/screenings.json")
 
 
-def _require_env(name: str) -> str:
-    """Get a required environment variable or exit."""
-    val = os.environ.get(name)
-    if not val:
-        print(f"Error: {name} environment variable not set", file=sys.stderr)
-        sys.exit(1)
-    return val
-
-
 def _env_flag(name: str) -> bool:
     """Return True when an environment flag is enabled."""
     return os.environ.get(name, "").lower() in {"1", "true", "yes", "on"}
@@ -135,8 +126,8 @@ def main() -> None:
     # and dumped all at once when output is piped, e.g. in GitHub Actions).
     sys.stdout.reconfigure(line_buffering=True)
 
-    calendar_id = _require_env("GOOGLE_CALENDAR_ID")
-    credentials_json = _require_env("GOOGLE_CALENDAR_CREDENTIALS")
+    calendar_id = os.environ.get("GOOGLE_CALENDAR_ID")
+    credentials_json = os.environ.get("GOOGLE_CALENDAR_CREDENTIALS")
 
     # Scrape all sources
     all_films = []
@@ -201,6 +192,13 @@ def main() -> None:
         _export_site(all_films)
     except Exception as exc:  # noqa: BLE001
         print(f"Screening feed export failed: {exc}", file=sys.stderr)
+
+    # The static site is fed entirely by the steps above, so a deployment that
+    # only publishes it (e.g. a fork without calendar credentials) stops here
+    # rather than failing the whole run.
+    if not (calendar_id and credentials_json):
+        print("\nGoogle Calendar not configured; skipping sync.")
+        return
 
     print("\nSyncing to Google Calendar...")
     sync = CalendarSync(calendar_id, credentials_json)
