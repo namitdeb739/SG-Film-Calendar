@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T22:44:32.861760+00:00",
+  "generated_at": "2026-08-11T22:51:24.984459+00:00",
   "screenings": [
     {
       "title": "KNEECAP",
@@ -2758,142 +2758,6 @@
       "venue": "Filmhouse Cinemas",
       "tags": [],
       "themes": [],
-      "start": "2026-08-11T16:30:00",
-      "end": "2026-08-11T18:57:00",
-      "time_str": "4:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1441",
-      "film_url": "http://filmhouse.sg/film/152/silent-friend"
-    },
-    {
-      "title": "Obsession",
-      "year": "2026",
-      "director": "Curry Barker",
-      "genre": "Horror",
-      "rating": "(M18)",
-      "duration_mins": 108,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/F9UN2lsL6X5frZ4ApVRmk50OJ_ipCE7ijJ3br44SmGw.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [
-        "4K"
-      ],
-      "themes": [],
-      "start": "2026-08-11T17:00:00",
-      "end": "2026-08-11T18:48:00",
-      "time_str": "5:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1440",
-      "film_url": "http://filmhouse.sg/film/131/obsession"
-    },
-    {
-      "title": "Girls Like Girls",
-      "year": "2026",
-      "director": "Hayley Kiyoko",
-      "genre": "Romance/Drama",
-      "rating": "(R21)",
-      "duration_mins": 95,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/lLwbylpm0dM59lUPTTrbYJQwq7egjsFerbnkgnX01VM.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-08-11T17:30:00",
-      "end": "2026-08-11T19:05:00",
-      "time_str": "5:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1439",
-      "film_url": "http://filmhouse.sg/film/163/girls-like-girls"
-    },
-    {
-      "title": "The Odyssey",
-      "year": "2026",
-      "director": "Christopher Nolan",
-      "genre": "Action/Adventure",
-      "rating": "(NC16)",
-      "duration_mins": 173,
-      "language": "English",
-      "subtitles": "English|Mandarin",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/Mw0CiYpXluTwG0dnsIxe99fW2IgaBPbLmkAD2GQ3-a0.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [
-        "4K"
-      ],
-      "themes": [],
-      "start": "2026-08-11T19:40:00",
-      "end": "2026-08-11T22:33:00",
-      "time_str": "7:40 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1416",
-      "film_url": "http://filmhouse.sg/film/164/the-odyssey"
-    },
-    {
-      "title": "Girls Like Girls",
-      "year": "2026",
-      "director": "Hayley Kiyoko",
-      "genre": "Romance/Drama",
-      "rating": "(R21)",
-      "duration_mins": 95,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/lLwbylpm0dM59lUPTTrbYJQwq7egjsFerbnkgnX01VM.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-08-11T20:00:00",
-      "end": "2026-08-11T21:35:00",
-      "time_str": "8:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1408",
-      "film_url": "http://filmhouse.sg/film/163/girls-like-girls"
-    },
-    {
-      "title": "The Invite",
-      "year": "2026",
-      "director": "Olivia Wilde",
-      "genre": "Drama",
-      "rating": "(M18)",
-      "duration_mins": 107,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/Qz5lRAPafrnKu7MCYAm3uYeu0T1h74Z4V8itC0i958s.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-08-11T20:30:00",
-      "end": "2026-08-11T22:17:00",
-      "time_str": "8:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1437",
-      "film_url": "http://filmhouse.sg/film/144/the-invite"
-    },
-    {
-      "title": "Silent Friend",
-      "year": "2026",
-      "director": "Ildikó Enyedi",
-      "genre": "Drama",
-      "rating": "(M18)",
-      "duration_mins": 147,
-      "language": "German|Cantonese|English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/lsROQoHx4WFnT9jeuRiSw3i8du_Q8i0y3M_5K9WkNfU.jpg",
-      "source": "filmhouse",
-      "distributor": "Anticipate Pictures",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
       "start": "2026-08-12T16:30:00",
       "end": "2026-08-12T18:57:00",
       "time_str": "4:30 pm",
@@ -4126,6 +3990,30 @@
       "film_url": "http://filmhouse.sg/film/163/girls-like-girls"
     },
     {
+      "title": "The Old Man and His Car",
+      "year": "2026",
+      "director": "Michael Kam",
+      "genre": "Drama",
+      "rating": "NC16",
+      "duration_mins": 82,
+      "language": "Malay, English, Mandarin, Hokkien",
+      "subtitles": "",
+      "poster_url": "https://static-a.eventive.org/9cbf2d822c27933a0951d827749c2281.jpg?w=300",
+      "source": "sfs",
+      "distributor": "",
+      "venue": "Golden Village Cineleisure",
+      "tags": [],
+      "themes": [
+        "SFS Somerset"
+      ],
+      "start": "2026-08-19T19:30:00",
+      "end": "2026-08-19T21:30:00",
+      "time_str": "7:30 PM",
+      "sold_out": false,
+      "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a7a8395c6f7940dfb5af453",
+      "film_url": "https://singaporefilmsociety.eventive.org/films/6a5045c451da292b56c9aa70"
+    },
+    {
       "title": "Amoeba",
       "year": "2025",
       "director": "Tan Siyou",
@@ -4172,6 +4060,31 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1488",
       "film_url": "http://filmhouse.sg/film/85/la-la-land-10th-anniversary"
+    },
+    {
+      "title": "Finding Mojo (Mojoku Hilang!)",
+      "year": "2026",
+      "director": "Min Lim",
+      "genre": "Comedy, Romance",
+      "rating": "PG",
+      "duration_mins": 135,
+      "language": "Indonesian, Malay, English",
+      "subtitles": "",
+      "poster_url": "https://static-a.eventive.org/3f50053d20de323b5d96d37b1f084a44.jpg?w=300",
+      "source": "sfs",
+      "distributor": "",
+      "venue": "Golden Village Cineleisure",
+      "tags": [],
+      "themes": [
+        "SFS Somerset",
+        "SFS Spotlight"
+      ],
+      "start": "2026-08-20T19:30:00",
+      "end": "2026-08-20T22:00:00",
+      "time_str": "7:30 PM",
+      "sold_out": false,
+      "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a7a83eb9b5df9e22c8a877c",
+      "film_url": "https://singaporefilmsociety.eventive.org/films/6a5f1c002b33ea397dd1afc0"
     },
     {
       "title": "We Are All Strangers",
@@ -4270,6 +4183,30 @@
       "sold_out": false,
       "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a6703422e81798162499ae1",
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a67013b9dc61f18af4f944c"
+    },
+    {
+      "title": "Itam: A Sun Bear Story",
+      "year": "2026",
+      "director": "Raymond Tan",
+      "genre": "Documentary",
+      "rating": "PG",
+      "duration_mins": 80,
+      "language": "Mandarin, English, Malay",
+      "subtitles": "",
+      "poster_url": "https://static-a.eventive.org/d7d7eec89bb976ebb3bd31947b427b5a.jpg?w=300",
+      "source": "sfs",
+      "distributor": "",
+      "venue": "Golden Village Cineleisure",
+      "tags": [],
+      "themes": [
+        "SFS Somerset"
+      ],
+      "start": "2026-08-22T13:30:00",
+      "end": "2026-08-22T15:30:00",
+      "time_str": "1:30 PM",
+      "sold_out": false,
+      "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a7a852cc950c8a5595b13df",
+      "film_url": "https://singaporefilmsociety.eventive.org/films/6a5042c675bd49357a05f4c2"
     },
     {
       "title": "How Can This Be Allow?!",
@@ -4512,6 +4449,30 @@
       "film_url": "https://capitol-theatre.bigtix.io/en/events/classics-at-capitol-2001-a-space-odyssey/CTSO2026"
     },
     {
+      "title": "Kopitiam Days",
+      "year": "2025",
+      "director": "Yeo Siew Hua, Shoki Lin, M. Raihan Halim, Tan Siyou, Don Aravind, Ong Kuo Sin",
+      "genre": "Drama",
+      "rating": "PG",
+      "duration_mins": 128,
+      "language": "Mandarin, Tamil, Malay, English, Hainanese, Hokkien, Cantonese",
+      "subtitles": "",
+      "poster_url": "https://static-a.eventive.org/96b977ec0ffae85033503878b3cd6b82.jpg?w=300",
+      "source": "sfs",
+      "distributor": "",
+      "venue": "Golden Village Cineleisure",
+      "tags": [],
+      "themes": [
+        "SFS Somerset"
+      ],
+      "start": "2026-08-23T16:00:00",
+      "end": "2026-08-23T18:00:00",
+      "time_str": "4:00 PM",
+      "sold_out": false,
+      "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a7a85c05e306152b26a3205",
+      "film_url": "https://singaporefilmsociety.eventive.org/films/6a714fb37dea5c8c19a96c5f"
+    },
+    {
       "title": "Trainspotting (4K Restoration)",
       "year": "1996",
       "director": "Danny Boyle",
@@ -4536,6 +4497,30 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1446",
       "film_url": "http://filmhouse.sg/film/169/trainspotting-4k-restoration"
+    },
+    {
+      "title": "Rubbers",
+      "year": "2014",
+      "director": "Han Yew Kwang",
+      "genre": "Comedy, Romance",
+      "rating": "R21",
+      "duration_mins": 86,
+      "language": "Mandarin",
+      "subtitles": "",
+      "poster_url": "https://static-a.eventive.org/a94864f19e6a58fadeb0f54f247f6a65.jpg?w=300",
+      "source": "sfs",
+      "distributor": "",
+      "venue": "Golden Village Cineleisure",
+      "tags": [],
+      "themes": [
+        "SFS Somerset"
+      ],
+      "start": "2026-08-23T19:30:00",
+      "end": "2026-08-23T21:30:00",
+      "time_str": "7:30 PM",
+      "sold_out": false,
+      "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a7a85fb15d181b02f21da88",
+      "film_url": "https://singaporefilmsociety.eventive.org/films/6a714df051d53385e59a747e"
     },
     {
       "title": "Trainspotting (4K Restoration)",
@@ -4759,6 +4744,32 @@
       "film_url": "http://filmhouse.sg/film/162/on-body-and-soul"
     },
     {
+      "title": "Dollar Trilogy: A FISTFUL OF DOLLARS",
+      "year": "1964",
+      "director": "Sergio Leone",
+      "genre": "",
+      "rating": "PG",
+      "duration_mins": 96,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://cdn-sea.bookmyshow.com/prod/images/202608/0f0b90b6-1c9c-4433-a58e-9b02fba1ed16/og/1080x1080/Compressed-Fistful.png",
+      "source": "capitol",
+      "distributor": "",
+      "venue": "Capitol Theatre",
+      "tags": [
+        "4K"
+      ],
+      "themes": [
+        "Classics at Capitol"
+      ],
+      "start": "2026-09-01T16:00:00",
+      "end": "2026-09-01T17:36:00",
+      "time_str": "4:00 PM",
+      "sold_out": false,
+      "booking_url": "https://capitol-theatre.bigtix.io/en",
+      "film_url": "https://capitol-theatre.bigtix.io/en/events/dollar-trilogy-a-fistful-of-dollars/CTFD2026"
+    },
+    {
       "title": "Trainspotting (4K Restoration)",
       "year": "1996",
       "director": "Danny Boyle",
@@ -4781,6 +4792,58 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1451",
       "film_url": "http://filmhouse.sg/film/169/trainspotting-4k-restoration"
+    },
+    {
+      "title": "Dollar Trilogy: FOR A FEW DOLLARS MORE",
+      "year": "1965",
+      "director": "Sergio Leone",
+      "genre": "",
+      "rating": "PG",
+      "duration_mins": 130,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://cdn-sea.bookmyshow.com/prod/images/202608/ea17ecdd-f30d-46c9-a829-9d08be4c40e0/og/1080x1080/6.png",
+      "source": "capitol",
+      "distributor": "",
+      "venue": "Capitol Theatre",
+      "tags": [
+        "4K"
+      ],
+      "themes": [
+        "Classics at Capitol"
+      ],
+      "start": "2026-09-13T16:00:00",
+      "end": "2026-09-13T18:10:00",
+      "time_str": "4:00 PM",
+      "sold_out": false,
+      "booking_url": "https://capitol-theatre.bigtix.io/en",
+      "film_url": "https://capitol-theatre.bigtix.io/en/events/dollar-trilogy-for-a-few-dollars-more/CTFM2026"
+    },
+    {
+      "title": "Dollar Trilogy: THE GOOD, THE BAD AND THE UGLY",
+      "year": "1966",
+      "director": "Sergio Leone",
+      "genre": "",
+      "rating": "PG",
+      "duration_mins": 181,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://cdn-sea.bookmyshow.com/prod/images/202608/e0024baf-8c30-4228-bd0b-b820a148e5f6/og/1080x1080/7_SISTIC_Facebook_Post_.jpg",
+      "source": "capitol",
+      "distributor": "",
+      "venue": "Capitol Theatre",
+      "tags": [
+        "4K"
+      ],
+      "themes": [
+        "Classics at Capitol"
+      ],
+      "start": "2026-09-23T16:00:00",
+      "end": "2026-09-23T19:01:00",
+      "time_str": "4:00 PM",
+      "sold_out": false,
+      "booking_url": "https://capitol-theatre.bigtix.io/en",
+      "film_url": "https://capitol-theatre.bigtix.io/en/events/dollar-trilogy-the-good-the-bad-and-the-ugly/CTGB2026"
     }
   ]
 }
