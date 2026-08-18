@@ -571,6 +571,29 @@
       .meta.lang {
         font-style: italic;
       }
+      .dist-tag {
+        display: inline-block;
+        margin-top: 6px;
+        padding: 2px 8px;
+        border: 1px solid var(--line-strong);
+        border-radius: 999px;
+        background: transparent;
+        color: var(--ink-dim);
+        font-family: inherit;
+        font-size: 0.68rem;
+        font-weight: 600;
+        letter-spacing: 0.01em;
+        cursor: pointer;
+      }
+      .dist-tag:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+      }
+      .dist-tag[aria-pressed="true"] {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: var(--accent-ink);
+      }
       .lbxd {
         display: inline-flex;
         align-items: center;
@@ -832,6 +855,7 @@
         q: "",
         scope: "all",
         cinema: "all",
+        distributor: "all",
         flags: new Set(),
       };
 
@@ -967,6 +991,8 @@
         )
           return false;
         if (state.cinema !== "all" && r.venue !== state.cinema) return false;
+        if (state.distributor !== "all" && r.distributor !== state.distributor)
+          return false;
         if (state.q) {
           const fields =
             state.scope === "title"
@@ -1076,6 +1102,17 @@
           ? `<div class="meta lang">${esc(lang.join(", "))}</div>`
           : "";
 
+        // A distributor/curator (e.g. Anticipate Pictures) programmes a film
+        // across whichever venue hosts it; surface it as a "presented by"
+        // byline that filters to that distributor's slate when clicked.
+        const distLine = f.distributor
+          ? `<button class="dist-tag" type="button" data-dist="${esc(
+              f.distributor
+            )}" aria-pressed="${state.distributor === f.distributor}">Presented by ${esc(
+              f.distributor
+            )}</button>`
+          : "";
+
         let times;
         if (showVenue) {
           // In the by-film view a film can play several cinemas, so label each
@@ -1110,6 +1147,7 @@
             <h3 class="title">${title}</h3>
             <div class="meta">${esc(bits.join(" · "))}</div>
             ${langLine}
+            ${distLine}
           </div></div>
           <div class="card-times">${times}</div>
           <a class="lbxd" href="${esc(letterboxdUrl(f.title))}"
@@ -1298,6 +1336,16 @@
       document.getElementById("cinema").addEventListener("change", (ev) => {
         state.cinema = ev.target.value;
         ev.target.dataset.all = state.cinema === "all" ? "1" : "0";
+        render();
+      });
+      // Cards re-render on every change, so filter by distributor via one
+      // delegated listener on the persistent container. Clicking the active
+      // distributor byline again clears the filter.
+      document.getElementById("app").addEventListener("click", (ev) => {
+        const tag = ev.target.closest(".dist-tag");
+        if (!tag) return;
+        const dist = tag.dataset.dist;
+        state.distributor = state.distributor === dist ? "all" : dist;
         render();
       });
       document.getElementById("prev").addEventListener("click", () => step(-1));

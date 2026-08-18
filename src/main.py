@@ -7,6 +7,7 @@ and syncs them to a shared Google Calendar.
 import os
 import sys
 
+from anticipate_scraper import AnticipatePicturesScraper
 from calendar_sync import CalendarSync
 from eventive_scraper import EventiveScraper
 from history import HistoryStore
@@ -67,6 +68,13 @@ def _scrape_sfs() -> list:
     return films
 
 
+def _tag_distributors(all_films: list) -> None:
+    """Attribute distributor-curated films (Anticipate Pictures) in place."""
+    print("Tagging distributor screenings (Anticipate Pictures)...")
+    tagged = AnticipatePicturesScraper().annotate(all_films)
+    print(f"  → {tagged} films tagged Anticipate Pictures")
+
+
 def _update_history(all_films: list) -> None:
     """Merge scraped films from every source into the historic archive CSV."""
     print(f"\nUpdating film history ({HISTORY_CSV})...")
@@ -103,6 +111,14 @@ def main() -> None:
     if not all_films:
         print("No screenings found. Exiting.")
         return
+
+    # Attribute distributor-curated films (Anticipate Pictures) onto the films
+    # already scraped from their host venues. Isolated so an outage there can't
+    # block the pipeline; a failure just leaves films un-attributed.
+    try:
+        _tag_distributors(all_films)
+    except Exception as exc:  # noqa: BLE001
+        print(f"Distributor tagging failed: {exc}", file=sys.stderr)
 
     # Update the historic archive independently of the calendar sync, so an
     # archive failure doesn't block calendar updates (and vice versa). Both

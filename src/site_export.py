@@ -50,6 +50,7 @@ def _flatten(films: List[Dict]) -> List[Dict]:
                     "subtitles": film.get("subtitles", ""),
                     "poster_url": film.get("poster_url", ""),
                     "source": film.get("source", "filmhouse"),
+                    "distributor": film.get("distributor", ""),
                     "venue": venue,
                     "tags": tags,
                     "start": start.isoformat() if isinstance(start, datetime) else "",
