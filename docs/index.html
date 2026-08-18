@@ -696,6 +696,32 @@
         background: var(--panel-2);
         color: var(--ink-dim);
       }
+      .card-themes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        margin-top: 6px;
+      }
+      .theme-pill {
+        font-size: 0.62rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        padding: 2px 7px;
+        border-radius: 999px;
+        border: 1px solid transparent;
+        background: var(--accent-soft);
+        color: var(--accent);
+        white-space: nowrap;
+        cursor: pointer;
+        font-family: inherit;
+      }
+      .theme-pill:hover {
+        border-color: var(--accent);
+      }
+      .theme-pill[aria-pressed="true"] {
+        background: var(--accent);
+        color: var(--accent-ink);
+      }
 
       .empty {
         text-align: center;
@@ -832,6 +858,7 @@
         q: "",
         scope: "all",
         cinema: "all",
+        theme: "all",
         flags: new Set(),
       };
 
@@ -967,6 +994,8 @@
         )
           return false;
         if (state.cinema !== "all" && r.venue !== state.cinema) return false;
+        if (state.theme !== "all" && !(r.themes || []).includes(state.theme))
+          return false;
         if (state.q) {
           const fields =
             state.scope === "title"
@@ -1076,6 +1105,20 @@
           ? `<div class="meta lang">${esc(lang.join(", "))}</div>`
           : "";
 
+        // Themes (curatorial programmes/seasons) can grow unbounded, so surface
+        // them as pills on the card that filter to that programme when clicked,
+        // rather than in a dropdown.
+        const themesLine = (f.themes || []).length
+          ? `<div class="card-themes">${f.themes
+              .map(
+                (t) =>
+                  `<button class="theme-pill" type="button" data-theme="${esc(
+                    t
+                  )}" aria-pressed="${state.theme === t}">${esc(t)}</button>`
+              )
+              .join("")}</div>`
+          : "";
+
         let times;
         if (showVenue) {
           // In the by-film view a film can play several cinemas, so label each
@@ -1110,6 +1153,7 @@
             <h3 class="title">${title}</h3>
             <div class="meta">${esc(bits.join(" · "))}</div>
             ${langLine}
+            ${themesLine}
           </div></div>
           <div class="card-times">${times}</div>
           <a class="lbxd" href="${esc(letterboxdUrl(f.title))}"
@@ -1298,6 +1342,16 @@
       document.getElementById("cinema").addEventListener("change", (ev) => {
         state.cinema = ev.target.value;
         ev.target.dataset.all = state.cinema === "all" ? "1" : "0";
+        render();
+      });
+      // Cards are re-rendered on every change, so filter by theme via one
+      // delegated listener on the persistent container. Clicking the active
+      // theme again clears the filter.
+      document.getElementById("app").addEventListener("click", (ev) => {
+        const pill = ev.target.closest(".theme-pill");
+        if (!pill) return;
+        const theme = pill.dataset.theme;
+        state.theme = state.theme === theme ? "all" : theme;
         render();
       });
       document.getElementById("prev").addEventListener("click", () => step(-1));
