@@ -95,7 +95,7 @@ class SFSScraper:
             "year": str(start_date.year),
             "duration_mins": 120,  # default; SFS sheet doesn't include duration
             "rating": "",
-            "genre": category,
+            "genre": "",  # sheet has no genre column; category is a theme, not a genre
             "director": "",
             "cast": "",
             "language": "",  # not stated in the SFS sheet
