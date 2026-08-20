@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T22:32:01.837036+00:00",
+  "generated_at": "2026-08-20T22:33:42.208920+00:00",
   "screenings": [
     {
       "title": "KNEECAP",
@@ -2913,74 +2913,6 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a5045c451da292b56c9aa70"
     },
     {
-      "title": "The Invite",
-      "year": "2026",
-      "director": "Olivia Wilde",
-      "genre": "Drama",
-      "rating": "(M18)",
-      "duration_mins": 107,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/Qz5lRAPafrnKu7MCYAm3uYeu0T1h74Z4V8itC0i958s.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [
-        "4K"
-      ],
-      "themes": [],
-      "start": "2026-08-20T16:30:00",
-      "end": "2026-08-20T18:17:00",
-      "time_str": "4:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1512",
-      "film_url": "http://filmhouse.sg/film/144/the-invite"
-    },
-    {
-      "title": "The World of Love",
-      "year": "",
-      "director": "Yoon Ga-eun",
-      "genre": "Drama",
-      "rating": "(PG13)",
-      "duration_mins": 119,
-      "language": "Korean",
-      "subtitles": "English",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/CXePJyEb8EX-GM_cmKASI2PODhfnoc-rKXW8k8YY5NE.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-08-20T17:00:00",
-      "end": "2026-08-20T18:59:00",
-      "time_str": "5:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1513",
-      "film_url": "http://filmhouse.sg/film/138/the-world-of-love"
-    },
-    {
-      "title": "I Want Your Sex",
-      "year": "2026",
-      "director": "Gregg Araki",
-      "genre": "Comedy",
-      "rating": "(R21)",
-      "duration_mins": 90,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/MZTXBp5-461aS8U7pFP8udO8RreiRV3Ea8WUIQWbMR4.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-08-20T17:30:00",
-      "end": "2026-08-20T19:00:00",
-      "time_str": "5:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1510",
-      "film_url": "http://filmhouse.sg/film/161/i-want-your-sex"
-    },
-    {
       "title": "Finding Mojo (Mojoku Hilang!)",
       "year": "2026",
       "director": "Min Lim",
@@ -3004,76 +2936,6 @@
       "sold_out": false,
       "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a7a83eb9b5df9e22c8a877c",
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a5f1c002b33ea397dd1afc0"
-    },
-    {
-      "title": "We Are All Strangers",
-      "year": "2026",
-      "director": "Anthony Chen",
-      "genre": "Drama",
-      "rating": "(PG13)",
-      "duration_mins": 157,
-      "language": "Mandarin|English",
-      "subtitles": "English|Mandarin",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/SY8jBcD9yU15LbUJ6ku6aTi6E0OVzCC8QOTo2tdReqo.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Got Time For Cinema?"
-      ],
-      "start": "2026-08-20T19:30:00",
-      "end": "2026-08-20T22:07:00",
-      "time_str": "7:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1489",
-      "film_url": "http://filmhouse.sg/film/158/we-are-all-strangers"
-    },
-    {
-      "title": "Girls Like Girls",
-      "year": "2026",
-      "director": "Hayley Kiyoko",
-      "genre": "Romance/Drama",
-      "rating": "(R21)",
-      "duration_mins": 95,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/lLwbylpm0dM59lUPTTrbYJQwq7egjsFerbnkgnX01VM.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-08-20T20:00:00",
-      "end": "2026-08-20T21:35:00",
-      "time_str": "8:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1514",
-      "film_url": "http://filmhouse.sg/film/163/girls-like-girls"
-    },
-    {
-      "title": "Amoeba",
-      "year": "2025",
-      "director": "Tan Siyou",
-      "genre": "Drama",
-      "rating": "(R21)",
-      "duration_mins": 98,
-      "language": "English",
-      "subtitles": "English|Mandarin",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/KeyO21aG9V3oDnWRVRXagfjYdVwM9Fqx_kDjIWd1IZo.jpg",
-      "source": "filmhouse",
-      "distributor": "Anticipate Pictures",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Got Time For Cinema?"
-      ],
-      "start": "2026-08-20T20:30:00",
-      "end": "2026-08-20T22:08:00",
-      "time_str": "8:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1511",
-      "film_url": "http://filmhouse.sg/film/50/amoeba"
     },
     {
       "title": "Silent Friend",
@@ -3166,6 +3028,30 @@
       "sold_out": false,
       "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a72e77a5a2f164ae5c4db19",
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a71aacc802b1ec027015d42"
+    },
+    {
+      "title": "昨天 Past Present",
+      "year": "2013",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 80,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/07/Past-Present.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-08-21T19:30:00",
+      "end": "2026-08-21T20:50:00",
+      "time_str": "7:30 PM",
+      "sold_out": false,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/past-present-2013/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/past-present-2013/"
     },
     {
       "title": "The Invite",
@@ -3424,6 +3310,30 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1520",
       "film_url": "http://filmhouse.sg/film/144/the-invite"
+    },
+    {
+      "title": "Singapore Shorts ’26 – Official Selection 3",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 100,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/07/OS3.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-08-22T17:00:00",
+      "end": "2026-08-22T18:40:00",
+      "time_str": "5:00 PM",
+      "sold_out": false,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/singapore-shorts-26-selection-3/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/singapore-shorts-26-selection-3/"
     },
     {
       "title": "Raya & the Last Dragon",
@@ -4376,6 +4286,30 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a74a0b5e94a5e3455118b93"
     },
     {
+      "title": "Singapore Shorts ’26 – Official Selection 4",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 105,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/07/OS4.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-08-28T20:00:00",
+      "end": "2026-08-28T21:45:00",
+      "time_str": "8:00 PM",
+      "sold_out": false,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/singapore-shorts-26-selection-4/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/singapore-shorts-26-selection-4/"
+    },
+    {
       "title": "Tony",
       "year": "2026",
       "director": "Matt Johnson",
@@ -4795,6 +4729,30 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a5f1c002b33ea397dd1afc0"
     },
     {
+      "title": "Trainspotting (4K Restoration)",
+      "year": "1996",
+      "director": "Danny Boyle",
+      "genre": "Comedy",
+      "rating": "(R21)",
+      "duration_mins": 94,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/BJSG0G-8EfBof30-UtlIwY2VILcCsZCCCirifcvjFlk.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Music in Film"
+      ],
+      "start": "2026-08-30T20:30:00",
+      "end": "2026-08-30T22:04:00",
+      "time_str": "8:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1555",
+      "film_url": "http://filmhouse.sg/film/169/trainspotting-4k-restoration"
+    },
+    {
       "title": "Dollar Trilogy: A FISTFUL OF DOLLARS",
       "year": "1964",
       "director": "Sergio Leone",
@@ -4891,6 +4849,32 @@
       "film_url": "http://filmhouse.sg/film/177/dear-you-teochew"
     },
     {
+      "title": "We Are All Strangers",
+      "year": "2026",
+      "director": "Anthony Chen",
+      "genre": "Drama",
+      "rating": "(PG13)",
+      "duration_mins": 157,
+      "language": "Mandarin|English",
+      "subtitles": "English|Mandarin",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/SY8jBcD9yU15LbUJ6ku6aTi6E0OVzCC8QOTo2tdReqo.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [
+        "Live Q&A"
+      ],
+      "themes": [
+        "Got Time For Cinema?"
+      ],
+      "start": "2026-09-02T18:30:00",
+      "end": "2026-09-02T21:07:00",
+      "time_str": "6:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1444",
+      "film_url": "http://filmhouse.sg/film/158/we-are-all-strangers"
+    },
+    {
       "title": "Mysterious Skin (4K Restoration)",
       "year": "2004",
       "director": "Gregg Araki",
@@ -4961,6 +4945,30 @@
       "film_url": "http://filmhouse.sg/film/169/trainspotting-4k-restoration"
     },
     {
+      "title": "The Rice Dumpling Vendors (烧肉粽, 1969)",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 90,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/Vendors_still.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-09-05T13:00:00",
+      "end": "2026-09-05T14:30:00",
+      "time_str": "1:00 PM",
+      "sold_out": false,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/the-rice-dumpling-vendors-1969/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/the-rice-dumpling-vendors-1969/"
+    },
+    {
       "title": "Singapore Minstrel (10th Anniversary)",
       "year": "2015",
       "director": "Salty Xi Jie Ng",
@@ -4988,12 +4996,36 @@
       "film_url": "http://filmhouse.sg/film/153/singapore-minstrel-10th-anniversary"
     },
     {
+      "title": "Taming Of The Princess (醉打金枝, 1958)",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 100,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2022/05/TamingofPrincess.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-09-05T16:00:00",
+      "end": "2026-09-05T17:40:00",
+      "time_str": "4:00 PM",
+      "sold_out": false,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/taming-of-the-princess-1958/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/taming-of-the-princess-1958/"
+    },
+    {
       "title": "Memories of Origin: Hiroshi Sugimoto",
       "year": "2012",
       "director": "Yuko Nakamura",
       "genre": "Documentary",
       "rating": "(PG)",
-      "duration_mins": 44,
+      "duration_mins": 83,
       "language": "Japanese",
       "subtitles": "English",
       "poster_url": "https://cdn.taposapp.com/poster/600x900/Sbqto3mJml9AH6pbNDXdqe7qKPvnuos8Ut3IC6KBzWM.jpg",
@@ -5005,11 +5037,35 @@
         "Cinematic Voids"
       ],
       "start": "2026-09-05T17:00:00",
-      "end": "2026-09-05T17:44:00",
+      "end": "2026-09-05T18:23:00",
       "time_str": "5:00 pm",
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1504",
       "film_url": "http://filmhouse.sg/film/149/memories-of-origin-hiroshi-sugimoto"
+    },
+    {
+      "title": "Zhang Di Seeks A-zu (张帝找阿珠, 1969)",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 105,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/張帝找阿珠_still.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-09-05T19:00:00",
+      "end": "2026-09-05T20:45:00",
+      "time_str": "7:00 PM",
+      "sold_out": false,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/zhang-di-seeks-a-zu-1969/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/zhang-di-seeks-a-zu-1969/"
     },
     {
       "title": "Before Sunrise",
@@ -5032,6 +5088,30 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1498",
       "film_url": "http://filmhouse.sg/film/168/before-sunrise"
+    },
+    {
+      "title": "Good Neighbours (兩相好, 1962)",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 100,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/兩相好_still.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-09-06T14:00:00",
+      "end": "2026-09-06T15:40:00",
+      "time_str": "2:00 PM",
+      "sold_out": false,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/good-neighbours-1962/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/good-neighbours-1962/"
     },
     {
       "title": "Taste of Cherry",
@@ -5058,6 +5138,30 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1508",
       "film_url": "http://filmhouse.sg/film/145/taste-of-cherry"
+    },
+    {
+      "title": "Romance At Lungshan Temple (龙山寺之恋, 1962)",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 105,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/龍山寺之戀-still.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-09-06T17:00:00",
+      "end": "2026-09-06T18:45:00",
+      "time_str": "5:00 PM",
+      "sold_out": false,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/romance-at-lungshan-temple-1962/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/romance-at-lungshan-temple-1962/"
     },
     {
       "title": "[LOLA 2026] Documentary Short Film Screening @ Former Ford Factory",
@@ -5335,7 +5439,7 @@
       "director": "Yuko Nakamura",
       "genre": "Documentary",
       "rating": "(PG)",
-      "duration_mins": 44,
+      "duration_mins": 83,
       "language": "Japanese",
       "subtitles": "English",
       "poster_url": "https://cdn.taposapp.com/poster/600x900/Sbqto3mJml9AH6pbNDXdqe7qKPvnuos8Ut3IC6KBzWM.jpg",
@@ -5347,7 +5451,7 @@
         "Cinematic Voids"
       ],
       "start": "2026-09-27T14:00:00",
-      "end": "2026-09-27T14:44:00",
+      "end": "2026-09-27T15:23:00",
       "time_str": "2:00 pm",
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1505",
