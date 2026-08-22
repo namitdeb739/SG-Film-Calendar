@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T22:31:19.742133+00:00",
+  "generated_at": "2026-08-22T22:28:32.852413+00:00",
   "screenings": [
     {
       "title": "KNEECAP",
@@ -3010,78 +3010,6 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a5042c675bd49357a05f4c2"
     },
     {
-      "title": "Oldboy - 4K Restoration",
-      "year": "2003",
-      "director": "Park Chan-wook",
-      "genre": "Thriller/Suspense",
-      "rating": "(R21)",
-      "duration_mins": 120,
-      "language": "Korean",
-      "subtitles": "English",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/XreudzJiah2fJyxtmEbB4RSm0KF5hmunBvOL1xLQMCM.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [
-        "4K"
-      ],
-      "themes": [],
-      "start": "2026-08-22T13:30:00",
-      "end": "2026-08-22T15:30:00",
-      "time_str": "1:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1528",
-      "film_url": "http://filmhouse.sg/film/155/oldboy-4k-restoration"
-    },
-    {
-      "title": "How Can This Be Allow?!",
-      "year": "2026",
-      "director": "",
-      "genre": "Drama",
-      "rating": "(M18)",
-      "duration_mins": 63,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/wvq5D4GYg6BF0_f8N5gzqZH0GThiaO97h23QTG491Uw.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Got Time For Cinema?"
-      ],
-      "start": "2026-08-22T14:00:00",
-      "end": "2026-08-22T15:03:00",
-      "time_str": "2:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1420",
-      "film_url": "http://filmhouse.sg/film/165/how-can-this-be-allow"
-    },
-    {
-      "title": "We Are All Strangers",
-      "year": "2026",
-      "director": "Anthony Chen",
-      "genre": "Drama",
-      "rating": "(PG13)",
-      "duration_mins": 157,
-      "language": "Mandarin|English",
-      "subtitles": "English|Mandarin",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/SY8jBcD9yU15LbUJ6ku6aTi6E0OVzCC8QOTo2tdReqo.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Got Time For Cinema?"
-      ],
-      "start": "2026-08-22T14:30:00",
-      "end": "2026-08-22T17:07:00",
-      "time_str": "2:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1527",
-      "film_url": "http://filmhouse.sg/film/158/we-are-all-strangers"
-    },
-    {
       "title": "Badak",
       "year": "2025",
       "director": "Raihan Halim",
@@ -3102,124 +3030,6 @@
       "sold_out": false,
       "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a7a9914b090f786db34c00e",
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a83e1cdc5faadfad5cccffb"
-    },
-    {
-      "title": "On Body and Soul",
-      "year": "2017",
-      "director": "Ildikó Enyedi",
-      "genre": "Drama",
-      "rating": "(M18)",
-      "duration_mins": 116,
-      "language": "Hungarian",
-      "subtitles": "English",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/bE2uCpl-rbqWmHk0gfDsh_rw3E7Z7Z9oqcTF1NJb7P0.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-08-22T16:15:00",
-      "end": "2026-08-22T18:11:00",
-      "time_str": "4:15 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1421",
-      "film_url": "http://filmhouse.sg/film/162/on-body-and-soul"
-    },
-    {
-      "title": "The Invite",
-      "year": "2026",
-      "director": "Olivia Wilde",
-      "genre": "Drama",
-      "rating": "(M18)",
-      "duration_mins": 107,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/Qz5lRAPafrnKu7MCYAm3uYeu0T1h74Z4V8itC0i958s.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-08-22T16:45:00",
-      "end": "2026-08-22T18:32:00",
-      "time_str": "4:45 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1520",
-      "film_url": "http://filmhouse.sg/film/144/the-invite"
-    },
-    {
-      "title": "Singapore Shorts ’26 – Official Selection 3",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 100,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/07/OS3.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-08-22T17:00:00",
-      "end": "2026-08-22T18:40:00",
-      "time_str": "5:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/singapore-shorts-26-selection-3/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/singapore-shorts-26-selection-3/"
-    },
-    {
-      "title": "Raya & the Last Dragon",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 120,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://dtvrvhzaa8b2y.cloudfront.net/misc/4848/events/11498/2026_08_03_13_02_12.png",
-      "source": "nlb",
-      "distributor": "",
-      "venue": "National Library",
-      "tags": [],
-      "themes": [
-        "NLB Film Screenings"
-      ],
-      "start": "2026-08-22T19:00:00",
-      "end": "2026-08-22T20:50:00",
-      "time_str": "7:00 PM",
-      "sold_out": false,
-      "booking_url": "https://nlb.libcal.com/event/5914353",
-      "film_url": "https://nlb.libcal.com/event/5914353"
-    },
-    {
-      "title": "We Are All Strangers",
-      "year": "2026",
-      "director": "Anthony Chen",
-      "genre": "Drama",
-      "rating": "(PG13)",
-      "duration_mins": 157,
-      "language": "Mandarin|English",
-      "subtitles": "English|Mandarin",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/SY8jBcD9yU15LbUJ6ku6aTi6E0OVzCC8QOTo2tdReqo.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [
-        "Karaoke"
-      ],
-      "themes": [
-        "Got Time For Cinema?"
-      ],
-      "start": "2026-08-22T19:00:00",
-      "end": "2026-08-22T21:37:00",
-      "time_str": "7:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1491",
-      "film_url": "http://filmhouse.sg/film/158/we-are-all-strangers"
     },
     {
       "title": "Ashes & Sighs",
@@ -3292,54 +3102,6 @@
       "sold_out": false,
       "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a74a3ff9ee2009a106eea09",
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a74a0b5e94a5e3455118b93"
-    },
-    {
-      "title": "Trainspotting (4K Restoration)",
-      "year": "1996",
-      "director": "Danny Boyle",
-      "genre": "Comedy",
-      "rating": "(R21)",
-      "duration_mins": 94,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/BJSG0G-8EfBof30-UtlIwY2VILcCsZCCCirifcvjFlk.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Music in Film"
-      ],
-      "start": "2026-08-22T19:30:00",
-      "end": "2026-08-22T21:04:00",
-      "time_str": "7:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1516",
-      "film_url": "http://filmhouse.sg/film/169/trainspotting-4k-restoration"
-    },
-    {
-      "title": "We Can Save the World!!!",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 120,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://dtvrvhzaa8b2y.cloudfront.net/misc/4848/events/11498/2026_08_03_13_02_56.png",
-      "source": "nlb",
-      "distributor": "",
-      "venue": "National Library",
-      "tags": [],
-      "themes": [
-        "NLB Film Screenings"
-      ],
-      "start": "2026-08-22T21:00:00",
-      "end": "2026-08-22T23:00:00",
-      "time_str": "9:00 PM",
-      "sold_out": false,
-      "booking_url": "https://nlb.libcal.com/event/5914354",
-      "film_url": "https://nlb.libcal.com/event/5914354"
     },
     {
       "title": "Dear You & TEDxSingapore",
@@ -3481,8 +3243,8 @@
       "start": "2026-08-23T17:00:00",
       "end": "2026-08-23T19:09:00",
       "time_str": "5:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1499",
+      "sold_out": true,
+      "booking_url": "",
       "film_url": "http://filmhouse.sg/film/85/la-la-land-10th-anniversary"
     },
     {
@@ -4122,30 +3884,6 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a74a0b5e94a5e3455118b93"
     },
     {
-      "title": "Singapore Shorts ’26 – Official Selection 4",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 105,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/07/OS4.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-08-28T20:00:00",
-      "end": "2026-08-28T21:45:00",
-      "time_str": "8:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/singapore-shorts-26-selection-4/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/singapore-shorts-26-selection-4/"
-    },
-    {
       "title": "Tony",
       "year": "2026",
       "director": "Matt Johnson",
@@ -4781,30 +4519,6 @@
       "film_url": "http://filmhouse.sg/film/169/trainspotting-4k-restoration"
     },
     {
-      "title": "The Rice Dumpling Vendors (烧肉粽, 1969)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 90,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/Vendors_still.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-09-05T13:00:00",
-      "end": "2026-09-05T14:30:00",
-      "time_str": "1:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/the-rice-dumpling-vendors-1969/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/the-rice-dumpling-vendors-1969/"
-    },
-    {
       "title": "Singapore Minstrel (10th Anniversary)",
       "year": "2015",
       "director": "Salty Xi Jie Ng",
@@ -4832,30 +4546,6 @@
       "film_url": "http://filmhouse.sg/film/153/singapore-minstrel-10th-anniversary"
     },
     {
-      "title": "Taming Of The Princess (醉打金枝, 1958)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 100,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2022/05/TamingofPrincess.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-09-05T16:00:00",
-      "end": "2026-09-05T17:40:00",
-      "time_str": "4:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/taming-of-the-princess-1958/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/taming-of-the-princess-1958/"
-    },
-    {
       "title": "Memories of Origin: Hiroshi Sugimoto",
       "year": "2012",
       "director": "Yuko Nakamura",
@@ -4880,30 +4570,6 @@
       "film_url": "http://filmhouse.sg/film/149/memories-of-origin-hiroshi-sugimoto"
     },
     {
-      "title": "Zhang Di Seeks A-zu (张帝找阿珠, 1969)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 105,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/張帝找阿珠_still.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-09-05T19:00:00",
-      "end": "2026-09-05T20:45:00",
-      "time_str": "7:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/zhang-di-seeks-a-zu-1969/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/zhang-di-seeks-a-zu-1969/"
-    },
-    {
       "title": "Before Sunrise",
       "year": "",
       "director": "Richard Linklater",
@@ -4924,30 +4590,6 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1498",
       "film_url": "http://filmhouse.sg/film/168/before-sunrise"
-    },
-    {
-      "title": "Good Neighbours (兩相好, 1962)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 100,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/兩相好_still.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-09-06T14:00:00",
-      "end": "2026-09-06T15:40:00",
-      "time_str": "2:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/good-neighbours-1962/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/good-neighbours-1962/"
     },
     {
       "title": "Taste of Cherry",
@@ -4998,54 +4640,6 @@
       "sold_out": false,
       "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a8849d13f8d9fa16005ab35",
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a88485d56d0529cb938058b"
-    },
-    {
-      "title": "Romance At Lungshan Temple (龙山寺之恋, 1962)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 105,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/龍山寺之戀-still.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-09-06T17:00:00",
-      "end": "2026-09-06T18:45:00",
-      "time_str": "5:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/romance-at-lungshan-temple-1962/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/romance-at-lungshan-temple-1962/"
-    },
-    {
-      "title": "Past Time",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 120,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/past-time-banner.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-09-11T20:00:00",
-      "end": "2026-09-11T00:00:00",
-      "time_str": "8:00 PM",
-      "sold_out": true,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/past-time/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/past-time/"
     },
     {
       "title": "[LOLA 2026] Documentary Short Film Screening @ Former Ford Factory",
