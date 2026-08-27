@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T22:33:38.610154+00:00",
+  "generated_at": "2026-08-27T03:02:13.252004+00:00",
   "screenings": [
     {
       "title": "KNEECAP",
@@ -3152,74 +3152,6 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a714df051d53385e59a747e"
     },
     {
-      "title": "The Invite",
-      "year": "2026",
-      "director": "Olivia Wilde",
-      "genre": "Drama",
-      "rating": "(M18)",
-      "duration_mins": 107,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/Qz5lRAPafrnKu7MCYAm3uYeu0T1h74Z4V8itC0i958s.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-08-26T16:30:00",
-      "end": "2026-08-26T18:17:00",
-      "time_str": "4:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1534",
-      "film_url": "http://filmhouse.sg/film/144/the-invite"
-    },
-    {
-      "title": "Spirited Away",
-      "year": "2001",
-      "director": "Hayao Miyazaki",
-      "genre": "Animation",
-      "rating": "(PG)",
-      "duration_mins": 125,
-      "language": "Japanese",
-      "subtitles": "English",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/p-YggG0VrFJmXWGhSXrBUrofMi2l3dc_nEWrlFrF0nU.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-08-26T16:50:00",
-      "end": "2026-08-26T18:55:00",
-      "time_str": "4:50 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1532",
-      "film_url": "http://filmhouse.sg/film/108/spirited-away"
-    },
-    {
-      "title": "Silent Friend",
-      "year": "2026",
-      "director": "Ildikó Enyedi",
-      "genre": "Drama",
-      "rating": "(M18)",
-      "duration_mins": 147,
-      "language": "German|Cantonese|English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/lsROQoHx4WFnT9jeuRiSw3i8du_Q8i0y3M_5K9WkNfU.jpg",
-      "source": "filmhouse",
-      "distributor": "Anticipate Pictures",
-      "venue": "Filmhouse Cinemas",
-      "tags": [
-        "4K"
-      ],
-      "themes": [],
-      "start": "2026-08-26T17:10:00",
-      "end": "2026-08-26T19:37:00",
-      "time_str": "5:10 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1526",
-      "film_url": "http://filmhouse.sg/film/152/silent-friend"
-    },
-    {
       "title": "Paris, Texas",
       "year": "1984",
       "director": "Wim Wenders",
@@ -3242,80 +3174,6 @@
       "sold_out": false,
       "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a83df33d91672979458c12a",
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a83dcf5a4c5d9fb6ea4a5f4"
-    },
-    {
-      "title": "We Are All Strangers",
-      "year": "2026",
-      "director": "Anthony Chen",
-      "genre": "Drama",
-      "rating": "(PG13)",
-      "duration_mins": 157,
-      "language": "Mandarin|English",
-      "subtitles": "English|Mandarin",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/SY8jBcD9yU15LbUJ6ku6aTi6E0OVzCC8QOTo2tdReqo.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Got Time For Cinema?"
-      ],
-      "start": "2026-08-26T19:30:00",
-      "end": "2026-08-26T22:07:00",
-      "time_str": "7:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1495",
-      "film_url": "http://filmhouse.sg/film/158/we-are-all-strangers"
-    },
-    {
-      "title": "Ilo Ilo",
-      "year": "2013",
-      "director": "Anthony Chen",
-      "genre": "Drama",
-      "rating": "(PG13)",
-      "duration_mins": 100,
-      "language": "Mandarin|English|Tagalog",
-      "subtitles": "English|Mandarin",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/qfn274PfWgd4hWnS9fKSRwDy_oYOG0m3K49JvlC4aSg.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Got Time For Cinema?"
-      ],
-      "start": "2026-08-26T20:00:00",
-      "end": "2026-08-26T21:40:00",
-      "time_str": "8:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1533",
-      "film_url": "http://filmhouse.sg/film/156/ilo-ilo"
-    },
-    {
-      "title": "Trainspotting (4K Restoration)",
-      "year": "1996",
-      "director": "Danny Boyle",
-      "genre": "Comedy",
-      "rating": "(R21)",
-      "duration_mins": 94,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/BJSG0G-8EfBof30-UtlIwY2VILcCsZCCCirifcvjFlk.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [
-        "4K"
-      ],
-      "themes": [
-        "Music in Film"
-      ],
-      "start": "2026-08-26T20:30:00",
-      "end": "2026-08-26T22:04:00",
-      "time_str": "8:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1448",
-      "film_url": "http://filmhouse.sg/film/169/trainspotting-4k-restoration"
     },
     {
       "title": "Before Sunrise",
@@ -3490,7 +3348,7 @@
       "subtitles": "English",
       "poster_url": "https://cdn.taposapp.com/poster/600x900/O4HxYWdZTvK0SdhYQHA0lJA8wPZeOh4GZhCM9O-j19M.jpg",
       "source": "filmhouse",
-      "distributor": "",
+      "distributor": "Anticipate Pictures",
       "venue": "Filmhouse Cinemas",
       "tags": [
         "4K"
@@ -3796,7 +3654,7 @@
       "subtitles": "English",
       "poster_url": "https://cdn.taposapp.com/poster/600x900/O4HxYWdZTvK0SdhYQHA0lJA8wPZeOh4GZhCM9O-j19M.jpg",
       "source": "filmhouse",
-      "distributor": "",
+      "distributor": "Anticipate Pictures",
       "venue": "Filmhouse Cinemas",
       "tags": [
         "4K"
@@ -4050,7 +3908,7 @@
       "subtitles": "English",
       "poster_url": "https://cdn.taposapp.com/poster/600x900/O4HxYWdZTvK0SdhYQHA0lJA8wPZeOh4GZhCM9O-j19M.jpg",
       "source": "filmhouse",
-      "distributor": "",
+      "distributor": "Anticipate Pictures",
       "venue": "Filmhouse Cinemas",
       "tags": [],
       "themes": [],
@@ -4236,7 +4094,7 @@
       "subtitles": "English",
       "poster_url": "https://cdn.taposapp.com/poster/600x900/O4HxYWdZTvK0SdhYQHA0lJA8wPZeOh4GZhCM9O-j19M.jpg",
       "source": "filmhouse",
-      "distributor": "",
+      "distributor": "Anticipate Pictures",
       "venue": "Filmhouse Cinemas",
       "tags": [
         "4K"
@@ -4470,7 +4328,7 @@
       "subtitles": "English",
       "poster_url": "https://cdn.taposapp.com/poster/600x900/O4HxYWdZTvK0SdhYQHA0lJA8wPZeOh4GZhCM9O-j19M.jpg",
       "source": "filmhouse",
-      "distributor": "",
+      "distributor": "Anticipate Pictures",
       "venue": "Filmhouse Cinemas",
       "tags": [],
       "themes": [],
@@ -5129,6 +4987,7 @@
         "4K"
       ],
       "themes": [
+        "Morricone – Maestro In Film",
         "Music in Film"
       ],
       "start": "2026-09-16T20:30:00",
@@ -5251,6 +5110,7 @@
         "4K"
       ],
       "themes": [
+        "Morricone – Maestro In Film",
         "Music in Film"
       ],
       "start": "2026-09-20T14:00:00",
@@ -5277,6 +5137,7 @@
         "4K"
       ],
       "themes": [
+        "Morricone – Maestro In Film",
         "Music in Film"
       ],
       "start": "2026-09-22T19:30:00",
@@ -5353,6 +5214,7 @@
         "4K"
       ],
       "themes": [
+        "Morricone – Maestro In Film",
         "Music in Film"
       ],
       "start": "2026-09-25T14:30:00",
@@ -5456,7 +5318,7 @@
       "start": "2026-09-27T14:00:00",
       "end": "2026-09-27T18:00:00",
       "time_str": "2:00 PM",
-      "sold_out": false,
+      "sold_out": true,
       "booking_url": "https://asianfilmarchive.org/event-calendar/an-elephant-sitting-still-2018/",
       "film_url": "https://asianfilmarchive.org/event-calendar/an-elephant-sitting-still-2018/"
     },
@@ -5501,6 +5363,7 @@
         "4K"
       ],
       "themes": [
+        "Morricone – Maestro In Film",
         "Music in Film"
       ],
       "start": "2026-09-27T14:30:00",
@@ -5551,6 +5414,7 @@
         "4K"
       ],
       "themes": [
+        "Morricone – Maestro In Film",
         "Music in Film"
       ],
       "start": "2026-10-03T16:30:00",
