@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T03:02:13.252004+00:00",
+  "generated_at": "2026-08-28T06:02:56.170395+00:00",
   "screenings": [
     {
       "title": "KNEECAP",
@@ -3176,97 +3176,6 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a83dcf5a4c5d9fb6ea4a5f4"
     },
     {
-      "title": "Before Sunrise",
-      "year": "",
-      "director": "Richard Linklater",
-      "genre": "Drama",
-      "rating": "(NC16)",
-      "duration_mins": 101,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/mt9WDac4uELoCfFzoDdOj39HZRSWWU2H_qS_2VM0oMw.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-08-27T16:30:00",
-      "end": "2026-08-27T18:11:00",
-      "time_str": "4:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1556",
-      "film_url": "http://filmhouse.sg/film/168/before-sunrise"
-    },
-    {
-      "title": "The Invite",
-      "year": "2026",
-      "director": "Olivia Wilde",
-      "genre": "Drama",
-      "rating": "(M18)",
-      "duration_mins": 107,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/Qz5lRAPafrnKu7MCYAm3uYeu0T1h74Z4V8itC0i958s.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-08-27T17:00:00",
-      "end": "2026-08-27T18:47:00",
-      "time_str": "5:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1558",
-      "film_url": "http://filmhouse.sg/film/144/the-invite"
-    },
-    {
-      "title": "Dear You (Teochew)",
-      "year": "2026",
-      "director": "Lan Hongchun",
-      "genre": "Family/Drama",
-      "rating": "(PG13)",
-      "duration_mins": 118,
-      "language": "Teochew",
-      "subtitles": "English|Chinese",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/CBKsfoy3dCQ3FCVxcby_3CYHUSf855qxOxpFEBt-P2E.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-08-27T17:30:00",
-      "end": "2026-08-27T19:28:00",
-      "time_str": "5:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1546",
-      "film_url": "http://filmhouse.sg/film/177/dear-you-teochew"
-    },
-    {
-      "title": "The Big Picture- Fortnightly Film Screening",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "PG-13",
-      "duration_mins": 120,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://dtvrvhzaa8b2y.cloudfront.net/misc/4848/events/11498/2026_07_22_15_49_37.jpg",
-      "source": "nlb",
-      "distributor": "",
-      "venue": "National Library",
-      "tags": [],
-      "themes": [
-        "Band Together",
-        "NLB Film Screenings"
-      ],
-      "start": "2026-08-27T18:30:00",
-      "end": "2026-08-27T21:00:00",
-      "time_str": "6:30 PM",
-      "sold_out": false,
-      "booking_url": "https://nlb.libcal.com/event/5914025",
-      "film_url": "https://nlb.libcal.com/event/5914025"
-    },
-    {
       "title": "Finding Mojo (Mojoku Hilang!)",
       "year": "2026",
       "director": "Min Lim",
@@ -3290,76 +3199,6 @@
       "sold_out": false,
       "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a83db1d5e1084b1aa8c84b4",
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a5f1c002b33ea397dd1afc0"
-    },
-    {
-      "title": "We Are All Strangers",
-      "year": "2026",
-      "director": "Anthony Chen",
-      "genre": "Drama",
-      "rating": "(PG13)",
-      "duration_mins": 157,
-      "language": "Mandarin|English",
-      "subtitles": "English|Mandarin",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/SY8jBcD9yU15LbUJ6ku6aTi6E0OVzCC8QOTo2tdReqo.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Got Time For Cinema?"
-      ],
-      "start": "2026-08-27T19:30:00",
-      "end": "2026-08-27T22:07:00",
-      "time_str": "7:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1557",
-      "film_url": "http://filmhouse.sg/film/158/we-are-all-strangers"
-    },
-    {
-      "title": "Tony",
-      "year": "2026",
-      "director": "Matt Johnson",
-      "genre": "Drama",
-      "rating": "(M18)",
-      "duration_mins": 106,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/StY1BcqR2q6Gjq_6vBd7Ir-KBK1VEzd0My-zYjVuLZw.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-08-27T20:00:00",
-      "end": "2026-08-27T21:46:00",
-      "time_str": "8:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1545",
-      "film_url": "http://filmhouse.sg/film/171/tony"
-    },
-    {
-      "title": "Mysterious Skin (4K Restoration)",
-      "year": "2004",
-      "director": "Gregg Araki",
-      "genre": "Drama",
-      "rating": "(R21)",
-      "duration_mins": 106,
-      "language": "English",
-      "subtitles": "English",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/O4HxYWdZTvK0SdhYQHA0lJA8wPZeOh4GZhCM9O-j19M.jpg",
-      "source": "filmhouse",
-      "distributor": "Anticipate Pictures",
-      "venue": "Filmhouse Cinemas",
-      "tags": [
-        "4K"
-      ],
-      "themes": [],
-      "start": "2026-08-27T20:30:00",
-      "end": "2026-08-27T22:16:00",
-      "time_str": "8:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1537",
-      "film_url": "http://filmhouse.sg/film/167/mysterious-skin-4k-restoration"
     },
     {
       "title": "Girls Like Girls",
@@ -3632,7 +3471,9 @@
       "source": "filmhouse",
       "distributor": "",
       "venue": "Filmhouse Cinemas",
-      "tags": [],
+      "tags": [
+        "LastChance"
+      ],
       "themes": [
         "Got Time For Cinema?"
       ],
@@ -3888,7 +3729,9 @@
       "source": "filmhouse",
       "distributor": "",
       "venue": "Filmhouse Cinemas",
-      "tags": [],
+      "tags": [
+        "LastChance"
+      ],
       "themes": [],
       "start": "2026-08-30T14:00:00",
       "end": "2026-08-30T15:56:00",
@@ -4246,6 +4089,28 @@
       "film_url": "http://filmhouse.sg/film/50/amoeba"
     },
     {
+      "title": "Dear You (Teochew)",
+      "year": "2026",
+      "director": "Lan Hongchun",
+      "genre": "Family/Drama",
+      "rating": "(PG13)",
+      "duration_mins": 118,
+      "language": "Teochew",
+      "subtitles": "English|Chinese",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/CBKsfoy3dCQ3FCVxcby_3CYHUSf855qxOxpFEBt-P2E.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [],
+      "start": "2026-09-02T16:30:00",
+      "end": "2026-09-02T18:28:00",
+      "time_str": "4:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1570",
+      "film_url": "http://filmhouse.sg/film/177/dear-you-teochew"
+    },
+    {
       "title": "Silent Friend",
       "year": "2026",
       "director": "Ildikó Enyedi",
@@ -4413,6 +4278,30 @@
       "film_url": "http://filmhouse.sg/film/169/trainspotting-4k-restoration"
     },
     {
+      "title": "Girls Like Girls",
+      "year": "2026",
+      "director": "Hayley Kiyoko",
+      "genre": "Romance/Drama",
+      "rating": "(R21)",
+      "duration_mins": 95,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/lLwbylpm0dM59lUPTTrbYJQwq7egjsFerbnkgnX01VM.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [
+        "LastChance"
+      ],
+      "themes": [],
+      "start": "2026-09-04T19:30:00",
+      "end": "2026-09-04T21:05:00",
+      "time_str": "7:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1579",
+      "film_url": "http://filmhouse.sg/film/163/girls-like-girls"
+    },
+    {
       "title": "Paris, Texas",
       "year": "1984",
       "director": "Wim Wenders",
@@ -4474,7 +4363,8 @@
       "distributor": "",
       "venue": "Filmhouse Cinemas",
       "tags": [
-        "Live Q&A"
+        "Live Q&A",
+        "LastChance"
       ],
       "themes": [
         "Got Time For Cinema?",
@@ -4753,6 +4643,31 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a5f1c002b33ea397dd1afc0"
     },
     {
+      "title": "[LOLA 2026] The Big Picture- Fortnightly Film Screening",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "PG",
+      "duration_mins": 120,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://dtvrvhzaa8b2y.cloudfront.net/misc/4848/events/11498/2026_08_27_16_17_12.png",
+      "source": "nlb",
+      "distributor": "",
+      "venue": "National Library",
+      "tags": [],
+      "themes": [
+        "NLB Film Screenings",
+        "Story Of My Life"
+      ],
+      "start": "2026-09-10T18:30:00",
+      "end": "2026-09-10T21:00:00",
+      "time_str": "6:30 PM",
+      "sold_out": false,
+      "booking_url": "https://nlb.libcal.com/event/5972358",
+      "film_url": "https://nlb.libcal.com/event/5972358"
+    },
+    {
       "title": "What Time Is It There? (你那邊幾點, 2001)",
       "year": "",
       "director": "",
@@ -4998,6 +4913,54 @@
       "film_url": "http://filmhouse.sg/film/183/days-of-heaven"
     },
     {
+      "title": "The Dance Club",
+      "year": "",
+      "director": "Lisa Langseth",
+      "genre": "Comedy",
+      "rating": "(NC16)",
+      "duration_mins": 99,
+      "language": "Swedish",
+      "subtitles": "English",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/GYHA6kEbtKhPr-lowSqWORlZgMHbbpCX2JOzR36EJks.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Nordic Film Festival"
+      ],
+      "start": "2026-09-17T19:30:00",
+      "end": "2026-09-17T21:09:00",
+      "time_str": "7:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1580",
+      "film_url": "http://filmhouse.sg/film/176/the-dance-club"
+    },
+    {
+      "title": "The Day Iceland Stood Still",
+      "year": "",
+      "director": "Pamela Hogan",
+      "genre": "Documentary",
+      "rating": "(PG)",
+      "duration_mins": 70,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/D1dLLyO0sjJz6SGGdSCAYUbNRYegy51YXOzkzjEufIA.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Nordic Film Festival"
+      ],
+      "start": "2026-09-18T19:30:00",
+      "end": "2026-09-18T20:40:00",
+      "time_str": "7:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1581",
+      "film_url": "http://filmhouse.sg/film/175/the-day-iceland-stood-still"
+    },
+    {
       "title": "News From Home",
       "year": "1976",
       "director": "",
@@ -5044,6 +5007,54 @@
       "sold_out": false,
       "booking_url": "https://asianfilmarchive.org/event-calendar/west-of-the-tracks-2002/",
       "film_url": "https://asianfilmarchive.org/event-calendar/west-of-the-tracks-2002/"
+    },
+    {
+      "title": "World Animal Day 2026 Programme: Film Screening of HOMEBOUND",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 120,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://dtvrvhzaa8b2y.cloudfront.net/misc/4848/events/11498/2026_08_27_22_09_52.png",
+      "source": "nlb",
+      "distributor": "",
+      "venue": "National Library",
+      "tags": [],
+      "themes": [
+        "NLB Film Screenings"
+      ],
+      "start": "2026-09-19T14:00:00",
+      "end": "2026-09-19T15:15:00",
+      "time_str": "2:00 PM",
+      "sold_out": false,
+      "booking_url": "https://nlb.libcal.com/event/5972392",
+      "film_url": "https://nlb.libcal.com/event/5972392"
+    },
+    {
+      "title": "World Animal Day 2026 Programme: Film Screening of HOMEBOUND",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 120,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://dtvrvhzaa8b2y.cloudfront.net/misc/4848/events/11498/2026_08_27_22_09_52.png",
+      "source": "nlb",
+      "distributor": "",
+      "venue": "National Library",
+      "tags": [],
+      "themes": [
+        "NLB Film Screenings"
+      ],
+      "start": "2026-09-19T17:00:00",
+      "end": "2026-09-19T18:15:00",
+      "time_str": "5:00 PM",
+      "sold_out": false,
+      "booking_url": "https://nlb.libcal.com/event/5972393",
+      "film_url": "https://nlb.libcal.com/event/5972392"
     },
     {
       "title": "Stalker",
@@ -5198,6 +5209,55 @@
       "film_url": "http://filmhouse.sg/film/146/koyaanisqatsi"
     },
     {
+      "title": "[LOLA 2026] The Big Picture- Fortnightly Film Screening",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "PG",
+      "duration_mins": 120,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://dtvrvhzaa8b2y.cloudfront.net/misc/4848/events/11498/2026_08_27_16_17_12.png",
+      "source": "nlb",
+      "distributor": "",
+      "venue": "National Library",
+      "tags": [],
+      "themes": [
+        "NLB Film Screenings",
+        "Story Of My Life"
+      ],
+      "start": "2026-09-24T18:30:00",
+      "end": "2026-09-24T21:00:00",
+      "time_str": "6:30 PM",
+      "sold_out": false,
+      "booking_url": "https://nlb.libcal.com/event/5972366",
+      "film_url": "https://nlb.libcal.com/event/5972358"
+    },
+    {
+      "title": "Summer Is Crazy",
+      "year": "",
+      "director": "Ulla Heikkilä",
+      "genre": "Drama",
+      "rating": "(M18)",
+      "duration_mins": 100,
+      "language": "Finnish",
+      "subtitles": "English",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/KFMlYp6kunlneCbfHjklroyYenVJ79NMsB_vwEltSLk.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Nordic Film Festival"
+      ],
+      "start": "2026-09-24T19:30:00",
+      "end": "2026-09-24T21:10:00",
+      "time_str": "7:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1582",
+      "film_url": "http://filmhouse.sg/film/174/summer-is-crazy"
+    },
+    {
       "title": "Days of Heaven",
       "year": "1978",
       "director": "Terrence Malick",
@@ -5273,6 +5333,30 @@
       "film_url": "https://asianfilmarchive.org/event-calendar/satantango-1994/"
     },
     {
+      "title": "Loveable",
+      "year": "",
+      "director": "Lilja Ingolfsdottir",
+      "genre": "Drama",
+      "rating": "(M18)",
+      "duration_mins": 101,
+      "language": "Norwegian",
+      "subtitles": "English",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/QCWFlfqj6ogkZQ5L9HAOcAm-F9CTWnzyeSBhmpVgf4o.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Nordic Film Festival"
+      ],
+      "start": "2026-09-26T16:30:00",
+      "end": "2026-09-26T18:11:00",
+      "time_str": "4:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1583",
+      "film_url": "http://filmhouse.sg/film/173/loveable"
+    },
+    {
       "title": "Taste of Cherry",
       "year": "1997",
       "director": "Abbas Kiarostami",
@@ -5297,6 +5381,30 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1509",
       "film_url": "http://filmhouse.sg/film/145/taste-of-cherry"
+    },
+    {
+      "title": "The Last Viking",
+      "year": "",
+      "director": "Anders Thomas Jensen",
+      "genre": "Drama",
+      "rating": "(NC16)",
+      "duration_mins": 116,
+      "language": "Danish",
+      "subtitles": "English",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/fJRstogGmsE1uAXpZTUS_MN1nT7J-N98awbw_Ls_5Qk.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Nordic Film Festival"
+      ],
+      "start": "2026-09-26T20:30:00",
+      "end": "2026-09-26T22:26:00",
+      "time_str": "8:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1584",
+      "film_url": "http://filmhouse.sg/film/172/the-last-viking"
     },
     {
       "title": "An Elephant Sitting Still (大象席地而坐, 2018)",
