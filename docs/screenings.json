@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T06:02:56.170395+00:00",
+  "generated_at": "2026-08-29T03:36:55.535347+00:00",
   "screenings": [
     {
       "title": "KNEECAP",
@@ -3201,74 +3201,6 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a5f1c002b33ea397dd1afc0"
     },
     {
-      "title": "Girls Like Girls",
-      "year": "2026",
-      "director": "Hayley Kiyoko",
-      "genre": "Romance/Drama",
-      "rating": "(R21)",
-      "duration_mins": 95,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/lLwbylpm0dM59lUPTTrbYJQwq7egjsFerbnkgnX01VM.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-08-28T16:30:00",
-      "end": "2026-08-28T18:05:00",
-      "time_str": "4:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1560",
-      "film_url": "http://filmhouse.sg/film/163/girls-like-girls"
-    },
-    {
-      "title": "We Are All Strangers",
-      "year": "2026",
-      "director": "Anthony Chen",
-      "genre": "Drama",
-      "rating": "(PG13)",
-      "duration_mins": 157,
-      "language": "Mandarin|English",
-      "subtitles": "English|Mandarin",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/SY8jBcD9yU15LbUJ6ku6aTi6E0OVzCC8QOTo2tdReqo.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Got Time For Cinema?"
-      ],
-      "start": "2026-08-28T17:00:00",
-      "end": "2026-08-28T19:37:00",
-      "time_str": "5:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1561",
-      "film_url": "http://filmhouse.sg/film/158/we-are-all-strangers"
-    },
-    {
-      "title": "The Invite",
-      "year": "2026",
-      "director": "Olivia Wilde",
-      "genre": "Drama",
-      "rating": "(M18)",
-      "duration_mins": 107,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/Qz5lRAPafrnKu7MCYAm3uYeu0T1h74Z4V8itC0i958s.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-08-28T17:30:00",
-      "end": "2026-08-28T19:17:00",
-      "time_str": "5:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1559",
-      "film_url": "http://filmhouse.sg/film/144/the-invite"
-    },
-    {
       "title": "Ashes & Sighs",
       "year": "2025",
       "director": "Ian Dixon",
@@ -3339,78 +3271,6 @@
       "sold_out": false,
       "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a74a511c743318de4760295",
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a74a0b5e94a5e3455118b93"
-    },
-    {
-      "title": "Singapore Shorts ’26 – Official Selection 4",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 105,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/07/OS4.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-08-28T20:00:00",
-      "end": "2026-08-28T21:45:00",
-      "time_str": "8:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/singapore-shorts-26-selection-4/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/singapore-shorts-26-selection-4/"
-    },
-    {
-      "title": "Tony",
-      "year": "2026",
-      "director": "Matt Johnson",
-      "genre": "Drama",
-      "rating": "(M18)",
-      "duration_mins": 106,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/StY1BcqR2q6Gjq_6vBd7Ir-KBK1VEzd0My-zYjVuLZw.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-08-28T20:00:00",
-      "end": "2026-08-28T21:46:00",
-      "time_str": "8:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1547",
-      "film_url": "http://filmhouse.sg/film/171/tony"
-    },
-    {
-      "title": "Trainspotting (4K Restoration)",
-      "year": "1996",
-      "director": "Danny Boyle",
-      "genre": "Comedy",
-      "rating": "(R21)",
-      "duration_mins": 94,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/BJSG0G-8EfBof30-UtlIwY2VILcCsZCCCirifcvjFlk.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [
-        "4K"
-      ],
-      "themes": [
-        "Music in Film"
-      ],
-      "start": "2026-08-28T20:30:00",
-      "end": "2026-08-28T22:04:00",
-      "time_str": "8:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1449",
-      "film_url": "http://filmhouse.sg/film/169/trainspotting-4k-restoration"
     },
     {
       "title": "Before Sunrise",
@@ -3923,7 +3783,7 @@
       "end": "2026-09-01T17:36:00",
       "time_str": "4:00 PM",
       "sold_out": false,
-      "booking_url": "https://sistic.com.sg/events/dollar0926",
+      "booking_url": "https://sistic.com.sg/events/dollar0",
       "film_url": "https://capitol-theatre.bigtix.io/en/events/dollar-trilogy-a-fistful-of-dollars/CTFD2026"
     },
     {
@@ -4917,7 +4777,7 @@
       "year": "",
       "director": "Lisa Langseth",
       "genre": "Comedy",
-      "rating": "(NC16)",
+      "rating": "(PG13)",
       "duration_mins": 99,
       "language": "Swedish",
       "subtitles": "English",
@@ -5258,33 +5118,6 @@
       "film_url": "http://filmhouse.sg/film/174/summer-is-crazy"
     },
     {
-      "title": "Days of Heaven",
-      "year": "1978",
-      "director": "Terrence Malick",
-      "genre": "Drama",
-      "rating": "(PG)",
-      "duration_mins": 94,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/o29QGqHgQTYVJoWJjFVtp7qYIVKWsvOeIMhWvFjw8Qk.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [
-        "4K"
-      ],
-      "themes": [
-        "Morricone – Maestro In Film",
-        "Music in Film"
-      ],
-      "start": "2026-09-25T14:30:00",
-      "end": "2026-09-25T16:04:00",
-      "time_str": "2:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1574",
-      "film_url": "http://filmhouse.sg/film/183/days-of-heaven"
-    },
-    {
       "title": "In Vanda’s Room (No Quarto da Vanda, 2000)",
       "year": "",
       "director": "",
@@ -5331,6 +5164,33 @@
       "sold_out": false,
       "booking_url": "https://asianfilmarchive.org/event-calendar/satantango-1994/",
       "film_url": "https://asianfilmarchive.org/event-calendar/satantango-1994/"
+    },
+    {
+      "title": "Days of Heaven",
+      "year": "1978",
+      "director": "Terrence Malick",
+      "genre": "Drama",
+      "rating": "(PG)",
+      "duration_mins": 94,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/o29QGqHgQTYVJoWJjFVtp7qYIVKWsvOeIMhWvFjw8Qk.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [
+        "4K"
+      ],
+      "themes": [
+        "Morricone – Maestro In Film",
+        "Music in Film"
+      ],
+      "start": "2026-09-26T14:30:00",
+      "end": "2026-09-26T16:04:00",
+      "time_str": "2:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1585",
+      "film_url": "http://filmhouse.sg/film/183/days-of-heaven"
     },
     {
       "title": "Loveable",
