@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T23:57:08.293524+00:00",
+  "generated_at": "2026-09-03T23:53:41.748159+00:00",
   "screenings": [
     {
       "title": "KNEECAP",
@@ -3369,74 +3369,6 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a83dcf5a4c5d9fb6ea4a5f4"
     },
     {
-      "title": "Mysterious Skin (4K Restoration)",
-      "year": "2004",
-      "director": "Gregg Araki",
-      "genre": "Drama",
-      "rating": "(R21)",
-      "duration_mins": 106,
-      "language": "English",
-      "subtitles": "English",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/O4HxYWdZTvK0SdhYQHA0lJA8wPZeOh4GZhCM9O-j19M.jpg",
-      "source": "filmhouse",
-      "distributor": "Anticipate Pictures",
-      "venue": "Filmhouse Cinemas",
-      "tags": [
-        "4K"
-      ],
-      "themes": [],
-      "start": "2026-09-03T16:30:00",
-      "end": "2026-09-03T18:16:00",
-      "time_str": "4:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1591",
-      "film_url": "http://filmhouse.sg/film/167/mysterious-skin-4k-restoration"
-    },
-    {
-      "title": "Tony",
-      "year": "2026",
-      "director": "Matt Johnson",
-      "genre": "Drama",
-      "rating": "(M18)",
-      "duration_mins": 106,
-      "language": "English",
-      "subtitles": "English",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/StY1BcqR2q6Gjq_6vBd7Ir-KBK1VEzd0My-zYjVuLZw.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-09-03T17:00:00",
-      "end": "2026-09-03T18:46:00",
-      "time_str": "5:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1588",
-      "film_url": "http://filmhouse.sg/film/171/tony"
-    },
-    {
-      "title": "The Invite",
-      "year": "2026",
-      "director": "Olivia Wilde",
-      "genre": "Drama",
-      "rating": "(M18)",
-      "duration_mins": 107,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/Qz5lRAPafrnKu7MCYAm3uYeu0T1h74Z4V8itC0i958s.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-09-03T17:30:00",
-      "end": "2026-09-03T19:17:00",
-      "time_str": "5:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1590",
-      "film_url": "http://filmhouse.sg/film/144/the-invite"
-    },
-    {
       "title": "Finding Mojo (Mojoku Hilang!)",
       "year": "2026",
       "director": "Min Lim",
@@ -3458,80 +3390,8 @@
       "end": "2026-09-03T22:00:00",
       "time_str": "7:30 PM",
       "sold_out": false,
-      "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a8d13184fadb88ca1716b72",
+      "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a99266bcccd6a88305ec3e2",
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a5f1c002b33ea397dd1afc0"
-    },
-    {
-      "title": "Tony",
-      "year": "2026",
-      "director": "Matt Johnson",
-      "genre": "Drama",
-      "rating": "(M18)",
-      "duration_mins": 106,
-      "language": "English",
-      "subtitles": "English",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/StY1BcqR2q6Gjq_6vBd7Ir-KBK1VEzd0My-zYjVuLZw.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [
-        "4K"
-      ],
-      "themes": [],
-      "start": "2026-09-03T19:30:00",
-      "end": "2026-09-03T21:16:00",
-      "time_str": "7:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1592",
-      "film_url": "http://filmhouse.sg/film/171/tony"
-    },
-    {
-      "title": "Trainspotting (4K Restoration)",
-      "year": "1996",
-      "director": "Danny Boyle",
-      "genre": "Comedy",
-      "rating": "(R21)",
-      "duration_mins": 94,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/BJSG0G-8EfBof30-UtlIwY2VILcCsZCCCirifcvjFlk.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Music in Film"
-      ],
-      "start": "2026-09-03T20:00:00",
-      "end": "2026-09-03T21:34:00",
-      "time_str": "8:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1451",
-      "film_url": "http://filmhouse.sg/film/169/trainspotting-4k-restoration"
-    },
-    {
-      "title": "I Want Your Sex",
-      "year": "2026",
-      "director": "Gregg Araki",
-      "genre": "Comedy",
-      "rating": "(R21)",
-      "duration_mins": 90,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/MZTXBp5-461aS8U7pFP8udO8RreiRV3Ea8WUIQWbMR4.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [
-        "LastChance"
-      ],
-      "themes": [],
-      "start": "2026-09-03T20:30:00",
-      "end": "2026-09-03T22:00:00",
-      "time_str": "8:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1589",
-      "film_url": "http://filmhouse.sg/film/161/i-want-your-sex"
     },
     {
       "title": "Dear You (Teochew)",
@@ -3700,6 +3560,30 @@
       "film_url": "http://filmhouse.sg/film/169/trainspotting-4k-restoration"
     },
     {
+      "title": "The Rice Dumpling Vendors (烧肉粽, 1969)",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 90,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/Vendors_still.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-09-05T13:00:00",
+      "end": "2026-09-05T14:30:00",
+      "time_str": "1:00 PM",
+      "sold_out": false,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/the-rice-dumpling-vendors-1969/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/the-rice-dumpling-vendors-1969/"
+    },
+    {
       "title": "Singapore Minstrel (10th Anniversary)",
       "year": "2015",
       "director": "Salty Xi Jie Ng",
@@ -3822,6 +3706,30 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a5042c675bd49357a05f4c2"
     },
     {
+      "title": "Taming Of The Princess (醉打金枝, 1958)",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 100,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2022/05/TamingofPrincess.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-09-05T16:00:00",
+      "end": "2026-09-05T17:40:00",
+      "time_str": "4:00 PM",
+      "sold_out": false,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/taming-of-the-princess-1958/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/taming-of-the-princess-1958/"
+    },
+    {
       "title": "Dear You (Teochew)",
       "year": "2026",
       "director": "Lan Hongchun",
@@ -3890,6 +3798,30 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1607",
       "film_url": "http://filmhouse.sg/film/85/la-la-land-10th-anniversary"
+    },
+    {
+      "title": "Zhang Di Seeks A-zu (张帝找阿珠, 1969)",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 105,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/張帝找阿珠_still.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-09-05T19:00:00",
+      "end": "2026-09-05T20:45:00",
+      "time_str": "7:00 PM",
+      "sold_out": false,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/zhang-di-seeks-a-zu-1969/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/zhang-di-seeks-a-zu-1969/"
     },
     {
       "title": "Mysterious Skin (4K Restoration)",
@@ -4010,6 +3942,30 @@
       "film_url": "http://filmhouse.sg/film/50/amoeba"
     },
     {
+      "title": "Good Neighbours (兩相好, 1962)",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 100,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/兩相好_still.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-09-06T14:00:00",
+      "end": "2026-09-06T15:40:00",
+      "time_str": "2:00 PM",
+      "sold_out": false,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/good-neighbours-1962/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/good-neighbours-1962/"
+    },
+    {
       "title": "Taste of Cherry",
       "year": "1997",
       "director": "Abbas Kiarostami",
@@ -4084,6 +4040,30 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1587",
       "film_url": "http://filmhouse.sg/film/158/we-are-all-strangers"
+    },
+    {
+      "title": "Romance At Lungshan Temple (龙山寺之恋, 1962)",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 105,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/龍山寺之戀-still.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-09-06T17:00:00",
+      "end": "2026-09-06T18:45:00",
+      "time_str": "5:00 PM",
+      "sold_out": false,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/romance-at-lungshan-temple-1962/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/romance-at-lungshan-temple-1962/"
     },
     {
       "title": "Spirited Away",
@@ -4670,6 +4650,30 @@
       "film_url": "http://filmhouse.sg/film/195/the-violinist"
     },
     {
+      "title": "What Time Is It There? (你那邊幾點, 2001)",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 120,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/What-Time-Is-It-There_still.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-09-11T20:00:00",
+      "end": "2026-09-11T22:00:00",
+      "time_str": "8:00 PM",
+      "sold_out": true,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/what-time-is-it-there-2001/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/what-time-is-it-there-2001/"
+    },
+    {
       "title": "[LOLA 2026] Documentary Short Film Screening @ Former Ford Factory",
       "year": "",
       "director": "",
@@ -4716,6 +4720,30 @@
       "sold_out": false,
       "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a965038d67b155162fe977e",
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a5045c451da292b56c9aa70"
+    },
+    {
+      "title": "As I Was Moving Ahead Occasionally I Saw Brief Glimpses of Beauty",
+      "year": "2000",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 300,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/as_I_was_moving_jonas-mekas_still.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-09-12T14:00:00",
+      "end": "2026-09-12T19:00:00",
+      "time_str": "2:00 PM",
+      "sold_out": false,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/jonas-mekas-2000/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/jonas-mekas-2000/"
     },
     {
       "title": "[LOLA 2026] Documentary Short Film Screening @ Former Ford Factory",
@@ -5061,6 +5089,54 @@
       "film_url": "http://filmhouse.sg/film/175/the-day-iceland-stood-still"
     },
     {
+      "title": "News From Home",
+      "year": "1976",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 100,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/News-from-Home-3.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-09-18T20:00:00",
+      "end": "2026-09-18T21:40:00",
+      "time_str": "8:00 PM",
+      "sold_out": false,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/news-from-home-1976/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/news-from-home-1976/"
+    },
+    {
+      "title": "Tie Xi Qu: West of the Tracks (铁西区, 2002)",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 120,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/rust-2.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-09-19T11:00:00",
+      "end": "2026-09-11T21:45:00",
+      "time_str": "11:00 AM",
+      "sold_out": false,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/west-of-the-tracks-2002/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/west-of-the-tracks-2002/"
+    },
+    {
       "title": "How to Divorce During the War",
       "year": "2026",
       "director": "Andrius Blaževičius",
@@ -5155,6 +5231,30 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1506",
       "film_url": "http://filmhouse.sg/film/148/stalker"
+    },
+    {
+      "title": "Mundane History (เจ้านกกระจอก, 2009)",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 100,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/mundane-history.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-09-20T14:00:00",
+      "end": "2026-09-20T15:40:00",
+      "time_str": "2:00 PM",
+      "sold_out": false,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/mundane-history-2009/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/mundane-history-2009/"
     },
     {
       "title": "Once Upon a Time in America",
@@ -5310,6 +5410,30 @@
       "film_url": "http://filmhouse.sg/film/174/summer-is-crazy"
     },
     {
+      "title": "The Story of Southern Islet",
+      "year": "2021",
+      "director": "Chong Keat Aun",
+      "genre": "Drama, Fantasy, Horror",
+      "rating": "PG13",
+      "duration_mins": 105,
+      "language": "Mandarin, Malay, Hokkien",
+      "subtitles": "",
+      "poster_url": "https://static-a.eventive.org/a85e9933a6af624c7ab29de77b3251d2.jpg?w=300",
+      "source": "sfs",
+      "distributor": "",
+      "venue": "Golden Village Cineleisure",
+      "tags": [],
+      "themes": [
+        "SFS Somerset"
+      ],
+      "start": "2026-09-24T19:30:00",
+      "end": "2026-09-24T22:00:00",
+      "time_str": "7:30 PM",
+      "sold_out": false,
+      "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a8d13184fadb88ca1716b72",
+      "film_url": "https://singaporefilmsociety.eventive.org/films/6a55e61da704ab6545f8a6fe"
+    },
+    {
       "title": "Ashes & Sighs",
       "year": "2025",
       "director": "Ian Dixon",
@@ -5358,6 +5482,30 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a749e8e4719364d0dc3fb11"
     },
     {
+      "title": "In Vanda’s Room (No Quarto da Vanda, 2000)",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 180,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/In-VandasRoom_still.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-09-25T19:30:00",
+      "end": "2026-09-25T22:30:00",
+      "time_str": "7:30 PM",
+      "sold_out": false,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/in-vandas-room-2000/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/in-vandas-room-2000/"
+    },
+    {
       "title": "Temple Crimes",
       "year": "2023",
       "director": "Ian Dixon",
@@ -5380,6 +5528,30 @@
       "sold_out": false,
       "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a94e232b8d9970ba1f10952",
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a74a0b5e94a5e3455118b93"
+    },
+    {
+      "title": "Sátántangó",
+      "year": "1994",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 660,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/SATANTANGO-hero.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-09-26T11:00:00",
+      "end": "2026-09-26T22:00:00",
+      "time_str": "11:00 AM",
+      "sold_out": false,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/satantango-1994/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/satantango-1994/"
     },
     {
       "title": "Days of Heaven",
@@ -5483,6 +5655,30 @@
       "film_url": "http://filmhouse.sg/film/172/the-last-viking"
     },
     {
+      "title": "An Elephant Sitting Still (大象席地而坐, 2018)",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 240,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/an-elephant-sitting-still.jpg",
+      "source": "afa",
+      "distributor": "",
+      "venue": "Oldham Theatre",
+      "tags": [],
+      "themes": [
+        "Asian Film Archive"
+      ],
+      "start": "2026-09-27T14:00:00",
+      "end": "2026-09-27T18:00:00",
+      "time_str": "2:00 PM",
+      "sold_out": true,
+      "booking_url": "https://asianfilmarchive.org/event-calendar/an-elephant-sitting-still-2018/",
+      "film_url": "https://asianfilmarchive.org/event-calendar/an-elephant-sitting-still-2018/"
+    },
+    {
       "title": "Memories of Origin: Hiroshi Sugimoto",
       "year": "2012",
       "director": "Yuko Nakamura",
@@ -5532,6 +5728,56 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1577",
       "film_url": "http://filmhouse.sg/film/185/cinema-paradiso"
+    },
+    {
+      "title": "Fatherland",
+      "year": "2026",
+      "director": "Paweł Pawlikowski",
+      "genre": "History",
+      "rating": "(NC16)",
+      "duration_mins": 82,
+      "language": "German|English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/h-lRDTPpUaVbZKXLeJ7a5wfvmIDS4MK3wY4SY2feYaA.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [
+        "Premiere"
+      ],
+      "themes": [
+        "German Film Festival"
+      ],
+      "start": "2026-10-01T19:30:00",
+      "end": "2026-10-01T20:52:00",
+      "time_str": "7:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1623",
+      "film_url": "http://filmhouse.sg/film/186/fatherland"
+    },
+    {
+      "title": "Red Stars Upon the Field",
+      "year": "2026",
+      "director": "Laura Laabs",
+      "genre": "Drama",
+      "rating": "(M18)",
+      "duration_mins": 133,
+      "language": "German",
+      "subtitles": "English",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/O7m2K5_cvlAVkPRCV-vSIusWeTyaweeHIg6hxd86AYw.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "German Film Festival"
+      ],
+      "start": "2026-10-02T20:00:00",
+      "end": "2026-10-02T22:13:00",
+      "time_str": "8:00 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1624",
+      "film_url": "http://filmhouse.sg/film/190/red-stars-upon-the-field"
     },
     {
       "title": "Memoria",
@@ -5585,6 +5831,30 @@
       "film_url": "http://filmhouse.sg/film/185/cinema-paradiso"
     },
     {
+      "title": "Yellow Letters",
+      "year": "2026",
+      "director": "İlker Çatak",
+      "genre": "Drama",
+      "rating": "(PG)",
+      "duration_mins": 128,
+      "language": "Turkish",
+      "subtitles": "English",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/3oNyiU7-hHnlQ4Mf6VeVsPgXrTNKUzX0l9hM6l9m2Lc.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "German Film Festival"
+      ],
+      "start": "2026-10-03T20:30:00",
+      "end": "2026-10-03T22:38:00",
+      "time_str": "8:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1625",
+      "film_url": "http://filmhouse.sg/film/191/yellow-letters"
+    },
+    {
       "title": "Stalker",
       "year": "1979",
       "director": "Andrei Tarkovsky",
@@ -5607,6 +5877,150 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1507",
       "film_url": "http://filmhouse.sg/film/148/stalker"
+    },
+    {
+      "title": "Amrum",
+      "year": "2026",
+      "director": "Fatih Akin",
+      "genre": "Drama",
+      "rating": "(PG)",
+      "duration_mins": 93,
+      "language": "German",
+      "subtitles": "English",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/NSHzSV4m7U0zjmF5EZ04CODpUAzzYDfiPZGPLiyamqg.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "German Film Festival"
+      ],
+      "start": "2026-10-09T20:00:00",
+      "end": "2026-10-09T21:33:00",
+      "time_str": "8:00 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1626",
+      "film_url": "http://filmhouse.sg/film/187/amrum"
+    },
+    {
+      "title": "Extrawurst",
+      "year": "2026",
+      "director": "Marcus H. Rosenmüller",
+      "genre": "Comedy",
+      "rating": "(NC16)",
+      "duration_mins": 100,
+      "language": "German",
+      "subtitles": "English",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/giilOGuq-Iw7ta0LybBqXURkWLlRg2v4HYYgtD39eiE.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "German Film Festival"
+      ],
+      "start": "2026-10-10T20:00:00",
+      "end": "2026-10-10T21:40:00",
+      "time_str": "8:00 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1627",
+      "film_url": "http://filmhouse.sg/film/188/extrawurst"
+    },
+    {
+      "title": "Exile",
+      "year": "2020",
+      "director": "Visar Morina",
+      "genre": "Drama",
+      "rating": "(M18)",
+      "duration_mins": 121,
+      "language": "Albanian|French|German",
+      "subtitles": "English",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/nRGJdXCcnxDJrkZc_JDkgqiOkbphz0waAXgQR_epw3Y.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "German Film Festival"
+      ],
+      "start": "2026-10-11T14:00:00",
+      "end": "2026-10-11T16:01:00",
+      "time_str": "2:00 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1628",
+      "film_url": "http://filmhouse.sg/film/193/exile"
+    },
+    {
+      "title": "Fatherland",
+      "year": "2026",
+      "director": "Paweł Pawlikowski",
+      "genre": "History",
+      "rating": "(NC16)",
+      "duration_mins": 82,
+      "language": "German|English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/h-lRDTPpUaVbZKXLeJ7a5wfvmIDS4MK3wY4SY2feYaA.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "German Film Festival"
+      ],
+      "start": "2026-10-14T19:30:00",
+      "end": "2026-10-14T20:52:00",
+      "time_str": "7:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1629",
+      "film_url": "http://filmhouse.sg/film/186/fatherland"
+    },
+    {
+      "title": "Berlin Hero",
+      "year": "2026",
+      "director": "Wolfgang Becker",
+      "genre": "Comedy",
+      "rating": "(PG13)",
+      "duration_mins": 113,
+      "language": "German",
+      "subtitles": "English",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/I_WzTGSynjnoBIdv5XnpWo9YfnuHugD3Xfi88kL8E8w.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "German Film Festival"
+      ],
+      "start": "2026-10-16T19:30:00",
+      "end": "2026-10-16T21:23:00",
+      "time_str": "7:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1630",
+      "film_url": "http://filmhouse.sg/film/196/berlin-hero"
+    },
+    {
+      "title": "The Education of Jane Cumming",
+      "year": "2026",
+      "director": "Sophie Heldman",
+      "genre": "Drama",
+      "rating": "(R21)",
+      "duration_mins": 114,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/zibVsLac3b4aW7O3rXNjpDcVzYyfDRIuSXqAZB6sr6A.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "German Film Festival"
+      ],
+      "start": "2026-10-17T20:00:00",
+      "end": "2026-10-17T21:54:00",
+      "time_str": "8:00 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1631",
+      "film_url": "http://filmhouse.sg/film/194/the-education-of-jane-cumming"
     }
   ]
 }
