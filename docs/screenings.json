@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T00:07:05.220388+00:00",
+  "generated_at": "2026-09-08T23:58:16.413636+00:00",
   "screenings": [
     {
       "title": "KNEECAP",
@@ -3515,142 +3515,6 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a5f1c002b33ea397dd1afc0"
     },
     {
-      "title": "We Are All Strangers",
-      "year": "2026",
-      "director": "Anthony Chen",
-      "genre": "Drama",
-      "rating": "(PG13)",
-      "duration_mins": 157,
-      "language": "Mandarin|English",
-      "subtitles": "English|Mandarin",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/SY8jBcD9yU15LbUJ6ku6aTi6E0OVzCC8QOTo2tdReqo.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Got Time For Cinema?"
-      ],
-      "start": "2026-09-08T16:30:00",
-      "end": "2026-09-08T19:07:00",
-      "time_str": "4:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1618",
-      "film_url": "http://filmhouse.sg/film/158/we-are-all-strangers"
-    },
-    {
-      "title": "Dear You (Teochew)",
-      "year": "2026",
-      "director": "Lan Hongchun",
-      "genre": "Family/Drama",
-      "rating": "(PG13)",
-      "duration_mins": 118,
-      "language": "Teochew",
-      "subtitles": "English|Chinese",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/CBKsfoy3dCQ3FCVxcby_3CYHUSf855qxOxpFEBt-P2E.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-09-08T17:00:00",
-      "end": "2026-09-08T18:58:00",
-      "time_str": "5:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1615",
-      "film_url": "http://filmhouse.sg/film/177/dear-you-teochew"
-    },
-    {
-      "title": "The Invite",
-      "year": "2026",
-      "director": "Olivia Wilde",
-      "genre": "Drama",
-      "rating": "(M18)",
-      "duration_mins": 107,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/Qz5lRAPafrnKu7MCYAm3uYeu0T1h74Z4V8itC0i958s.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-09-08T17:30:00",
-      "end": "2026-09-08T19:17:00",
-      "time_str": "5:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1619",
-      "film_url": "http://filmhouse.sg/film/144/the-invite"
-    },
-    {
-      "title": "Mysterious Skin (4K Restoration)",
-      "year": "2004",
-      "director": "Gregg Araki",
-      "genre": "Drama",
-      "rating": "(R21)",
-      "duration_mins": 106,
-      "language": "English",
-      "subtitles": "English",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/O4HxYWdZTvK0SdhYQHA0lJA8wPZeOh4GZhCM9O-j19M.jpg",
-      "source": "filmhouse",
-      "distributor": "Anticipate Pictures",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-09-08T19:40:00",
-      "end": "2026-09-08T21:26:00",
-      "time_str": "7:40 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1617",
-      "film_url": "http://filmhouse.sg/film/167/mysterious-skin-4k-restoration"
-    },
-    {
-      "title": "La La Land (10th Anniversary)",
-      "year": "2016",
-      "director": "Damien Chazelle",
-      "genre": "Musical",
-      "rating": "(PG13)",
-      "duration_mins": 129,
-      "language": "English|Mandarin",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/8KqeC357tt7n1t_tLUjlUQy_-E-Q-iR2l0eGfpeIeeQ.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Music in Film"
-      ],
-      "start": "2026-09-08T20:00:00",
-      "end": "2026-09-08T22:09:00",
-      "time_str": "8:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1613",
-      "film_url": "http://filmhouse.sg/film/85/la-la-land-10th-anniversary"
-    },
-    {
-      "title": "Tony",
-      "year": "2026",
-      "director": "Matt Johnson",
-      "genre": "Drama",
-      "rating": "(M18)",
-      "duration_mins": 106,
-      "language": "English",
-      "subtitles": "English",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/StY1BcqR2q6Gjq_6vBd7Ir-KBK1VEzd0My-zYjVuLZw.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-09-08T20:30:00",
-      "end": "2026-09-08T22:16:00",
-      "time_str": "8:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1596",
-      "film_url": "http://filmhouse.sg/film/171/tony"
-    },
-    {
       "title": "Tony",
       "year": "2026",
       "director": "Matt Johnson",
@@ -3688,7 +3552,9 @@
       "tags": [
         "4K"
       ],
-      "themes": [],
+      "themes": [
+        "Leaving Soon"
+      ],
       "start": "2026-09-09T17:00:00",
       "end": "2026-09-09T19:27:00",
       "time_str": "5:00 pm",
@@ -3731,8 +3597,12 @@
       "source": "filmhouse",
       "distributor": "",
       "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
+      "tags": [
+        "LastChance"
+      ],
+      "themes": [
+        "Leaving Soon"
+      ],
       "start": "2026-09-09T19:30:00",
       "end": "2026-09-09T21:28:00",
       "time_str": "7:30 pm",
@@ -3813,6 +3683,28 @@
       "film_url": "http://filmhouse.sg/film/169/trainspotting-4k-restoration"
     },
     {
+      "title": "Perfect Days",
+      "year": "2024",
+      "director": "Wim Wenders",
+      "genre": "Drama",
+      "rating": "(PG)",
+      "duration_mins": 124,
+      "language": "Japanese|English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/Gwv3eYvY2NV-phNkhr2sgd6ag96-61Py5Wrnow16VDA.jpg",
+      "source": "filmhouse",
+      "distributor": "Anticipate Pictures",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [],
+      "start": "2026-09-10T16:30:00",
+      "end": "2026-09-10T18:34:00",
+      "time_str": "4:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1647",
+      "film_url": "http://filmhouse.sg/film/182/perfect-days"
+    },
+    {
       "title": "Silent Friend",
       "year": "2026",
       "director": "Ildikó Enyedi",
@@ -3826,7 +3718,9 @@
       "distributor": "Anticipate Pictures",
       "venue": "Filmhouse Cinemas",
       "tags": [],
-      "themes": [],
+      "themes": [
+        "Leaving Soon"
+      ],
       "start": "2026-09-10T17:00:00",
       "end": "2026-09-10T19:27:00",
       "time_str": "5:00 pm",
@@ -4129,7 +4023,6 @@
         "Sneaks"
       ],
       "themes": [
-        "Got Time For Cinema?",
         "Music in Film"
       ],
       "start": "2026-09-11T19:30:00",
@@ -4153,9 +4046,7 @@
       "distributor": "",
       "venue": "Filmhouse Cinemas",
       "tags": [],
-      "themes": [
-        "Got Time For Cinema?"
-      ],
+      "themes": [],
       "start": "2026-09-11T20:00:00",
       "end": "2026-09-11T22:37:00",
       "time_str": "8:00 pm",
@@ -4273,9 +4164,7 @@
       "distributor": "",
       "venue": "Filmhouse Cinemas",
       "tags": [],
-      "themes": [
-        "Got Time For Cinema?"
-      ],
+      "themes": [],
       "start": "2026-09-12T16:00:00",
       "end": "2026-09-12T18:37:00",
       "time_str": "4:00 pm",
@@ -4300,7 +4189,6 @@
         "Sneaks"
       ],
       "themes": [
-        "Got Time For Cinema?",
         "Music in Film"
       ],
       "start": "2026-09-12T16:30:00",
@@ -4513,7 +4401,6 @@
         "Sneaks"
       ],
       "themes": [
-        "Got Time For Cinema?",
         "Music in Film"
       ],
       "start": "2026-09-13T14:30:00",
@@ -4703,8 +4590,12 @@
       "source": "filmhouse",
       "distributor": "",
       "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
+      "tags": [
+        "LastChance"
+      ],
+      "themes": [
+        "Leaving Soon"
+      ],
       "start": "2026-09-13T19:30:00",
       "end": "2026-09-13T21:05:00",
       "time_str": "7:30 pm",
@@ -4757,6 +4648,28 @@
       "film_url": "http://filmhouse.sg/film/171/tony"
     },
     {
+      "title": "Hope",
+      "year": "2026",
+      "director": "Na Hong-jin",
+      "genre": "Action",
+      "rating": "(NC16)",
+      "duration_mins": 157,
+      "language": "Korean",
+      "subtitles": "English|Mandarin",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/mOxwXPVAEGfOzR4T2FQLj2rUaG8kCbpt7U8Vm_LoUC0.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [],
+      "start": "2026-09-15T07:00:00",
+      "end": "2026-09-15T09:37:00",
+      "time_str": "7:00 am",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1667",
+      "film_url": "http://filmhouse.sg/film/170/hope"
+    },
+    {
       "title": "We Are All Strangers",
       "year": "2026",
       "director": "Anthony Chen",
@@ -4770,9 +4683,7 @@
       "distributor": "",
       "venue": "Filmhouse Cinemas",
       "tags": [],
-      "themes": [
-        "Got Time For Cinema?"
-      ],
+      "themes": [],
       "start": "2026-09-15T16:30:00",
       "end": "2026-09-15T19:07:00",
       "time_str": "4:30 pm",
@@ -4794,9 +4705,7 @@
       "distributor": "",
       "venue": "Filmhouse Cinemas",
       "tags": [],
-      "themes": [
-        "Got Time For Cinema?"
-      ],
+      "themes": [],
       "start": "2026-09-15T17:00:00",
       "end": "2026-09-15T18:40:00",
       "time_str": "5:00 pm",
@@ -4930,7 +4839,9 @@
       "tags": [
         "4K"
       ],
-      "themes": [],
+      "themes": [
+        "Leaving Soon"
+      ],
       "start": "2026-09-16T17:00:00",
       "end": "2026-09-16T19:27:00",
       "time_str": "5:00 pm",
@@ -5057,6 +4968,30 @@
       "film_url": "http://filmhouse.sg/film/183/days-of-heaven"
     },
     {
+      "title": "Earthquake",
+      "year": "1974",
+      "director": "Mark Robson",
+      "genre": "Action, Drama, Thriller",
+      "rating": "PG",
+      "duration_mins": 129,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://static-a.eventive.org/d71569000003f8e026131452df56352c.jpg?w=300",
+      "source": "sfs",
+      "distributor": "",
+      "venue": "Golden Village Cineleisure",
+      "tags": [],
+      "themes": [
+        "SFS Somerset"
+      ],
+      "start": "2026-09-17T19:30:00",
+      "end": "2026-09-17T21:45:00",
+      "time_str": "7:30 PM",
+      "sold_out": false,
+      "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a9f77b1f6e0444e1959beb1",
+      "film_url": "https://singaporefilmsociety.eventive.org/films/6a9650a83b5fb9ff8eda4e5c"
+    },
+    {
       "title": "The Dance Club",
       "year": "",
       "director": "Lisa Langseth",
@@ -5079,6 +5014,30 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1580",
       "film_url": "http://filmhouse.sg/film/176/the-dance-club"
+    },
+    {
+      "title": "King Of Hawkers",
+      "year": "2024",
+      "director": "Kelvin Sng",
+      "genre": "Drama",
+      "rating": "PG13",
+      "duration_mins": 120,
+      "language": "Mandarin, Cantonese, English",
+      "subtitles": "",
+      "poster_url": "https://static-a.eventive.org/81892209f4018478aaa08e71ee385164.jpg?w=300",
+      "source": "sfs",
+      "distributor": "",
+      "venue": "Golden Village Cineleisure",
+      "tags": [],
+      "themes": [
+        "SFS Somerset"
+      ],
+      "start": "2026-09-18T19:30:00",
+      "end": "2026-09-18T22:30:00",
+      "time_str": "7:30 PM",
+      "sold_out": false,
+      "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a9f781cbc76e3b4babecd8e",
+      "film_url": "https://singaporefilmsociety.eventive.org/films/6a6807ca888c1663a56725b9"
     },
     {
       "title": "The Day Iceland Stood Still",
@@ -5129,6 +5088,30 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a8cf806c5d3f0424e8e3638"
     },
     {
+      "title": "The Hopeless 10",
+      "year": "2026",
+      "director": "Hiroyasu Kitagawa",
+      "genre": "Action, Thriller",
+      "rating": "NC16",
+      "duration_mins": 77,
+      "language": "Japanese",
+      "subtitles": "",
+      "poster_url": "https://static-a.eventive.org/1787316619288temp-1787316617669-poster.jpg",
+      "source": "sfs",
+      "distributor": "",
+      "venue": "Golden Village Cineleisure",
+      "tags": [],
+      "themes": [
+        "SFS Somerset"
+      ],
+      "start": "2026-09-19T13:30:00",
+      "end": "2026-09-19T15:00:00",
+      "time_str": "1:30 PM",
+      "sold_out": false,
+      "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a9f788d8aaadc6ec21d6a8e",
+      "film_url": "https://singaporefilmsociety.eventive.org/films/6a88485d56d0529cb938058b"
+    },
+    {
       "title": "World Animal Day 2026 Programme: Film Screening of HOMEBOUND",
       "year": "",
       "director": "",
@@ -5137,7 +5120,7 @@
       "duration_mins": 120,
       "language": "English",
       "subtitles": "",
-      "poster_url": "https://dtvrvhzaa8b2y.cloudfront.net/misc/4848/events/11498/2026_08_27_22_09_52.png",
+      "poster_url": "https://dtvrvhzaa8b2y.cloudfront.net/misc/4848/events/11498/2026_09_08_13_33_24.png",
       "source": "nlb",
       "distributor": "",
       "venue": "National Library",
@@ -5153,6 +5136,30 @@
       "film_url": "https://nlb.libcal.com/event/5972392"
     },
     {
+      "title": "Itam: A Sun Bear Story",
+      "year": "2026",
+      "director": "Raymond Tan",
+      "genre": "Documentary",
+      "rating": "PG",
+      "duration_mins": 80,
+      "language": "Mandarin, English, Malay",
+      "subtitles": "",
+      "poster_url": "https://static-a.eventive.org/d7d7eec89bb976ebb3bd31947b427b5a.jpg?w=300",
+      "source": "sfs",
+      "distributor": "",
+      "venue": "Golden Village Cineleisure",
+      "tags": [],
+      "themes": [
+        "SFS Somerset"
+      ],
+      "start": "2026-09-19T16:00:00",
+      "end": "2026-09-19T18:00:00",
+      "time_str": "4:00 PM",
+      "sold_out": false,
+      "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a9f791d15994228127267d7",
+      "film_url": "https://singaporefilmsociety.eventive.org/films/6a5042c675bd49357a05f4c2"
+    },
+    {
       "title": "World Animal Day 2026 Programme: Film Screening of HOMEBOUND",
       "year": "",
       "director": "",
@@ -5161,7 +5168,7 @@
       "duration_mins": 120,
       "language": "English",
       "subtitles": "",
-      "poster_url": "https://dtvrvhzaa8b2y.cloudfront.net/misc/4848/events/11498/2026_08_27_22_09_52.png",
+      "poster_url": "https://dtvrvhzaa8b2y.cloudfront.net/misc/4848/events/11498/2026_09_08_13_33_24.png",
       "source": "nlb",
       "distributor": "",
       "venue": "National Library",
@@ -5201,6 +5208,30 @@
       "film_url": "http://filmhouse.sg/film/148/stalker"
     },
     {
+      "title": "The Old Man and His Car",
+      "year": "2026",
+      "director": "Michael Kam",
+      "genre": "Drama",
+      "rating": "NC16",
+      "duration_mins": 82,
+      "language": "Malay, English, Mandarin, Hokkien",
+      "subtitles": "",
+      "poster_url": "https://static-a.eventive.org/9cbf2d822c27933a0951d827749c2281.jpg?w=300",
+      "source": "sfs",
+      "distributor": "",
+      "venue": "Golden Village Cineleisure",
+      "tags": [],
+      "themes": [
+        "SFS Somerset"
+      ],
+      "start": "2026-09-19T19:30:00",
+      "end": "2026-09-19T21:30:00",
+      "time_str": "7:30 PM",
+      "sold_out": false,
+      "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a9f793e357bb0a7ead2c7f8",
+      "film_url": "https://singaporefilmsociety.eventive.org/films/6a5045c451da292b56c9aa70"
+    },
+    {
       "title": "Once Upon a Time in America",
       "year": "1984",
       "director": "Sergio Leone",
@@ -5227,6 +5258,55 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1575",
       "film_url": "http://filmhouse.sg/film/184/once-upon-a-time-in-america"
+    },
+    {
+      "title": "Finding Mojo (Mojoku Hilang!)",
+      "year": "2026",
+      "director": "Min Lim",
+      "genre": "Comedy, Romance",
+      "rating": "PG",
+      "duration_mins": 135,
+      "language": "Indonesian, Malay, English",
+      "subtitles": "",
+      "poster_url": "https://static-a.eventive.org/3f50053d20de323b5d96d37b1f084a44.jpg?w=300",
+      "source": "sfs",
+      "distributor": "",
+      "venue": "Golden Village Cineleisure",
+      "tags": [],
+      "themes": [
+        "SFS Somerset",
+        "SFS Spotlight"
+      ],
+      "start": "2026-09-20T16:00:00",
+      "end": "2026-09-20T18:30:00",
+      "time_str": "4:00 PM",
+      "sold_out": false,
+      "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a9f79a2bc76e3b4babef6ff",
+      "film_url": "https://singaporefilmsociety.eventive.org/films/6a5f1c002b33ea397dd1afc0"
+    },
+    {
+      "title": "Paris, Texas",
+      "year": "1984",
+      "director": "Wim Wenders",
+      "genre": "Drama",
+      "rating": "PG",
+      "duration_mins": 148,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://static-a.eventive.org/de95c529d43ac96029451e8760d51b03.jpg?w=300",
+      "source": "sfs",
+      "distributor": "",
+      "venue": "Golden Village Cineleisure",
+      "tags": [],
+      "themes": [
+        "SFS Somerset"
+      ],
+      "start": "2026-09-20T19:30:00",
+      "end": "2026-09-20T22:00:00",
+      "time_str": "7:30 PM",
+      "sold_out": false,
+      "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a9f79c3b5979e806791427f",
+      "film_url": "https://singaporefilmsociety.eventive.org/films/6a83dcf5a4c5d9fb6ea4a5f4"
     },
     {
       "title": "Cinema Paradiso",
@@ -5280,6 +5360,30 @@
       "sold_out": false,
       "booking_url": "https://sistic.com.sg/events/dollar0926",
       "film_url": "https://capitol-theatre.bigtix.io/en/events/dollar-trilogy-the-good-the-bad-and-the-ugly/CTGB2026"
+    },
+    {
+      "title": "Earthquake",
+      "year": "1974",
+      "director": "Mark Robson",
+      "genre": "Action, Drama, Thriller",
+      "rating": "PG",
+      "duration_mins": 129,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://static-a.eventive.org/d71569000003f8e026131452df56352c.jpg?w=300",
+      "source": "sfs",
+      "distributor": "",
+      "venue": "Golden Village Cineleisure",
+      "tags": [],
+      "themes": [
+        "SFS Somerset"
+      ],
+      "start": "2026-09-23T19:30:00",
+      "end": "2026-09-23T21:45:00",
+      "time_str": "7:30 PM",
+      "sold_out": false,
+      "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a9f7a49bc76e3b4babf2b05",
+      "film_url": "https://singaporefilmsociety.eventive.org/films/6a9650a83b5fb9ff8eda4e5c"
     },
     {
       "title": "Koyaanisqatsi",
@@ -5682,6 +5786,32 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1503",
       "film_url": "http://filmhouse.sg/film/147/memoria"
+    },
+    {
+      "title": "The Sound Of Music",
+      "year": "1965",
+      "director": "Robert Wise",
+      "genre": "",
+      "rating": "PG",
+      "duration_mins": 174,
+      "language": "",
+      "subtitles": "",
+      "poster_url": "https://cdn-sea.bookmyshow.com/prod/images/202609/c4d2d569-ef63-4284-9317-4e208053d170/og/500x500/Capitol_Theatre_500x500.jpg",
+      "source": "capitol",
+      "distributor": "",
+      "venue": "Capitol Theatre",
+      "tags": [
+        "4K"
+      ],
+      "themes": [
+        "Classics at Capitol"
+      ],
+      "start": "2026-10-03T16:00:00",
+      "end": "2026-10-03T18:54:00",
+      "time_str": "4:00 PM",
+      "sold_out": false,
+      "booking_url": "https://www.sistic.com.sg/events/music1026",
+      "film_url": "https://capitol-theatre.bigtix.io/en/events/the-sound-of-music/CTSM2026"
     },
     {
       "title": "Cinema Paradiso",
