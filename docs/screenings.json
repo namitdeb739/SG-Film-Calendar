@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T00:02:07.165076+00:00",
+  "generated_at": "2026-09-19T00:04:01.817431+00:00",
   "screenings": [
     {
       "title": "KNEECAP",
@@ -3805,72 +3805,6 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a9650a83b5fb9ff8eda4e5c"
     },
     {
-      "title": "Hope",
-      "year": "2026",
-      "director": "Na Hong-jin",
-      "genre": "Action",
-      "rating": "(NC16)",
-      "duration_mins": 157,
-      "language": "Korean",
-      "subtitles": "English|Mandarin",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/IQoVZXdI6rBkuUDYdGz8qpHYWzOJ2JxRm0GtnCQHc-I.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-09-18T16:00:00",
-      "end": "2026-09-18T18:37:00",
-      "time_str": "4:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1681",
-      "film_url": "http://filmhouse.sg/film/170/hope"
-    },
-    {
-      "title": "We Are All Strangers",
-      "year": "2026",
-      "director": "Anthony Chen",
-      "genre": "Drama",
-      "rating": "(PG13)",
-      "duration_mins": 157,
-      "language": "Mandarin|English",
-      "subtitles": "English|Mandarin",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/SY8jBcD9yU15LbUJ6ku6aTi6E0OVzCC8QOTo2tdReqo.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-09-18T16:30:00",
-      "end": "2026-09-18T19:07:00",
-      "time_str": "4:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1683",
-      "film_url": "http://filmhouse.sg/film/158/we-are-all-strangers"
-    },
-    {
-      "title": "Perfect Days",
-      "year": "2024",
-      "director": "Wim Wenders",
-      "genre": "Drama",
-      "rating": "(PG)",
-      "duration_mins": 124,
-      "language": "Japanese|English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/Gwv3eYvY2NV-phNkhr2sgd6ag96-61Py5Wrnow16VDA.jpg",
-      "source": "filmhouse",
-      "distributor": "Anticipate Pictures",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-09-18T17:00:00",
-      "end": "2026-09-18T19:04:00",
-      "time_str": "5:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1682",
-      "film_url": "http://filmhouse.sg/film/182/perfect-days"
-    },
-    {
       "title": "King Of Hawkers",
       "year": "2024",
       "director": "Kelvin Sng",
@@ -3893,130 +3827,6 @@
       "sold_out": false,
       "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a9f781cbc76e3b4babecd8e",
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a6807ca888c1663a56725b9"
-    },
-    {
-      "title": "The Day Iceland Stood Still",
-      "year": "",
-      "director": "Pamela Hogan",
-      "genre": "Documentary",
-      "rating": "(PG13)",
-      "duration_mins": 70,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/D1dLLyO0sjJz6SGGdSCAYUbNRYegy51YXOzkzjEufIA.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Nordic Film Festival"
-      ],
-      "start": "2026-09-18T19:30:00",
-      "end": "2026-09-18T20:40:00",
-      "time_str": "7:30 pm",
-      "sold_out": true,
-      "booking_url": "",
-      "film_url": "http://filmhouse.sg/film/175/the-day-iceland-stood-still"
-    },
-    {
-      "title": "News From Home",
-      "year": "1976",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 100,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/News-from-Home-3.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-09-18T20:00:00",
-      "end": "2026-09-18T21:40:00",
-      "time_str": "8:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/news-from-home-1976/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/news-from-home-1976/"
-    },
-    {
-      "title": "The Violinist",
-      "year": "2026",
-      "director": "Ervin Han|Raúl García",
-      "genre": "Animation",
-      "rating": "(PG)",
-      "duration_mins": 114,
-      "language": "English",
-      "subtitles": "English|Mandarin",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/hizkErfZRQpX5NXDgNGg2AHiHLBEjN_oVmG8oxoUKWU.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Music in Film"
-      ],
-      "start": "2026-09-18T20:00:00",
-      "end": "2026-09-18T21:54:00",
-      "time_str": "8:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1680",
-      "film_url": "http://filmhouse.sg/film/195/the-violinist"
-    },
-    {
-      "title": "Trainspotting (4K Restoration)",
-      "year": "1996",
-      "director": "Danny Boyle",
-      "genre": "Comedy",
-      "rating": "(R21)",
-      "duration_mins": 94,
-      "language": "English",
-      "subtitles": "English",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/BJSG0G-8EfBof30-UtlIwY2VILcCsZCCCirifcvjFlk.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [
-        "4K"
-      ],
-      "themes": [
-        "Music in Film"
-      ],
-      "start": "2026-09-18T20:30:00",
-      "end": "2026-09-18T22:04:00",
-      "time_str": "8:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1684",
-      "film_url": "http://filmhouse.sg/film/169/trainspotting-4k-restoration"
-    },
-    {
-      "title": "Tie Xi Qu: West of the Tracks (铁西区, 2002) (with post-screening Q&A)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 120,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/rust-2.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [
-        "Q&A"
-      ],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-09-19T11:00:00",
-      "end": "2026-09-11T21:45:00",
-      "time_str": "11:00 AM",
-      "sold_out": true,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/west-of-the-tracks-2002/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/west-of-the-tracks-2002/"
     },
     {
       "title": "Hope",
@@ -4391,30 +4201,6 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1692",
       "film_url": "http://filmhouse.sg/film/182/perfect-days"
-    },
-    {
-      "title": "Mundane History (เจ้านกกระจอก, 2009)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 100,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/mundane-history.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-09-20T14:00:00",
-      "end": "2026-09-20T15:40:00",
-      "time_str": "2:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/mundane-history-2009/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/mundane-history-2009/"
     },
     {
       "title": "Once Upon a Time in America",
@@ -5220,30 +5006,6 @@
       "film_url": "http://filmhouse.sg/film/200/hachan-shake-your-booty"
     },
     {
-      "title": "In Vanda’s Room (No Quarto da Vanda, 2000)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 180,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/In-VandasRoom_still.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-09-25T19:30:00",
-      "end": "2026-09-25T22:30:00",
-      "time_str": "7:30 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/in-vandas-room-2000/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/in-vandas-room-2000/"
-    },
-    {
       "title": "Temple Crimes",
       "year": "2023",
       "director": "Ian Dixon",
@@ -5266,30 +5028,6 @@
       "sold_out": false,
       "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a94e232b8d9970ba1f10952",
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a74a0b5e94a5e3455118b93"
-    },
-    {
-      "title": "Sátántangó",
-      "year": "1994",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 660,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/SATANTANGO-hero.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-09-26T11:00:00",
-      "end": "2026-09-26T22:00:00",
-      "time_str": "11:00 AM",
-      "sold_out": true,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/satantango-1994/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/satantango-1994/"
     },
     {
       "title": "A Poet",
@@ -5605,30 +5343,6 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1719",
       "film_url": "http://filmhouse.sg/film/195/the-violinist"
-    },
-    {
-      "title": "An Elephant Sitting Still (大象席地而坐, 2018)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 240,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/an-elephant-sitting-still.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-09-27T14:00:00",
-      "end": "2026-09-27T18:00:00",
-      "time_str": "2:00 PM",
-      "sold_out": true,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/an-elephant-sitting-still-2018/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/an-elephant-sitting-still-2018/"
     },
     {
       "title": "Memories of Origin: Hiroshi Sugimoto",
@@ -6428,54 +6142,6 @@
       "film_url": "http://filmhouse.sg/film/187/amrum"
     },
     {
-      "title": "The Burmese Harp (ビルマの竪琴, 1956) (4K Restoration)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 120,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/09/Burmese-Harp-still-01.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-10-09T20:00:00",
-      "end": "2026-10-09T22:00:00",
-      "time_str": "8:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/the-burmese-harp-1956-1/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/the-burmese-harp-1956-1/"
-    },
-    {
-      "title": "Odd Obsession (鍵, 1959) (4K Restoration)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 105,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/09/odd-obsession-still-01.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-10-10T14:00:00",
-      "end": "2026-10-10T15:45:00",
-      "time_str": "2:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/odd-obsession-1959/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/odd-obsession-1959/"
-    },
-    {
       "title": "Stalker",
       "year": "1979",
       "director": "Andrei Tarkovsky",
@@ -6500,30 +6166,6 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1732",
       "film_url": "http://filmhouse.sg/film/148/stalker"
-    },
-    {
-      "title": "All Mixed Up/Manji (卍, 1964) (4K Restoration)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 100,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/09/Manji_still_1-01.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-10-10T17:00:00",
-      "end": "2026-10-10T18:40:00",
-      "time_str": "5:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/all-mixed-up-manji-1964/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/all-mixed-up-manji-1964/"
     },
     {
       "title": "Extrawurst",
@@ -6596,30 +6238,6 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1671",
       "film_url": "http://filmhouse.sg/film/203/vampire-hunter-d-bloodlust"
-    },
-    {
-      "title": "A Cheerful Girl / The Blue Sky Maiden (青空娘, 1957) (4K Restoration)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 90,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/09/blue-sky-maiden_hero.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-10-11T17:00:00",
-      "end": "2026-10-11T18:30:00",
-      "time_str": "5:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/cheerful-girl-1957-1/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/cheerful-girl-1957-1/"
     },
     {
       "title": "Fatherland",
@@ -6718,78 +6336,6 @@
       "film_url": "http://filmhouse.sg/film/196/berlin-hero"
     },
     {
-      "title": "A Cheerful Girl / The Blue Sky Maiden (青空娘, 1957) (4K Restoration)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 90,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/09/blue-sky-maiden_hero.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-10-16T20:00:00",
-      "end": "2026-10-16T21:40:00",
-      "time_str": "8:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/cheerful-girl-1957-2/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/cheerful-girl-1957-1/"
-    },
-    {
-      "title": "A Full-Up Train (満員電車, 1957)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 100,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/09/Full-Up-Train-still-1-01.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-10-17T14:00:00",
-      "end": "2026-10-17T15:40:00",
-      "time_str": "2:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/a-full-up-train-1957/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/a-full-up-train-1957/"
-    },
-    {
-      "title": "The Kiss (くちづけ, 1957)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 80,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/09/Kisses-1-01.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-10-17T17:00:00",
-      "end": "2026-10-17T18:20:00",
-      "time_str": "5:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/the-kiss-1957/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/the-kiss-1957/"
-    },
-    {
       "title": "The Education of Jane Cumming",
       "year": "2026",
       "director": "Sophie Heldman",
@@ -6812,30 +6358,6 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1631",
       "film_url": "http://filmhouse.sg/film/194/the-education-of-jane-cumming"
-    },
-    {
-      "title": "The Burmese Harp (ビルマの竪琴, 1956) (4K Restoration)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 120,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/09/Burmese-Harp-still-01.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-10-18T14:00:00",
-      "end": "2026-10-18T16:00:00",
-      "time_str": "2:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/the-burmese-harp-1956-2/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/the-burmese-harp-1956-1/"
     },
     {
       "title": "Vampire Hunter D: Bloodlust",
