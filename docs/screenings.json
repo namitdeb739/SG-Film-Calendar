@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T00:04:01.817431+00:00",
+  "generated_at": "2026-09-19T23:59:45.028611+00:00",
   "screenings": [
     {
       "title": "KNEECAP",
@@ -3829,28 +3829,6 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a6807ca888c1663a56725b9"
     },
     {
-      "title": "Hope",
-      "year": "2026",
-      "director": "Na Hong-jin",
-      "genre": "Action",
-      "rating": "(NC16)",
-      "duration_mins": 157,
-      "language": "Korean",
-      "subtitles": "English|Mandarin",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/IQoVZXdI6rBkuUDYdGz8qpHYWzOJ2JxRm0GtnCQHc-I.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-09-19T13:30:00",
-      "end": "2026-09-19T16:07:00",
-      "time_str": "1:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1685",
-      "film_url": "http://filmhouse.sg/film/170/hope"
-    },
-    {
       "title": "How to Divorce During the War",
       "year": "2026",
       "director": "Andrius Blaževičius",
@@ -3899,76 +3877,6 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a88485d56d0529cb938058b"
     },
     {
-      "title": "Before Sunrise",
-      "year": "",
-      "director": "Richard Linklater",
-      "genre": "Drama",
-      "rating": "(NC16)",
-      "duration_mins": 101,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/mt9WDac4uELoCfFzoDdOj39HZRSWWU2H_qS_2VM0oMw.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-09-19T14:00:00",
-      "end": "2026-09-19T15:41:00",
-      "time_str": "2:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1691",
-      "film_url": "http://filmhouse.sg/film/168/before-sunrise"
-    },
-    {
-      "title": "World Animal Day 2026 Programme: Film Screening of HOMEBOUND",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 120,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://dtvrvhzaa8b2y.cloudfront.net/misc/4848/events/11498/2026_09_11_11_34_35.jpg",
-      "source": "nlb",
-      "distributor": "",
-      "venue": "National Library",
-      "tags": [],
-      "themes": [
-        "NLB Film Screenings"
-      ],
-      "start": "2026-09-19T14:00:00",
-      "end": "2026-09-19T15:15:00",
-      "time_str": "2:00 PM",
-      "sold_out": false,
-      "booking_url": "https://nlb.libcal.com/event/5972392",
-      "film_url": "https://nlb.libcal.com/event/5972392"
-    },
-    {
-      "title": "La La Land (10th Anniversary)",
-      "year": "2016",
-      "director": "Damien Chazelle",
-      "genre": "Musical",
-      "rating": "(PG13)",
-      "duration_mins": 129,
-      "language": "English|Mandarin",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/8KqeC357tt7n1t_tLUjlUQy_-E-Q-iR2l0eGfpeIeeQ.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Music in Film"
-      ],
-      "start": "2026-09-19T14:30:00",
-      "end": "2026-09-19T16:39:00",
-      "time_str": "2:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1688",
-      "film_url": "http://filmhouse.sg/film/85/la-la-land-10th-anniversary"
-    },
-    {
       "title": "Itam: A Sun Bear Story",
       "year": "2026",
       "director": "Raymond Tan",
@@ -3993,122 +3901,6 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a5042c675bd49357a05f4c2"
     },
     {
-      "title": "Before Sunset",
-      "year": "2004",
-      "director": "Richard Linklater",
-      "genre": "Romance/Drama",
-      "rating": "(NC16)",
-      "duration_mins": 80,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/6XbafMAx_gzGg0RXSaD9irGLoEJNVkO1SIvoh6F-MmI.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-09-19T16:40:00",
-      "end": "2026-09-19T18:00:00",
-      "time_str": "4:40 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1699",
-      "film_url": "http://filmhouse.sg/film/207/before-sunset"
-    },
-    {
-      "title": "The Violinist",
-      "year": "2026",
-      "director": "Ervin Han|Raúl García",
-      "genre": "Animation",
-      "rating": "(PG)",
-      "duration_mins": 114,
-      "language": "English",
-      "subtitles": "English|Mandarin",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/hizkErfZRQpX5NXDgNGg2AHiHLBEjN_oVmG8oxoUKWU.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Music in Film"
-      ],
-      "start": "2026-09-19T17:00:00",
-      "end": "2026-09-19T18:54:00",
-      "time_str": "5:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1686",
-      "film_url": "http://filmhouse.sg/film/195/the-violinist"
-    },
-    {
-      "title": "World Animal Day 2026 Programme: Film Screening of HOMEBOUND",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 120,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://dtvrvhzaa8b2y.cloudfront.net/misc/4848/events/11498/2026_09_11_11_34_35.jpg",
-      "source": "nlb",
-      "distributor": "",
-      "venue": "National Library",
-      "tags": [],
-      "themes": [
-        "NLB Film Screenings"
-      ],
-      "start": "2026-09-19T17:00:00",
-      "end": "2026-09-19T18:15:00",
-      "time_str": "5:00 PM",
-      "sold_out": false,
-      "booking_url": "https://nlb.libcal.com/event/5972393",
-      "film_url": "https://nlb.libcal.com/event/5972392"
-    },
-    {
-      "title": "Ratatouille",
-      "year": "",
-      "director": "Brad Bird",
-      "genre": "Animation",
-      "rating": "(PG)",
-      "duration_mins": 111,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/3m2JXmJ7gGkn5XnXVSdJa3AEs_OMv6axKuxcIPlzogY.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-09-19T17:30:00",
-      "end": "2026-09-19T19:21:00",
-      "time_str": "5:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1689",
-      "film_url": "http://filmhouse.sg/film/205/ratatouille"
-    },
-    {
-      "title": "Stalker",
-      "year": "1979",
-      "director": "Andrei Tarkovsky",
-      "genre": "Science Fiction",
-      "rating": "(PG)",
-      "duration_mins": 162,
-      "language": "Russian",
-      "subtitles": "English",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/aYWr4jn99fcoFhtUsk3NB4NAUSv2VuyDCCGPlPNRAqE.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Cinematic Voids"
-      ],
-      "start": "2026-09-19T19:30:00",
-      "end": "2026-09-19T22:12:00",
-      "time_str": "7:30 pm",
-      "sold_out": true,
-      "booking_url": "",
-      "film_url": "http://filmhouse.sg/film/148/stalker"
-    },
-    {
       "title": "The Old Man and His Car",
       "year": "2026",
       "director": "Michael Kam",
@@ -4131,54 +3923,6 @@
       "sold_out": false,
       "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a9f793e357bb0a7ead2c7f8",
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a5045c451da292b56c9aa70"
-    },
-    {
-      "title": "Anatomy of a Fall",
-      "year": "",
-      "director": "Justine Triet",
-      "genre": "Drama",
-      "rating": "(NC16)",
-      "duration_mins": 151,
-      "language": "French|English",
-      "subtitles": "English",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/3pMU8enNZLVJ0bbuSAO21I2jyXHOdbGC5Ab0FlQ_HD4.jpg",
-      "source": "filmhouse",
-      "distributor": "Anticipate Pictures",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [],
-      "start": "2026-09-19T20:00:00",
-      "end": "2026-09-19T22:31:00",
-      "time_str": "8:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1687",
-      "film_url": "http://filmhouse.sg/film/181/anatomy-of-a-fall"
-    },
-    {
-      "title": "Oldboy - 4K Restoration",
-      "year": "2003",
-      "director": "Park Chan-wook",
-      "genre": "Thriller/Suspense",
-      "rating": "(R21)",
-      "duration_mins": 120,
-      "language": "Korean",
-      "subtitles": "English",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/XreudzJiah2fJyxtmEbB4RSm0KF5hmunBvOL1xLQMCM.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [
-        "LastChance"
-      ],
-      "themes": [
-        "Leaving Soon"
-      ],
-      "start": "2026-09-19T20:30:00",
-      "end": "2026-09-19T22:30:00",
-      "time_str": "8:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1690",
-      "film_url": "http://filmhouse.sg/film/155/oldboy-4k-restoration"
     },
     {
       "title": "Perfect Days",
@@ -5112,7 +4856,8 @@
       "distributor": "",
       "venue": "Filmhouse Cinemas",
       "tags": [
-        "4K"
+        "4K",
+        "LastChance"
       ],
       "themes": [
         "Morricone – Maestro In Film",
@@ -5169,8 +4914,8 @@
       "start": "2026-09-26T16:30:00",
       "end": "2026-09-26T18:11:00",
       "time_str": "4:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1583",
+      "sold_out": true,
+      "booking_url": "",
       "film_url": "http://filmhouse.sg/film/173/loveable"
     },
     {
@@ -6025,7 +5770,7 @@
       "director": "Yoshiaki Kawajiri",
       "genre": "Animation",
       "rating": "(TBA)",
-      "duration_mins": 128,
+      "duration_mins": 119,
       "language": "Japanese",
       "subtitles": "English",
       "poster_url": "https://cdn.taposapp.com/poster/600x900/LONUwka5Rpr4orwCyRlwYmsX_nrEXftONc66vE8qD2Y.jpg",
@@ -6037,7 +5782,7 @@
         "Japanese Film Festival"
       ],
       "start": "2026-10-04T13:30:00",
-      "end": "2026-10-04T15:38:00",
+      "end": "2026-10-04T15:29:00",
       "time_str": "1:30 pm",
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1669",
@@ -6099,7 +5844,7 @@
       "director": "Yoshiaki Kawajiri",
       "genre": "Animation",
       "rating": "(TBA)",
-      "duration_mins": 128,
+      "duration_mins": 119,
       "language": "Japanese",
       "subtitles": "English",
       "poster_url": "https://cdn.taposapp.com/poster/600x900/LONUwka5Rpr4orwCyRlwYmsX_nrEXftONc66vE8qD2Y.jpg",
@@ -6111,7 +5856,7 @@
         "Japanese Film Festival"
       ],
       "start": "2026-10-08T19:30:00",
-      "end": "2026-10-08T21:38:00",
+      "end": "2026-10-08T21:29:00",
       "time_str": "7:30 pm",
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1670",
@@ -6190,6 +5935,32 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1627",
       "film_url": "http://filmhouse.sg/film/188/extrawurst"
+    },
+    {
+      "title": "Stop Making Sense (4K Restoration)",
+      "year": "1984",
+      "director": "Jonathan Demme",
+      "genre": "Musical",
+      "rating": "(PG)",
+      "duration_mins": 88,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/qfE7CBmwt8jmAC2_sLrJAGhJQGAbK5y8Ec4RnuxgF_s.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [
+        "4K"
+      ],
+      "themes": [
+        "Music in Film"
+      ],
+      "start": "2026-10-10T20:30:00",
+      "end": "2026-10-10T21:58:00",
+      "time_str": "8:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1748",
+      "film_url": "http://filmhouse.sg/film/211/stop-making-sense-4k-restoration"
     },
     {
       "title": "Exile",
@@ -6336,6 +6107,30 @@
       "film_url": "http://filmhouse.sg/film/196/berlin-hero"
     },
     {
+      "title": "Love Letter (4K Restoration)",
+      "year": "1995",
+      "director": "Shunji Iwai",
+      "genre": "Romance/Drama",
+      "rating": "(PG)",
+      "duration_mins": 117,
+      "language": "Japanese",
+      "subtitles": "English",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/APdOOiuKhvl553cpZW6Y-_dH9xlBmWV7GMpZznP08pc.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [
+        "4K"
+      ],
+      "themes": [],
+      "start": "2026-10-17T13:30:00",
+      "end": "2026-10-17T15:27:00",
+      "time_str": "1:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1743",
+      "film_url": "http://filmhouse.sg/film/212/love-letter-4k-restoration"
+    },
+    {
       "title": "The Education of Jane Cumming",
       "year": "2026",
       "director": "Sophie Heldman",
@@ -6382,6 +6177,105 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1673",
       "film_url": "http://filmhouse.sg/film/203/vampire-hunter-d-bloodlust"
+    },
+    {
+      "title": "Stop Making Sense (4K Restoration)",
+      "year": "1984",
+      "director": "Jonathan Demme",
+      "genre": "Musical",
+      "rating": "(PG)",
+      "duration_mins": 88,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/qfE7CBmwt8jmAC2_sLrJAGhJQGAbK5y8Ec4RnuxgF_s.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [
+        "4K"
+      ],
+      "themes": [
+        "Music in Film"
+      ],
+      "start": "2026-10-22T19:30:00",
+      "end": "2026-10-22T20:58:00",
+      "time_str": "7:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1747",
+      "film_url": "http://filmhouse.sg/film/211/stop-making-sense-4k-restoration"
+    },
+    {
+      "title": "Love Letter (4K Restoration)",
+      "year": "1995",
+      "director": "Shunji Iwai",
+      "genre": "Romance/Drama",
+      "rating": "(PG)",
+      "duration_mins": 117,
+      "language": "Japanese",
+      "subtitles": "English",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/APdOOiuKhvl553cpZW6Y-_dH9xlBmWV7GMpZznP08pc.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [
+        "4K"
+      ],
+      "themes": [],
+      "start": "2026-10-24T17:30:00",
+      "end": "2026-10-24T19:27:00",
+      "time_str": "5:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1744",
+      "film_url": "http://filmhouse.sg/film/212/love-letter-4k-restoration"
+    },
+    {
+      "title": "Love Letter (4K Restoration)",
+      "year": "1995",
+      "director": "Shunji Iwai",
+      "genre": "Romance/Drama",
+      "rating": "(PG)",
+      "duration_mins": 117,
+      "language": "Japanese",
+      "subtitles": "English",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/APdOOiuKhvl553cpZW6Y-_dH9xlBmWV7GMpZznP08pc.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [
+        "4K"
+      ],
+      "themes": [],
+      "start": "2026-10-28T20:00:00",
+      "end": "2026-10-28T21:57:00",
+      "time_str": "8:00 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1745",
+      "film_url": "http://filmhouse.sg/film/212/love-letter-4k-restoration"
+    },
+    {
+      "title": "Love Letter (4K Restoration)",
+      "year": "1995",
+      "director": "Shunji Iwai",
+      "genre": "Romance/Drama",
+      "rating": "(PG)",
+      "duration_mins": 117,
+      "language": "Japanese",
+      "subtitles": "English",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/APdOOiuKhvl553cpZW6Y-_dH9xlBmWV7GMpZznP08pc.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [
+        "4K",
+        "LastChance"
+      ],
+      "themes": [],
+      "start": "2026-11-08T17:40:00",
+      "end": "2026-11-08T19:37:00",
+      "time_str": "5:40 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1746",
+      "film_url": "http://filmhouse.sg/film/212/love-letter-4k-restoration"
     }
   ]
 }
