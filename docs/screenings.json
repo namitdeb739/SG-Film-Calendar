@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T00:01:35.475775+00:00",
+  "generated_at": "2026-09-22T00:40:57.805555+00:00",
   "screenings": [
     {
       "title": "KNEECAP",
@@ -4564,30 +4564,6 @@
       "film_url": "http://filmhouse.sg/film/200/hachan-shake-your-booty"
     },
     {
-      "title": "In Vanda’s Room (No Quarto da Vanda, 2000)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 180,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/In-VandasRoom_still.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-09-25T19:30:00",
-      "end": "2026-09-25T22:30:00",
-      "time_str": "7:30 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/in-vandas-room-2000/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/in-vandas-room-2000/"
-    },
-    {
       "title": "Temple Crimes",
       "year": "2023",
       "director": "Ian Dixon",
@@ -4610,30 +4586,6 @@
       "sold_out": false,
       "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6a94e232b8d9970ba1f10952",
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a74a0b5e94a5e3455118b93"
-    },
-    {
-      "title": "Sátántangó",
-      "year": "1994",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 660,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/SATANTANGO-hero.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-09-26T11:00:00",
-      "end": "2026-09-26T22:00:00",
-      "time_str": "11:00 AM",
-      "sold_out": true,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/satantango-1994/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/satantango-1994/"
     },
     {
       "title": "A Poet",
@@ -4952,30 +4904,6 @@
       "film_url": "http://filmhouse.sg/film/195/the-violinist"
     },
     {
-      "title": "An Elephant Sitting Still (大象席地而坐, 2018)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 240,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/08/an-elephant-sitting-still.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-09-27T14:00:00",
-      "end": "2026-09-27T18:00:00",
-      "time_str": "2:00 PM",
-      "sold_out": true,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/an-elephant-sitting-still-2018/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/an-elephant-sitting-still-2018/"
-    },
-    {
       "title": "Memories of Origin: Hiroshi Sugimoto",
       "year": "2012",
       "director": "Yuko Nakamura",
@@ -5213,6 +5141,72 @@
       "film_url": "http://filmhouse.sg/film/202/a-poet"
     },
     {
+      "title": "A Poet",
+      "year": "",
+      "director": "Simón Mesa Soto",
+      "genre": "Drama",
+      "rating": "(M18)",
+      "duration_mins": 123,
+      "language": "Spanish",
+      "subtitles": "English",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/PCU05q0xQvv7lQV1BZeti8IfzK96uE7alaCM_BVs4zc.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [],
+      "start": "2026-09-29T16:30:00",
+      "end": "2026-09-29T18:33:00",
+      "time_str": "4:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1749",
+      "film_url": "http://filmhouse.sg/film/202/a-poet"
+    },
+    {
+      "title": "We Are All Strangers",
+      "year": "2026",
+      "director": "Anthony Chen",
+      "genre": "Drama",
+      "rating": "(PG13)",
+      "duration_mins": 157,
+      "language": "Mandarin|English",
+      "subtitles": "English|Mandarin",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/SY8jBcD9yU15LbUJ6ku6aTi6E0OVzCC8QOTo2tdReqo.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [],
+      "start": "2026-09-29T16:50:00",
+      "end": "2026-09-29T19:27:00",
+      "time_str": "4:50 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1750",
+      "film_url": "http://filmhouse.sg/film/158/we-are-all-strangers"
+    },
+    {
+      "title": "Perfect Days",
+      "year": "2024",
+      "director": "Wim Wenders",
+      "genre": "Drama",
+      "rating": "(PG)",
+      "duration_mins": 124,
+      "language": "Japanese|English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/Gwv3eYvY2NV-phNkhr2sgd6ag96-61Py5Wrnow16VDA.jpg",
+      "source": "filmhouse",
+      "distributor": "Anticipate Pictures",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [],
+      "start": "2026-09-29T17:10:00",
+      "end": "2026-09-29T19:14:00",
+      "time_str": "5:10 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1752",
+      "film_url": "http://filmhouse.sg/film/182/perfect-days"
+    },
+    {
       "title": "Ha-Chan, Shake Your Booty!",
       "year": "2026",
       "director": "Josef Kubota Wladyka",
@@ -5263,6 +5257,100 @@
       "film_url": "http://filmhouse.sg/film/169/trainspotting-4k-restoration"
     },
     {
+      "title": "The Violinist",
+      "year": "2026",
+      "director": "Ervin Han|Raúl García",
+      "genre": "Animation",
+      "rating": "(PG)",
+      "duration_mins": 114,
+      "language": "English",
+      "subtitles": "English|Mandarin",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/hizkErfZRQpX5NXDgNGg2AHiHLBEjN_oVmG8oxoUKWU.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Music in Film"
+      ],
+      "start": "2026-09-29T20:30:00",
+      "end": "2026-09-29T22:24:00",
+      "time_str": "8:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1751",
+      "film_url": "http://filmhouse.sg/film/195/the-violinist"
+    },
+    {
+      "title": "The Violinist",
+      "year": "2026",
+      "director": "Ervin Han|Raúl García",
+      "genre": "Animation",
+      "rating": "(PG)",
+      "duration_mins": 114,
+      "language": "English",
+      "subtitles": "English|Mandarin",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/hizkErfZRQpX5NXDgNGg2AHiHLBEjN_oVmG8oxoUKWU.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Music in Film"
+      ],
+      "start": "2026-09-30T16:30:00",
+      "end": "2026-09-30T18:24:00",
+      "time_str": "4:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1754",
+      "film_url": "http://filmhouse.sg/film/195/the-violinist"
+    },
+    {
+      "title": "Ha-Chan, Shake Your Booty!",
+      "year": "2026",
+      "director": "Josef Kubota Wladyka",
+      "genre": "Drama",
+      "rating": "(TBA)",
+      "duration_mins": 122,
+      "language": "Japanese|Spanish|English",
+      "subtitles": "English",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/tXnVl287IasCThb7nDV89HpTZVtAhs9KQ31GYS3QGjY.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Music in Film"
+      ],
+      "start": "2026-09-30T17:00:00",
+      "end": "2026-09-30T19:02:00",
+      "time_str": "5:00 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1753",
+      "film_url": "http://filmhouse.sg/film/200/hachan-shake-your-booty"
+    },
+    {
+      "title": "Before Sunrise",
+      "year": "",
+      "director": "Richard Linklater",
+      "genre": "Drama",
+      "rating": "(NC16)",
+      "duration_mins": 101,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/mt9WDac4uELoCfFzoDdOj39HZRSWWU2H_qS_2VM0oMw.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [],
+      "start": "2026-09-30T17:30:00",
+      "end": "2026-09-30T19:11:00",
+      "time_str": "5:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1755",
+      "film_url": "http://filmhouse.sg/film/168/before-sunrise"
+    },
+    {
       "title": "Mother Bhumi",
       "year": "2025",
       "director": "Chong Keat Aun ",
@@ -5309,6 +5397,28 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1726",
       "film_url": "http://filmhouse.sg/film/199/the-big-lebowski"
+    },
+    {
+      "title": "Before Sunset",
+      "year": "2004",
+      "director": "Richard Linklater",
+      "genre": "Romance/Drama",
+      "rating": "(NC16)",
+      "duration_mins": 80,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/6XbafMAx_gzGg0RXSaD9irGLoEJNVkO1SIvoh6F-MmI.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [],
+      "start": "2026-09-30T20:00:00",
+      "end": "2026-09-30T21:20:00",
+      "time_str": "8:00 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1756",
+      "film_url": "http://filmhouse.sg/film/207/before-sunset"
     },
     {
       "title": "Digger",
@@ -5773,54 +5883,6 @@
       "film_url": "http://filmhouse.sg/film/187/amrum"
     },
     {
-      "title": "The Burmese Harp (ビルマの竪琴, 1956) (4K Restoration)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 120,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/09/Burmese-Harp-still-01.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-10-09T20:00:00",
-      "end": "2026-10-09T22:00:00",
-      "time_str": "8:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/the-burmese-harp-1956-1/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/the-burmese-harp-1956-1/"
-    },
-    {
-      "title": "Odd Obsession (鍵, 1959) (4K Restoration)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 105,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/09/odd-obsession-still-01.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-10-10T14:00:00",
-      "end": "2026-10-10T15:45:00",
-      "time_str": "2:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/odd-obsession-1959/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/odd-obsession-1959/"
-    },
-    {
       "title": "Stalker",
       "year": "1979",
       "director": "Andrei Tarkovsky",
@@ -5845,30 +5907,6 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1732",
       "film_url": "http://filmhouse.sg/film/148/stalker"
-    },
-    {
-      "title": "All Mixed Up/Manji (卍, 1964) (4K Restoration)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 100,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/09/Manji_still_1-01.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-10-10T17:00:00",
-      "end": "2026-10-10T18:40:00",
-      "time_str": "5:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/all-mixed-up-manji-1964/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/all-mixed-up-manji-1964/"
     },
     {
       "title": "Extrawurst",
@@ -5969,30 +6007,6 @@
       "film_url": "http://filmhouse.sg/film/203/vampire-hunter-d-bloodlust"
     },
     {
-      "title": "A Cheerful Girl / The Blue Sky Maiden (青空娘, 1957) (4K Restoration)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 90,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/09/blue-sky-maiden_hero.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-10-11T17:00:00",
-      "end": "2026-10-11T18:30:00",
-      "time_str": "5:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/cheerful-girl-1957-1/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/cheerful-girl-1957-1/"
-    },
-    {
       "title": "Fatherland",
       "year": "2026",
       "director": "Paweł Pawlikowski",
@@ -6089,30 +6103,6 @@
       "film_url": "http://filmhouse.sg/film/196/berlin-hero"
     },
     {
-      "title": "A Cheerful Girl / The Blue Sky Maiden (青空娘, 1957) (4K Restoration)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 90,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/09/blue-sky-maiden_hero.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-10-16T20:00:00",
-      "end": "2026-10-16T21:40:00",
-      "time_str": "8:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/cheerful-girl-1957-2/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/cheerful-girl-1957-1/"
-    },
-    {
       "title": "Love Letter (4K Restoration)",
       "year": "1995",
       "director": "Shunji Iwai",
@@ -6137,54 +6127,6 @@
       "film_url": "http://filmhouse.sg/film/212/love-letter-4k-restoration"
     },
     {
-      "title": "A Full-Up Train (満員電車, 1957)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 100,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/09/Full-Up-Train-still-1-01.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-10-17T14:00:00",
-      "end": "2026-10-17T15:40:00",
-      "time_str": "2:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/a-full-up-train-1957/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/a-full-up-train-1957/"
-    },
-    {
-      "title": "The Kiss (くちづけ, 1957)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 80,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/09/Kisses-1-01.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-10-17T17:00:00",
-      "end": "2026-10-17T18:20:00",
-      "time_str": "5:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/the-kiss-1957/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/the-kiss-1957/"
-    },
-    {
       "title": "The Education of Jane Cumming",
       "year": "2026",
       "director": "Sophie Heldman",
@@ -6207,30 +6149,6 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1631",
       "film_url": "http://filmhouse.sg/film/194/the-education-of-jane-cumming"
-    },
-    {
-      "title": "The Burmese Harp (ビルマの竪琴, 1956) (4K Restoration)",
-      "year": "",
-      "director": "",
-      "genre": "",
-      "rating": "",
-      "duration_mins": 120,
-      "language": "",
-      "subtitles": "",
-      "poster_url": "https://asianfilmarchive.org/wp-content/uploads/2026/09/Burmese-Harp-still-01.jpg",
-      "source": "afa",
-      "distributor": "",
-      "venue": "Oldham Theatre",
-      "tags": [],
-      "themes": [
-        "Asian Film Archive"
-      ],
-      "start": "2026-10-18T14:00:00",
-      "end": "2026-10-18T16:00:00",
-      "time_str": "2:00 PM",
-      "sold_out": false,
-      "booking_url": "https://asianfilmarchive.org/event-calendar/the-burmese-harp-1956-2/",
-      "film_url": "https://asianfilmarchive.org/event-calendar/the-burmese-harp-1956-1/"
     },
     {
       "title": "Vampire Hunter D: Bloodlust",
@@ -6281,6 +6199,30 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1747",
       "film_url": "http://filmhouse.sg/film/211/stop-making-sense-4k-restoration"
+    },
+    {
+      "title": "[Wayang@Bedok] Film Screening of Ibu Mertuaku",
+      "year": "",
+      "director": "",
+      "genre": "",
+      "rating": "",
+      "duration_mins": 120,
+      "language": "Malay",
+      "subtitles": "",
+      "poster_url": "",
+      "source": "nlb",
+      "distributor": "",
+      "venue": "National Library",
+      "tags": [],
+      "themes": [
+        "NLB Film Screenings"
+      ],
+      "start": "2026-10-24T15:00:00",
+      "end": "2026-10-24T17:00:00",
+      "time_str": "3:00 PM",
+      "sold_out": false,
+      "booking_url": "https://nlb.libcal.com/event/5973647",
+      "film_url": "https://nlb.libcal.com/event/5973647"
     },
     {
       "title": "Love Letter (4K Restoration)",
