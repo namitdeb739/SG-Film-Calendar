@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T01:11:46.234780+00:00",
+  "generated_at": "2026-10-01T01:10:49.261690+00:00",
   "screenings": [
     {
       "title": "KNEECAP",
@@ -4215,78 +4215,6 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a88485d56d0529cb938058b"
     },
     {
-      "title": "The Violinist",
-      "year": "2026",
-      "director": "Ervin Han|Raúl García",
-      "genre": "Animation",
-      "rating": "(PG)",
-      "duration_mins": 114,
-      "language": "English",
-      "subtitles": "English|Mandarin",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/hizkErfZRQpX5NXDgNGg2AHiHLBEjN_oVmG8oxoUKWU.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Music in Film"
-      ],
-      "start": "2026-09-30T16:30:00",
-      "end": "2026-09-30T18:24:00",
-      "time_str": "4:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1754",
-      "film_url": "http://filmhouse.sg/film/195/the-violinist"
-    },
-    {
-      "title": "Ha-Chan, Shake Your Booty!",
-      "year": "2026",
-      "director": "Josef Kubota Wladyka",
-      "genre": "Drama",
-      "rating": "(M18)",
-      "duration_mins": 122,
-      "language": "Japanese|Spanish|English",
-      "subtitles": "English",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/tXnVl287IasCThb7nDV89HpTZVtAhs9KQ31GYS3QGjY.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Music in Film"
-      ],
-      "start": "2026-09-30T17:00:00",
-      "end": "2026-09-30T19:02:00",
-      "time_str": "5:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1753",
-      "film_url": "http://filmhouse.sg/film/200/hachan-shake-your-booty"
-    },
-    {
-      "title": "Before Sunrise",
-      "year": "",
-      "director": "Richard Linklater",
-      "genre": "Drama",
-      "rating": "(NC16)",
-      "duration_mins": 101,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/mt9WDac4uELoCfFzoDdOj39HZRSWWU2H_qS_2VM0oMw.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Leaving Soon"
-      ],
-      "start": "2026-09-30T17:30:00",
-      "end": "2026-09-30T19:11:00",
-      "time_str": "5:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1755",
-      "film_url": "http://filmhouse.sg/film/168/before-sunrise"
-    },
-    {
       "title": "Mother Bhumi",
       "year": "2025",
       "director": "Chong Keat Aun ",
@@ -4311,54 +4239,6 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a55e78528cb17b5dee4633b"
     },
     {
-      "title": "The Big Lebowski",
-      "year": "",
-      "director": "Joel Coen|Ethan Coen",
-      "genre": "Comedy",
-      "rating": "(M18)",
-      "duration_mins": 117,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/GJL48gP2bIaHcZ6QaQ1wcj4AIKeDh9WhxwggBoU5A3U.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [
-        "4K"
-      ],
-      "themes": [],
-      "start": "2026-09-30T19:30:00",
-      "end": "2026-09-30T21:27:00",
-      "time_str": "7:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1726",
-      "film_url": "http://filmhouse.sg/film/199/the-big-lebowski"
-    },
-    {
-      "title": "Before Sunset",
-      "year": "2004",
-      "director": "Richard Linklater",
-      "genre": "Romance/Drama",
-      "rating": "(NC16)",
-      "duration_mins": 80,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/6XbafMAx_gzGg0RXSaD9irGLoEJNVkO1SIvoh6F-MmI.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [],
-      "themes": [
-        "Leaving Soon"
-      ],
-      "start": "2026-09-30T20:00:00",
-      "end": "2026-09-30T21:20:00",
-      "time_str": "8:00 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1756",
-      "film_url": "http://filmhouse.sg/film/207/before-sunset"
-    },
-    {
       "title": "Digger",
       "year": "2026",
       "director": "Alejandro G. Iñárritu",
@@ -4381,30 +4261,6 @@
       "sold_out": false,
       "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6aa117c5e4ef3b657c88146d",
       "film_url": "https://singaporefilmsociety.eventive.org/films/6aa116d263965921ae53f7ac"
-    },
-    {
-      "title": "The Day Iceland Stood Still",
-      "year": "",
-      "director": "Pamela Hogan",
-      "genre": "Documentary",
-      "rating": "(PG13)",
-      "duration_mins": 70,
-      "language": "English",
-      "subtitles": "",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/D1dLLyO0sjJz6SGGdSCAYUbNRYegy51YXOzkzjEufIA.jpg",
-      "source": "filmhouse",
-      "distributor": "",
-      "venue": "Filmhouse Cinemas",
-      "tags": [
-        "LastChance"
-      ],
-      "themes": [],
-      "start": "2026-09-30T20:30:00",
-      "end": "2026-09-30T21:40:00",
-      "time_str": "8:30 pm",
-      "sold_out": false,
-      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1735",
-      "film_url": "http://filmhouse.sg/film/175/the-day-iceland-stood-still"
     },
     {
       "title": "Perfect Days",
@@ -4723,7 +4579,7 @@
       "duration_mins": 129,
       "language": "English",
       "subtitles": "English|Chinese",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/dj5ebQeS_4EQFgY2blpVs17V1AKKqPVVfK0MtqSCJzU.jpg",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/HckCkvTW-9u6HQdYgxbsN1lj9ED8k_oRwaABTFiPEiI.jpg",
       "source": "filmhouse",
       "distributor": "",
       "venue": "Filmhouse Cinemas",
@@ -4745,7 +4601,7 @@
       "duration_mins": 129,
       "language": "English",
       "subtitles": "English|Chinese",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/dj5ebQeS_4EQFgY2blpVs17V1AKKqPVVfK0MtqSCJzU.jpg",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/HckCkvTW-9u6HQdYgxbsN1lj9ED8k_oRwaABTFiPEiI.jpg",
       "source": "filmhouse",
       "distributor": "",
       "venue": "Filmhouse Cinemas",
@@ -4877,7 +4733,6 @@
       ],
       "themes": [
         "Leaving Soon",
-        "Morricone – Maestro In Film",
         "Music in Film"
       ],
       "start": "2026-10-03T16:30:00",
@@ -4974,6 +4829,7 @@
       "venue": "Filmhouse Cinemas",
       "tags": [],
       "themes": [
+        "Filmhouse of Horrors",
         "Japanese Film Festival"
       ],
       "start": "2026-10-03T19:30:00",
@@ -5034,7 +4890,7 @@
       "year": "1990",
       "director": "Yoshiaki Kawajiri",
       "genre": "Animation",
-      "rating": "(TBA)",
+      "rating": "(NC16)",
       "duration_mins": 119,
       "language": "Japanese",
       "subtitles": "English",
@@ -5090,7 +4946,9 @@
       "source": "filmhouse",
       "distributor": "",
       "venue": "Filmhouse Cinemas",
-      "tags": [],
+      "tags": [
+        "LastChance"
+      ],
       "themes": [
         "Leaving Soon"
       ],
@@ -5160,7 +5018,7 @@
       "duration_mins": 129,
       "language": "English",
       "subtitles": "English|Chinese",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/dj5ebQeS_4EQFgY2blpVs17V1AKKqPVVfK0MtqSCJzU.jpg",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/HckCkvTW-9u6HQdYgxbsN1lj9ED8k_oRwaABTFiPEiI.jpg",
       "source": "filmhouse",
       "distributor": "",
       "venue": "Filmhouse Cinemas",
@@ -5293,6 +5151,98 @@
       "film_url": "http://filmhouse.sg/film/180/aftersun"
     },
     {
+      "title": "Ha-Chan, Shake Your Booty!",
+      "year": "2026",
+      "director": "Josef Kubota Wladyka",
+      "genre": "Drama",
+      "rating": "(M18)",
+      "duration_mins": 122,
+      "language": "Japanese|Spanish|English",
+      "subtitles": "English",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/tXnVl287IasCThb7nDV89HpTZVtAhs9KQ31GYS3QGjY.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Music in Film"
+      ],
+      "start": "2026-10-06T16:10:00",
+      "end": "2026-10-06T18:12:00",
+      "time_str": "4:10 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1782",
+      "film_url": "http://filmhouse.sg/film/200/hachan-shake-your-booty"
+    },
+    {
+      "title": "Perfect Days",
+      "year": "2024",
+      "director": "Wim Wenders",
+      "genre": "Drama",
+      "rating": "(PG)",
+      "duration_mins": 124,
+      "language": "Japanese|English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/Gwv3eYvY2NV-phNkhr2sgd6ag96-61Py5Wrnow16VDA.jpg",
+      "source": "filmhouse",
+      "distributor": "Anticipate Pictures",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [],
+      "start": "2026-10-06T16:30:00",
+      "end": "2026-10-06T18:34:00",
+      "time_str": "4:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1767",
+      "film_url": "http://filmhouse.sg/film/182/perfect-days"
+    },
+    {
+      "title": "The Violinist",
+      "year": "2026",
+      "director": "Ervin Han|Raúl García",
+      "genre": "Animation",
+      "rating": "(PG)",
+      "duration_mins": 114,
+      "language": "English",
+      "subtitles": "English|Mandarin",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/hizkErfZRQpX5NXDgNGg2AHiHLBEjN_oVmG8oxoUKWU.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Music in Film"
+      ],
+      "start": "2026-10-06T17:00:00",
+      "end": "2026-10-06T18:54:00",
+      "time_str": "5:00 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1781",
+      "film_url": "http://filmhouse.sg/film/195/the-violinist"
+    },
+    {
+      "title": "Anatomy of a Fall",
+      "year": "",
+      "director": "Justine Triet",
+      "genre": "Drama",
+      "rating": "(NC16)",
+      "duration_mins": 151,
+      "language": "French|English",
+      "subtitles": "English",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/3pMU8enNZLVJ0bbuSAO21I2jyXHOdbGC5Ab0FlQ_HD4.jpg",
+      "source": "filmhouse",
+      "distributor": "Anticipate Pictures",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [],
+      "start": "2026-10-06T19:10:00",
+      "end": "2026-10-06T21:41:00",
+      "time_str": "7:10 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1783",
+      "film_url": "http://filmhouse.sg/film/181/anatomy-of-a-fall"
+    },
+    {
       "title": "A Poet",
       "year": "",
       "director": "Simón Mesa Soto",
@@ -5325,7 +5275,7 @@
       "duration_mins": 129,
       "language": "English",
       "subtitles": "English|Chinese",
-      "poster_url": "https://cdn.taposapp.com/poster/600x900/dj5ebQeS_4EQFgY2blpVs17V1AKKqPVVfK0MtqSCJzU.jpg",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/HckCkvTW-9u6HQdYgxbsN1lj9ED8k_oRwaABTFiPEiI.jpg",
       "source": "filmhouse",
       "distributor": "",
       "venue": "Filmhouse Cinemas",
@@ -5361,6 +5311,78 @@
       "sold_out": false,
       "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6ab4a3431a66a86c7fb9a110",
       "film_url": "https://singaporefilmsociety.eventive.org/films/6ab4a1ee427841e72d8e97c3"
+    },
+    {
+      "title": "Ha-Chan, Shake Your Booty!",
+      "year": "2026",
+      "director": "Josef Kubota Wladyka",
+      "genre": "Drama",
+      "rating": "(M18)",
+      "duration_mins": 122,
+      "language": "Japanese|Spanish|English",
+      "subtitles": "English",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/tXnVl287IasCThb7nDV89HpTZVtAhs9KQ31GYS3QGjY.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Music in Film"
+      ],
+      "start": "2026-10-07T16:00:00",
+      "end": "2026-10-07T18:02:00",
+      "time_str": "4:00 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1768",
+      "film_url": "http://filmhouse.sg/film/200/hachan-shake-your-booty"
+    },
+    {
+      "title": "Before Sunrise",
+      "year": "",
+      "director": "Richard Linklater",
+      "genre": "Drama",
+      "rating": "(NC16)",
+      "duration_mins": 101,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/mt9WDac4uELoCfFzoDdOj39HZRSWWU2H_qS_2VM0oMw.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Leaving Soon"
+      ],
+      "start": "2026-10-07T16:30:00",
+      "end": "2026-10-07T18:11:00",
+      "time_str": "4:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1786",
+      "film_url": "http://filmhouse.sg/film/168/before-sunrise"
+    },
+    {
+      "title": "The Invite",
+      "year": "2026",
+      "director": "Olivia Wilde",
+      "genre": "Drama",
+      "rating": "(M18)",
+      "duration_mins": 107,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/Qz5lRAPafrnKu7MCYAm3uYeu0T1h74Z4V8itC0i958s.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Leaving Soon"
+      ],
+      "start": "2026-10-07T17:00:00",
+      "end": "2026-10-07T18:47:00",
+      "time_str": "5:00 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1784",
+      "film_url": "http://filmhouse.sg/film/144/the-invite"
     },
     {
       "title": "Earthquake",
@@ -5409,11 +5431,35 @@
       "film_url": "http://filmhouse.sg/film/217/kokuho"
     },
     {
+      "title": "The Violinist",
+      "year": "2026",
+      "director": "Ervin Han|Raúl García",
+      "genre": "Animation",
+      "rating": "(PG)",
+      "duration_mins": 114,
+      "language": "English",
+      "subtitles": "English|Mandarin",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/hizkErfZRQpX5NXDgNGg2AHiHLBEjN_oVmG8oxoUKWU.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Music in Film"
+      ],
+      "start": "2026-10-07T20:00:00",
+      "end": "2026-10-07T21:54:00",
+      "time_str": "8:00 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1785",
+      "film_url": "http://filmhouse.sg/film/195/the-violinist"
+    },
+    {
       "title": "Cyber City Oedo 808",
       "year": "1990",
       "director": "Yoshiaki Kawajiri",
       "genre": "Animation",
-      "rating": "(TBA)",
+      "rating": "(NC16)",
       "duration_mins": 119,
       "language": "Japanese",
       "subtitles": "English",
@@ -5457,6 +5503,54 @@
       "sold_out": false,
       "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6abb49cfc5e080781ee8b4f0",
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a5045c451da292b56c9aa70"
+    },
+    {
+      "title": "No Country for Old Men",
+      "year": "",
+      "director": "Joel Coen|Ethan Coen",
+      "genre": "Crime",
+      "rating": "(NC16)",
+      "duration_mins": 122,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/FDrjrCcKDcxBg4rnTJ6lUt0X0O8l5HC8dginOCrL75E.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [
+        "LastChance"
+      ],
+      "themes": [],
+      "start": "2026-10-08T20:30:00",
+      "end": "2026-10-08T22:32:00",
+      "time_str": "8:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1794",
+      "film_url": "http://filmhouse.sg/film/198/no-country-for-old-men"
+    },
+    {
+      "title": "King Of Hawkers",
+      "year": "2024",
+      "director": "Kelvin Sng",
+      "genre": "Drama",
+      "rating": "PG13",
+      "duration_mins": 120,
+      "language": "Mandarin, Cantonese, English",
+      "subtitles": "",
+      "poster_url": "https://static-a.eventive.org/81892209f4018478aaa08e71ee385164.jpg?w=300",
+      "source": "sfs",
+      "distributor": "",
+      "venue": "Golden Village Cineleisure",
+      "tags": [],
+      "themes": [
+        "SFS Somerset"
+      ],
+      "start": "2026-10-09T19:30:00",
+      "end": "2026-10-09T22:30:00",
+      "time_str": "7:30 PM",
+      "sold_out": false,
+      "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6abb4a575efbd82a1ec3510c",
+      "film_url": "https://singaporefilmsociety.eventive.org/films/6a6807ca888c1663a56725b9"
     },
     {
       "title": "Amrum",
@@ -5579,6 +5673,30 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a5042c675bd49357a05f4c2"
     },
     {
+      "title": "The Big Lebowski",
+      "year": "",
+      "director": "Joel Coen|Ethan Coen",
+      "genre": "Comedy",
+      "rating": "(M18)",
+      "duration_mins": 117,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/GJL48gP2bIaHcZ6QaQ1wcj4AIKeDh9WhxwggBoU5A3U.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [
+        "LastChance"
+      ],
+      "themes": [],
+      "start": "2026-10-10T16:10:00",
+      "end": "2026-10-10T18:07:00",
+      "time_str": "4:10 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1789",
+      "film_url": "http://filmhouse.sg/film/199/the-big-lebowski"
+    },
+    {
       "title": "Stalker",
       "year": "1979",
       "director": "Andrei Tarkovsky",
@@ -5627,6 +5745,28 @@
       "sold_out": false,
       "booking_url": "https://asianfilmarchive.org/event-calendar/all-mixed-up-manji-1964/",
       "film_url": "https://asianfilmarchive.org/event-calendar/all-mixed-up-manji-1964/"
+    },
+    {
+      "title": "Moonlight (10th Anniversary)",
+      "year": "",
+      "director": "Barry Jenkins",
+      "genre": "Drama",
+      "rating": "(M18)",
+      "duration_mins": 128,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/aB-thlmpTSpCEwmtMl8N5uFWVPDvXpIvEJHZsmT3V2k.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [],
+      "start": "2026-10-10T19:30:00",
+      "end": "2026-10-10T21:38:00",
+      "time_str": "7:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1788",
+      "film_url": "http://filmhouse.sg/film/216/moonlight-10th-anniversary"
     },
     {
       "title": "Sementara",
@@ -5763,6 +5903,7 @@
       "venue": "Filmhouse Cinemas",
       "tags": [],
       "themes": [
+        "Filmhouse of Horrors",
         "Japanese Film Festival"
       ],
       "start": "2026-10-11T14:30:00",
@@ -5797,6 +5938,30 @@
       "film_url": "https://singaporefilmsociety.eventive.org/films/6abb4b46ccb23dcd1d926ac8"
     },
     {
+      "title": "Fargo (30th Anniversary)",
+      "year": "",
+      "director": "Joel Coen|Ethan Coen",
+      "genre": "Crime",
+      "rating": "(M18)",
+      "duration_mins": 98,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/1440qH-PpIQhQyh1mjY6ri3ZE5oftR36HP9gK38-8AM.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [
+        "LastChance"
+      ],
+      "themes": [],
+      "start": "2026-10-11T16:50:00",
+      "end": "2026-10-11T18:28:00",
+      "time_str": "4:50 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1791",
+      "film_url": "http://filmhouse.sg/film/197/fargo-30th-anniversary"
+    },
+    {
       "title": "A Cheerful Girl / The Blue Sky Maiden (青空娘, 1957) (4K Restoration)",
       "year": "",
       "director": "",
@@ -5819,6 +5984,28 @@
       "sold_out": false,
       "booking_url": "https://asianfilmarchive.org/event-calendar/cheerful-girl-1957-1/",
       "film_url": "https://asianfilmarchive.org/event-calendar/cheerful-girl-1957-1/"
+    },
+    {
+      "title": "Moonlight (10th Anniversary)",
+      "year": "",
+      "director": "Barry Jenkins",
+      "genre": "Drama",
+      "rating": "(M18)",
+      "duration_mins": 128,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/aB-thlmpTSpCEwmtMl8N5uFWVPDvXpIvEJHZsmT3V2k.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [],
+      "start": "2026-10-11T17:30:00",
+      "end": "2026-10-11T19:38:00",
+      "time_str": "5:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1790",
+      "film_url": "http://filmhouse.sg/film/216/moonlight-10th-anniversary"
     },
     {
       "title": "Finding Mojo (Mojoku Hilang!)",
@@ -5844,6 +6031,58 @@
       "sold_out": false,
       "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6abb4c81cfd8c01464c82151",
       "film_url": "https://singaporefilmsociety.eventive.org/films/6a5f1c002b33ea397dd1afc0"
+    },
+    {
+      "title": "La La Land (10th Anniversary)",
+      "year": "2016",
+      "director": "Damien Chazelle",
+      "genre": "Musical",
+      "rating": "(PG13)",
+      "duration_mins": 129,
+      "language": "English|Mandarin",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/8KqeC357tt7n1t_tLUjlUQy_-E-Q-iR2l0eGfpeIeeQ.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Music in Film"
+      ],
+      "start": "2026-10-13T19:30:00",
+      "end": "2026-10-13T21:39:00",
+      "time_str": "7:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1804",
+      "film_url": "http://filmhouse.sg/film/85/la-la-land-10th-anniversary"
+    },
+    {
+      "title": "Trainspotting (4K Restoration)",
+      "year": "1996",
+      "director": "Danny Boyle",
+      "genre": "Comedy",
+      "rating": "(R21)",
+      "duration_mins": 94,
+      "language": "English",
+      "subtitles": "English",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/BJSG0G-8EfBof30-UtlIwY2VILcCsZCCCirifcvjFlk.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [
+        "LastChance",
+        "4K"
+      ],
+      "themes": [
+        "Leaving Soon",
+        "Music in Film"
+      ],
+      "start": "2026-10-13T20:00:00",
+      "end": "2026-10-13T21:34:00",
+      "time_str": "8:00 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1792",
+      "film_url": "http://filmhouse.sg/film/169/trainspotting-4k-restoration"
     },
     {
       "title": "Earthquake",
@@ -5892,6 +6131,28 @@
       "sold_out": true,
       "booking_url": "",
       "film_url": "http://filmhouse.sg/film/186/fatherland"
+    },
+    {
+      "title": "Moonlight (10th Anniversary)",
+      "year": "",
+      "director": "Barry Jenkins",
+      "genre": "Drama",
+      "rating": "(M18)",
+      "duration_mins": 128,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/aB-thlmpTSpCEwmtMl8N5uFWVPDvXpIvEJHZsmT3V2k.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [],
+      "start": "2026-10-14T20:00:00",
+      "end": "2026-10-14T22:08:00",
+      "time_str": "8:00 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1793",
+      "film_url": "http://filmhouse.sg/film/216/moonlight-10th-anniversary"
     },
     {
       "title": "The Big Picture- Fortnightly Film Screening",
@@ -5955,6 +6216,7 @@
       "venue": "Filmhouse Cinemas",
       "tags": [],
       "themes": [
+        "Filmhouse of Horrors",
         "Japanese Film Festival"
       ],
       "start": "2026-10-15T20:00:00",
@@ -6013,6 +6275,30 @@
       "film_url": "http://filmhouse.sg/film/196/berlin-hero"
     },
     {
+      "title": "Hereditary",
+      "year": "",
+      "director": "Ari Aster",
+      "genre": "Horror",
+      "rating": "(M18)",
+      "duration_mins": 128,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/Jv9JZGGEIant3ebJpAkrLAbA8d4ICIhB5UqWPk9Dhr0.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Filmhouse of Horrors"
+      ],
+      "start": "2026-10-16T19:45:00",
+      "end": "2026-10-16T21:53:00",
+      "time_str": "7:45 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1795",
+      "film_url": "http://filmhouse.sg/film/213/hereditary"
+    },
+    {
       "title": "A Cheerful Girl / The Blue Sky Maiden (青空娘, 1957) (4K Restoration)",
       "year": "",
       "director": "",
@@ -6063,6 +6349,30 @@
       "film_url": "http://filmhouse.sg/film/212/love-letter-4k-restoration"
     },
     {
+      "title": "One in a Million",
+      "year": "2026",
+      "director": "Itab Azzam, Jack Macinnes",
+      "genre": "Documentary, Biography",
+      "rating": "NC16",
+      "duration_mins": 105,
+      "language": "Arabic, German",
+      "subtitles": "",
+      "poster_url": "https://static-a.eventive.org/0847d308dfe6c6dd1b6ab984b6c35aab.jpg?w=300",
+      "source": "sfs",
+      "distributor": "",
+      "venue": "Golden Village Funan",
+      "tags": [],
+      "themes": [
+        "SFS Showcase"
+      ],
+      "start": "2026-10-17T13:30:00",
+      "end": "2026-10-17T15:30:00",
+      "time_str": "1:30 PM",
+      "sold_out": false,
+      "booking_url": "https://singaporefilmsociety.eventive.org/schedule/6ab4abaeb2cd8889a249f829",
+      "film_url": "https://singaporefilmsociety.eventive.org/films/6ab4a92bb2cd8889a24997ea"
+    },
+    {
       "title": "A Full-Up Train (満員電車, 1957)",
       "year": "",
       "director": "",
@@ -6085,6 +6395,30 @@
       "sold_out": false,
       "booking_url": "https://asianfilmarchive.org/event-calendar/a-full-up-train-1957/",
       "film_url": "https://asianfilmarchive.org/event-calendar/a-full-up-train-1957/"
+    },
+    {
+      "title": "What We Do in the Shadows",
+      "year": "",
+      "director": "Taika Waititi|Jemaine Clement",
+      "genre": "Comedy/Horror",
+      "rating": "(NC16)",
+      "duration_mins": 86,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/9u7qgXTtQSeXu3oeJCqdw6fN8gSelVz7n1JZbP69Hwo.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Filmhouse of Horrors"
+      ],
+      "start": "2026-10-17T16:30:00",
+      "end": "2026-10-17T17:56:00",
+      "time_str": "4:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1796",
+      "film_url": "http://filmhouse.sg/film/214/what-we-do-in-the-shadows"
     },
     {
       "title": "The Kiss (くちづけ, 1957)",
@@ -6199,6 +6533,7 @@
         "LastChance"
       ],
       "themes": [
+        "Filmhouse of Horrors",
         "Japanese Film Festival"
       ],
       "start": "2026-10-18T14:00:00",
@@ -6281,6 +6616,54 @@
       "film_url": "https://nlb.libcal.com/event/5973647"
     },
     {
+      "title": "Hereditary",
+      "year": "",
+      "director": "Ari Aster",
+      "genre": "Horror",
+      "rating": "(M18)",
+      "duration_mins": 128,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/Jv9JZGGEIant3ebJpAkrLAbA8d4ICIhB5UqWPk9Dhr0.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Filmhouse of Horrors"
+      ],
+      "start": "2026-10-24T16:00:00",
+      "end": "2026-10-24T18:08:00",
+      "time_str": "4:00 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1797",
+      "film_url": "http://filmhouse.sg/film/213/hereditary"
+    },
+    {
+      "title": "What We Do in the Shadows",
+      "year": "",
+      "director": "Taika Waititi|Jemaine Clement",
+      "genre": "Comedy/Horror",
+      "rating": "(NC16)",
+      "duration_mins": 86,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/9u7qgXTtQSeXu3oeJCqdw6fN8gSelVz7n1JZbP69Hwo.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Filmhouse of Horrors"
+      ],
+      "start": "2026-10-24T16:30:00",
+      "end": "2026-10-24T17:56:00",
+      "time_str": "4:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1798",
+      "film_url": "http://filmhouse.sg/film/214/what-we-do-in-the-shadows"
+    },
+    {
       "title": "Love Letter (4K Restoration)",
       "year": "1995",
       "director": "Shunji Iwai",
@@ -6307,6 +6690,30 @@
       "film_url": "http://filmhouse.sg/film/212/love-letter-4k-restoration"
     },
     {
+      "title": "Monster House",
+      "year": "",
+      "director": "Gil Kenan",
+      "genre": "Comedy/Horror",
+      "rating": "(PG13)",
+      "duration_mins": 91,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/T8g3eP8jDI5w2bCeZHROI-WRFZFdJhhq32b2VOkeBcw.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Filmhouse of Horrors"
+      ],
+      "start": "2026-10-25T14:00:00",
+      "end": "2026-10-25T15:31:00",
+      "time_str": "2:00 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1799",
+      "film_url": "http://filmhouse.sg/film/215/monster-house"
+    },
+    {
       "title": "OSFF 2026 Focus | Image & Memory: Early Works of Hirokazu Kore-eda",
       "year": "",
       "director": "Hirokazu Kore-eda",
@@ -6329,6 +6736,30 @@
       "sold_out": false,
       "booking_url": "https://osff-25oct.peatix.com/",
       "film_url": "http://filmhouse.sg/film/218/osff-2026-focus-image-memory-early-works-of-hirokazu-koreeda"
+    },
+    {
+      "title": "Hereditary",
+      "year": "",
+      "director": "Ari Aster",
+      "genre": "Horror",
+      "rating": "(M18)",
+      "duration_mins": 128,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/Jv9JZGGEIant3ebJpAkrLAbA8d4ICIhB5UqWPk9Dhr0.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Filmhouse of Horrors"
+      ],
+      "start": "2026-10-28T19:30:00",
+      "end": "2026-10-28T21:38:00",
+      "time_str": "7:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1800",
+      "film_url": "http://filmhouse.sg/film/213/hereditary"
     },
     {
       "title": "Love Letter (4K Restoration)",
@@ -6395,7 +6826,9 @@
       "distributor": "",
       "venue": "Filmhouse Cinemas",
       "tags": [],
-      "themes": [],
+      "themes": [
+        "Filmhouse of Horrors"
+      ],
       "start": "2026-10-30T19:45:00",
       "end": "2026-10-30T21:25:00",
       "time_str": "7:45 pm",
@@ -6417,13 +6850,63 @@
       "distributor": "",
       "venue": "Filmhouse Cinemas",
       "tags": [],
-      "themes": [],
+      "themes": [
+        "Filmhouse of Horrors"
+      ],
       "start": "2026-10-30T20:45:00",
       "end": "2026-10-30T22:25:00",
       "time_str": "8:45 pm",
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1740",
       "film_url": "http://filmhouse.sg/film/208/the-glory-hoes-present-the-rocky-horror-picture-show"
+    },
+    {
+      "title": "Monster House",
+      "year": "",
+      "director": "Gil Kenan",
+      "genre": "Comedy/Horror",
+      "rating": "(PG13)",
+      "duration_mins": 91,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/T8g3eP8jDI5w2bCeZHROI-WRFZFdJhhq32b2VOkeBcw.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Filmhouse of Horrors"
+      ],
+      "start": "2026-11-01T13:30:00",
+      "end": "2026-11-01T15:01:00",
+      "time_str": "1:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1801",
+      "film_url": "http://filmhouse.sg/film/215/monster-house"
+    },
+    {
+      "title": "What We Do in the Shadows",
+      "year": "",
+      "director": "Taika Waititi|Jemaine Clement",
+      "genre": "Comedy/Horror",
+      "rating": "(NC16)",
+      "duration_mins": 86,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/9u7qgXTtQSeXu3oeJCqdw6fN8gSelVz7n1JZbP69Hwo.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [],
+      "themes": [
+        "Filmhouse of Horrors"
+      ],
+      "start": "2026-11-01T14:30:00",
+      "end": "2026-11-01T15:56:00",
+      "time_str": "2:30 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1802",
+      "film_url": "http://filmhouse.sg/film/214/what-we-do-in-the-shadows"
     },
     {
       "title": "Love Letter (4K Restoration)",
@@ -6451,6 +6934,32 @@
       "sold_out": false,
       "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1746",
       "film_url": "http://filmhouse.sg/film/212/love-letter-4k-restoration"
+    },
+    {
+      "title": "What We Do in the Shadows",
+      "year": "",
+      "director": "Taika Waititi|Jemaine Clement",
+      "genre": "Comedy/Horror",
+      "rating": "(NC16)",
+      "duration_mins": 86,
+      "language": "English",
+      "subtitles": "",
+      "poster_url": "https://cdn.taposapp.com/poster/600x900/9u7qgXTtQSeXu3oeJCqdw6fN8gSelVz7n1JZbP69Hwo.jpg",
+      "source": "filmhouse",
+      "distributor": "",
+      "venue": "Filmhouse Cinemas",
+      "tags": [
+        "LastChance"
+      ],
+      "themes": [
+        "Filmhouse of Horrors"
+      ],
+      "start": "2026-11-10T20:00:00",
+      "end": "2026-11-10T21:26:00",
+      "time_str": "8:00 pm",
+      "sold_out": false,
+      "booking_url": "https://filmhouse.sg/filmhouse-singapore/booknow/1803",
+      "film_url": "http://filmhouse.sg/film/214/what-we-do-in-the-shadows"
     }
   ]
 }
